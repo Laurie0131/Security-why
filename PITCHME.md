@@ -189,7 +189,7 @@ Firmware needs to be done correctly from the get -go
 </span></p>
 @snapend 
 
-@snap[South-west span-50 fragment]
+@snap[South-west span-20 fragment]
 ![broken-bottle](/assets/images/broken_bottle.png)
 @snapend 
 
@@ -207,11 +207,14 @@ Firmware needs to be done correctly from the get -go
 </span></p>
 @snapend 
 
-@snap[south-east span-25 fragment ]
+@snap[south span-25 fragment ]
 ![safe](/assets/images/safe.png)
-![CIA](/assets/images/CIA.png)
 @snapend
-
+@snap[south-east span-25 fragment ]
+![CIA](/assets/images/CIA.png)
+<br>
+<br>
+@snapend
 Note:
 
 
