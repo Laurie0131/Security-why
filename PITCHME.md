@@ -135,16 +135,6 @@ Dog do-do - Protect from outside attacks. Protect from Things not intended to be
 Firmware needs to be done correctly from the get -go
 
 ---
-  
-###  blank page 
-
----
-  
-###  blank page 2
-
-  
-###  blank page 3
----
 @title[Why???    Security]
 <p align="right"><span class="gold" >@size[01.1em](<b>Why???    Security</b>)</span></p>
 @snap[north-west span-40 ]
@@ -235,123 +225,16 @@ Note:
 
 ### blank page
 
----?image=/assets/images/slides/Slide9.JPG
-<!-- .slide: data-transition="none" -->
-@title[Why???    Security]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
+---
+  
+###  blank page 
 
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
-
-
-
-+++?image=/assets/images/slides/Slide10.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-
-@title[Why???    Security 02]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
-
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
-
-
-
-
-+++?image=/assets/images/slides/Slide11.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-
-@title[Why???    Security 03]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
-
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
-
-
-
-+++?image=/assets/images/slides/Slide12.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-
-@title[Why???    Security 04]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
-
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
-
-
-
-+++?image=/assets/images/slides/Slide13.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-
-@title[Why???    Security 05]
-<p align="right"><span class="gold" ><b>Why???    Security</b></span></p>
-
-Note:
-
-
-- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
-- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
-
-- Network attacks 
-- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
-
-- Code Injection Attacks
-- Important when firmware verifies digital signature
-- Depends on implementation flaw in a driver 
-- E.g. Stack overflow, heap overflow or incorrect signature verification
-- Secure Boot prevents running an unknown OS loader
-
+---
+  
+###  blank page 2
+--
+  
+###  blank page 3
 
 ---?image=/assets/images/slides/Slide4_2.JPG
 @title[UEFI Boot Flow]
