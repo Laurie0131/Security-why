@@ -141,9 +141,9 @@ Firmware needs to be done correctly from the get -go
 ---
   
 ###  blank page 2
----
+
   
-###  blank page 3
+###  blank page 2-3
 ---
 @title[Why???    Security]
 <p align="right"><span class="gold" >@size[01.1em](<b>Why???    Security</b>)</span></p>
@@ -212,9 +212,8 @@ Firmware needs to be done correctly from the get -go
 @snap[south span-25 fragment ]
 ![safe](/assets/images/safe.png)
 @snapend
-@snap[south-east span-25 fragment ]
+@snap[south-east span-30 fragment ]
 ![CIA](/assets/images/CIA.png)
-<br>
 <br>
 @snapend
 Note:
