@@ -374,8 +374,7 @@ Image source: http://www.tweaktown.com/reviews/7497/tyan-s7076-intel-c612-server
 
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Where is UEFI Firmware]
-<br>
-<p align="left"><span class="gold" ><b>@size[1.1em](Where is UEFI Firmware?)</b></span></p>
+<p align="right"><span class="gold" ><b>@size[1.1em](Where is UEFI Firmware?)</b></span></p>
 
 Note:
 https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1 
