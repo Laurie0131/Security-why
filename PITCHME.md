@@ -445,7 +445,7 @@ blank page before
 <br>
 <br>
 <br>
-@box[bg-royal text-white  waved  my-box-pad2  ](@size[0.8em](<b>Extreme persistence</b>)<br><br>)
+@box[bg-royal text-white  waved  my-box-pad2  ](<p style="line-height:80%">@size[0.8em](<b>Extreme persistence</b>)<br><br></p>)
 @snapend
 
 @snap[north-west span-30 fragment]
@@ -455,13 +455,11 @@ blank page before
 <br>
 <br>
 <br>
-<br>
-<br>
-@box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<br><b>Stealth</b>)<br><br>)
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:80%">@size[0.8em](<br><b>Stealth</b>)<br><br></p>)
 @snapend
 
 @snap[south-west span-30 fragment]
-@box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<b>Bypass software &lpar;OS or VMM&rpar; based security</b>))
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:80%">@size[0.8em](<b>Bypass software &lpar;OS or VMM&rpar; based security</b>)</p>)
 <br>
 <br>
 @snapend
@@ -470,7 +468,7 @@ blank page before
 <br>
 <br>
 <br>
-@box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<b>Unfettered acess to hardware</b>)<br>)
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:80%">@size[0.8em](<b>Unfettered acess to hardware</b>)<br></p>)
 @snapend
 
 
@@ -482,15 +480,13 @@ blank page before
 <br>
 <br>
 <br>
-<br>
-<br>
-@box[bg-royal text-white  waved my-box-pad2 ](@size[0.8em](<br><b>OS<br>independence</b>)<br>)
+@box[bg-royal text-white  waved my-box-pad2 ](<p style="line-height:80%">@size[0.8em](<b>OS<br>independence</b>)<br><br></p>)
 @snapend
 
 
 
 @snap[south span-30 fragment]
-@box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<b>Making the system unbootable&lpar;bricking&rpar;</b>)<br>)
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:80%">@size[0.8em](<b>Making the system unbootable&lpar;bricking&rpar;</b>)<br></p>)
 <br>
 <br>
 @snapend
