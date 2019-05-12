@@ -433,7 +433,8 @@ Note:
 - Computrace is software built into program laptops that were purchased as part of MCLA's Laptop Initiative. In the event your laptop is stolen, the Computrace software tracks the stolen computer and provides local police with the information they need to get it back.
 
 ---
-blank page before
+blank page before 
+### page
 ---?image=/assets/images/slides/Slide13_1.JPG
 @title[Why Attack Firmware?]
 <p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
@@ -442,15 +443,15 @@ blank page before
 <br>
 <br>
 <br>
-@box[bg-royal text-white  waved  my-box-pad2  ](<b>Extreme persistence</b><br><br>)
+@box[bg-royal text-white  waved  my-box-pad2  ](@size[0.8em](<b>Extreme persistence</b>)<br><br>)
 @snapend
 
-@snap[east span-35 fragment]
-@box[bg-royal text-white waved my-box-pad2 ](<b>Stealth</b><br>)
+@snap[west span-35 fragment]
+@box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<br><b>Stealth</b>)<br><br>)
 @snapend
 
 @snap[south-west span-35 fragment]
-@box[bg-royal text-white waved my-box-pad2 ](<b>Bypass software &lpar;OS or VMM&rpar; based security</b><br><br>)
+@box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<b>Bypass software &lpar;OS or VMM&rpar; based security</b>))
 <br>
 <br>
 @snapend
@@ -459,19 +460,25 @@ blank page before
 <br>
 <br>
 <br>
-@box[bg-royal text-white waved my-box-pad2 ](<b>Unfettered acess to hardware</b><br><br>)
+@box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<b>Unfettered acess to hardware</b>)<br>)
 @snapend
 
 
 
-@snap[middle span-35 fragment]
-@box[bg-royal text-white  waved my-box-pad2 ](<b>OS<br>independence</b><br><br>)
+@snap[north span-35 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-royal text-white  waved my-box-pad2 ](@size[0.8em](<b>OS<br>independence</b>)<br><br>)
 @snapend
 
 
 
 @snap[south span-35 fragment]
-@box[bg-royal text-white waved my-box-pad2 ](<b>Making the system unbootable&lpar;bricking&rpar;</b><br>)
+@box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<b>Making the system unbootable&lpar;bricking&rpar;</b>)<br>)
 <br>
 <br>
 @snapend
