@@ -435,28 +435,38 @@ Note:
 ---
 blank page before 
 ### page
+### another line
+
 ---?image=/assets/images/slides/Slide13_1.JPG
 @title[Why Attack Firmware?]
 <p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
-@snap[north-west span-35 fragment]
+@snap[north-west span-30 fragment]
 <br>
 <br>
 <br>
 @box[bg-royal text-white  waved  my-box-pad2  ](@size[0.8em](<b>Extreme persistence</b>)<br><br>)
 @snapend
 
-@snap[west span-35 fragment]
+@snap[north-west span-30 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 @box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<br><b>Stealth</b>)<br><br>)
 @snapend
 
-@snap[south-west span-35 fragment]
+@snap[south-west span-30 fragment]
 @box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<b>Bypass software &lpar;OS or VMM&rpar; based security</b>))
 <br>
 <br>
 @snapend
 
-@snap[north span-35 fragment]
+@snap[north span-30 fragment]
 <br>
 <br>
 <br>
@@ -465,19 +475,21 @@ blank page before
 
 
 
-@snap[north span-35 fragment]
+@snap[north span-30 fragment]
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-@box[bg-royal text-white  waved my-box-pad2 ](@size[0.8em](<b>OS<br>independence</b>)<br><br>)
+<br>
+<br>
+@box[bg-royal text-white  waved my-box-pad2 ](@size[0.8em](<br><b>OS<br>independence</b>)<br>)
 @snapend
 
 
 
-@snap[south span-35 fragment]
+@snap[south span-30 fragment]
 @box[bg-royal text-white waved my-box-pad2 ](@size[0.8em](<b>Making the system unbootable&lpar;bricking&rpar;</b>)<br>)
 <br>
 <br>
