@@ -430,7 +430,7 @@ another page
 <p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
 @snap[south-east span-30 ]
-<p align="left" style="line-height:80%"><span style="font-size:01.0em" ><b>Firmware Attack Methods</b> </span></p>
+<p align="left" style="line-height:85%"><span style="font-size:01.0em" ><b>Firmware Attack Methods</b> </span></p>
 <p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
 <br>
 <br>
@@ -482,14 +482,6 @@ another page
 @snap[south span-30 fragment]
 @box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Making the system unbootable&lpar;bricking&rpar;</span></b><br><br>&nbsp;</p>)
 @snapend
- 
----
-blank
-
-
----?image=/assets/images/slides/Slide27.JPG
-@title[Why Attack Firmware?]
-<p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
 Note:
 - Brick 
@@ -501,12 +493,33 @@ Note:
 
 - There are examples in the real world about attacks in each of these categories 
 
+ 
+---
+blank page after
+---
+blank page before 
+### page
+### another line
+
+another page
 
 
-
----?image=/assets/images/slides/Slide29.JPG
+---?image=/assets/images/slides/Slide14_1.JPG
 @title[Extreme Persistence]
 ### <p align="right"><span class="gold" ><b>Extreme Persistence</b></span></p>
+@snap[north-west span-80]
+<br>
+<br>
+<br>
+<p style="line-height:60%"><span style="font-size:0.8em" ><br>
+&bull;&nbsp;&nbsp;System firmware rootkit (in<br>&nbsp;&nbsp;&nbsp;&nbsp; SMM or BIOS/UEFI)<br>
+&bull;&nbsp;&nbsp;Replaces OS boot loader<br>&nbsp;&nbsp;&nbsp;&nbsp; every boot<br>
+&bull;&nbsp;&nbsp;Which patches OS kernel<br>
+&bull;&nbsp;&nbsp;Firmware rootkit is protected by the hardware <br>&nbsp;&nbsp;&nbsp;&nbsp;write protections<br>
+&bull;&nbsp;&nbsp;Only way to fully remove the infection is to <br>&nbsp;&nbsp;&nbsp;&nbsp;physically re-flash the flash “ROM” chip<br>
+</span></p>
+@snapend
+
 
 Note:
 
