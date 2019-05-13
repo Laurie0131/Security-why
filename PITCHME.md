@@ -94,7 +94,8 @@ Note:
 
 ---
 #### Blank slide before
-
+<br>
+Another
 
 ---?image=/assets/images/slides/Slide31_1.JPG
 @title[UEFI & Platform Initialization Task Flow]
@@ -125,7 +126,7 @@ Boot Mode (normal, S3, Recovery, Capsule update)
 
 
 
-@snap[north-east span-50]
+@snap[north-east span-55]
 <br>
 <br>
 <br>
@@ -133,13 +134,15 @@ Boot Mode (normal, S3, Recovery, Capsule update)
 <br>
 <br>
 <br>
-<p style="line-height:50%" align="left"><span style="font-size:0.6em" >
+<p style="line-height:50%" align="left"><span style="font-size:0.6em" ><br>
 UEFI “Core” functionality, Continue initialization of platform & devices Enum FV, dispatch drivers (network, I/O, service..), Produce Boot and Runtime Services, SMM Initialization
 </span></p>
 @snapend
 
 
-@snap[north-east span-40]
+@snap[north-east span-30]
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -155,7 +158,10 @@ EFI Shell/Apps; OS Boot Loader(s); Option ROM
 </span></p>
 @snapend
 
-@snap[north-west span-45]
+@snap[north-west span-35]
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -169,7 +175,10 @@ Lock resources
 </span></p>
 @snapend
 
-@snap[north-west span-55]
+@snap[north-west span-45]
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
