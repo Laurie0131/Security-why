@@ -34,12 +34,33 @@ Note:
   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
+---
+#### Blank slide
 
-
----?image=/assets/images/slides/Slide55.JPG
+---?image=/assets/images/slides/Slide28_1.JPG
 <!-- .slide: data-transition="none" -->
 @title[UEFI Boot Execution Flow]
-<p align="right"><span class="gold" ><b>UEFI Boot Execution Flow</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>UEFI Boot Execution Flow</b>)</span></p>
+
+
+@snap[south span-80 fragment]
+@box[bg-red-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.8em; font-weight: bold;" >What Could Possibly Go Wrong???<br>&nbsp;</span></p>)
+@snapend 
+
+
+@snap[north-west span-100 fragment]
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-red2]<br>
+@fa[bomb gp-bullet-red2]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-red2]<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb gp-bullet-red2]<br>
+
+@snapend 
 
 Note:
 #### List of potential areas to attack:
@@ -66,7 +87,8 @@ Note:
 - Processor cores execute reset microcode (initializes x86 state, parses FW interface table, etc.)
 - RESET VECTOR - Finally, reset microcode fetches the first instruction at physical address FFFFFFF0h known as reset vector
 
-
+---
+#### Blank slide
 
 +++?image=/assets/images/slides/Slide56.JPG
 <!-- .slide: data-background-transition="none" -->
