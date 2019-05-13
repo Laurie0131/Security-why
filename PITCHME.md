@@ -920,7 +920,7 @@ blank page after
 blank page before 
 ### page
 ### another line
----
+
 another page
 
 
@@ -932,10 +932,17 @@ another page
 <br>
 <p style="line-height:75%" align="left"><span style="font-size:0.8em" ><br>
 NIC, WiFi, baseband modem firmware <br>rootkits have direct access to network <br>communications<br><br><br>
-EC or BMC firmware rootkit has access <br>to platform management functions <br>(power, thermal, NIC, keystrokes)<br><br><br>
+EC or BMC firmware rootkit has access <br>to platform management functions <br>(power, thermal, NIC, keystrokes)<br><br><br><br><br>
 Etcetera 
 </span></p>
+@snapend
 
+@snap[south-east span-55]
+<p style="line-height:40%" align="left"><span style="font-size:0.5em" >
+EC –    embedded controllers <br>
+BMC – Baseboard Management Component
+</span></p>
+@snapend
 
 Note:
 
@@ -948,18 +955,22 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide48_1.JPG
+---?image=/assets/images/slides/Slide24_1.JPG
 @title[Making System Unbootable (Bricking) ]
-<p align="right"><span class="gold" ><b>Making System Unbootable (Bricking)</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Making System Unbootable &lpar;Bricking&rpar;</b>)</span></p>
+@snap[north-east span-45]
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.8em" >Corrupt firmware or </span></li>
+  <li><span style="font-size:0.8em" >Corrupt cirtical configuration</span></li>
+  <li><span style="font-size:0.8em" >Stored in Flash "ROM" memeory</span></li>
+  <li><span style="font-size:0.8em" >Of a device which is criticalfor system boot to operate</span></li>
+</ul>
 <br>
 <p align="right"><span style="font-size:0.5em" ><a href="http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx">Source</a> : CIH virus, was first discovered in 1998</span></p>
+@snapend
+
 
 Note:
 
