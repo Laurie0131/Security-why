@@ -875,7 +875,7 @@ blank page after
 blank page before 
 ### page
 ### another line
-
+---
 another page
 
 
@@ -885,9 +885,7 @@ another page
 <p align="right"><span class="gold" >@size[1.1em](<b>Unfettered Access to Hardware – HDD/SSD</b>)</span></p>
 @snap[north-west span-50]
 <br>
-<br>
-<br>
-<p style="line-height:80%"><span style="font-size:0.8em" ><br>
+<p style="line-height:70%"><span style="font-size:0.8em" ><br>
 Access to all data stored on HDD/SSD<br><br>
 Even when data is stored on self-encrypting drives (SED)
 </span></p>
@@ -895,14 +893,11 @@ Even when data is stored on self-encrypting drives (SED)
 
 @snap[north-east span-50]
 <br>
-<br>
-<br>
-<p style="line-height:80%" align="left"><span style="font-size:0.8em" ><br>
+<p style="line-height:70%" align="left"><span style="font-size:0.8em" ><br>
 Cyber espionage groups utilize advanced form of malware that is very hard to remove once it's infected your PC. <br><br>
 Malware reprograms the hard drive’s firmware, creating hidden sectors <br><br>
 Destroying your hard drive is the only way to stop this super advanced malware
 </span></p>
-<br>
 <br>
 <br>
 <p style="line-height:50%" align="right"><span style="font-size:0.5em" >
