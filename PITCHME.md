@@ -96,17 +96,18 @@ Note:
 #### Blank slide before
 <br>
 Another 
-1
+1<br>
+2
 
 ---?image=/assets/images/slides/Slide31_1.JPG
 @title[UEFI & Platform Initialization Task Flow]
 <p align="right"><span class="gold" >@size[1.1em](<b>UEFI & Platform Initialization Task Flow</b>)</span></p>
 
-@snap[north-east span-70]
+@snap[north-east span-75]
 <br>
 <br>
 <br>
-<p style="line-height:50%"  align="left"><span style="font-size:0.6em" >
+<p style="line-height:40%"  align="left"><span style="font-size:0.5em" >
 S-CRTM<sup> 1</sup>; Init caches/MTRRs; Cache-as-RAM (NEM); Recovery; TPM Init
 </span></p>
 @snapend
@@ -117,7 +118,7 @@ S-CRTM<sup> 1</sup>; Init caches/MTRRs; Cache-as-RAM (NEM); Recovery; TPM Init
 <br>
 <br>
 <br>
-<p style="line-height:50%" align="left"><span style="font-size:0.5em" >
+<p style="line-height:40%" align="left"><span style="font-size:0.5em" >
 S-CRTM: Measure DXE/BDS<br>
 Early CPU/PCH Init<br>
 Memory (DIMMs, DRAM) Init<br>
@@ -135,13 +136,13 @@ Boot Mode (normal, S3, Recovery, Capsule update)
 <br>
 <br>
 <br>
-<p style="line-height:50%" align="left"><span style="font-size:0.5em" ><br><br>
+<p style="line-height:40%" align="left"><span style="font-size:0.5em" ><br><br>
 UEFI “Core” functionality, Continue initialization of platform & devices Enum FV, dispatch drivers (network, I/O, service..), Produce Boot and Runtime Services, SMM Initialization
 </span></p>
 @snapend
 
 
-@snap[north-east span-30]
+@snap[north-east span-35]
 <br>
 <br>
 <br>
@@ -153,7 +154,7 @@ UEFI “Core” functionality, Continue initialization of platform & devices Enu
 <br>
 <br>
 <br>
-<p style="line-height:50%" align="left"><span style="font-size:0.5em" ><br>
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br>
 Boot Manager (Select Boot Device)<br>
 EFI Shell/Apps; OS Boot Loader(s); Option ROM
 </span></p>
@@ -181,7 +182,7 @@ Lock resources
 </span></p>
 @snapend
 
-@snap[north-west span-65]
+@snap[north-west span-60]
 <br>
 <br>
 <br>
@@ -198,11 +199,9 @@ Lock resources
 <br>
 <br>
 
-<br>
-<br>
 <br>
 <p style="line-height:30%" align="right"><span style="font-size:0.4em" >
-ExitBootServices. Minimal UEFI services<br> (Variable, Capsule)
+ExitBootServices. Minimal <br>UEFI services(Variable, Capsule)
 </span></p>
 @snapend
 
