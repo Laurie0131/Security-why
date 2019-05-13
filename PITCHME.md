@@ -419,18 +419,13 @@ Note:
 
 - Computrace is software built into program laptops that were purchased as part of MCLA's Laptop Initiative. In the event your laptop is stolen, the Computrace software tracks the stolen computer and provides local police with the information they need to get it back.
 
----
-blank page before 
-### page
-### another line
 
-another page
 ---?image=/assets/images/slides/Slide13_1.JPG
 @title[Why Attack Firmware?]
 <p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
 @snap[south-east span-30 ]
-<p align="left" style="line-height:85%"><span style="font-size:01.0em" ><b>Firmware Attack Methods</b> </span></p>
+<p align="left" style="line-height:85%"><span style="font-size:01.10em" ><b>Firmware Attack Methods</b> </span></p>
 <p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
 <br>
 <br>
@@ -536,16 +531,6 @@ Note:
 - Only way to fully remove the infection is to physically re-flash the flash “ROM” chip
 
 
- 
----
-blank page after
----
-blank page before 
-### page
-### another line
-
-another page
-
 
 
 ---?image=/assets/images/slides/Slide15_2.JPG
@@ -562,7 +547,7 @@ another page
 <ul style="list-style-type:disc; line-height:0.75;">
   <li><span style="font-size:0.8em" >Monitor of @color[red](<strike>ALL</strike>) firmware </span></li>
   <li><span style="font-size:0.8em" >Reliably tell if infected <br><span style="font-size:0.8em" >@color[yellow]( False &vert; Positive) </span></span></li>
-  <li><span style="font-size:0.8em" >Devices us @color[yellow](<i>obscure</i> ) hardware</span></li>
+  <li><span style="font-size:0.8em" >Devices use @color[yellow](<i>obscure</i> ) hardware</span></li>
   <li><span style="font-size:0.8em" >Which @color[yellow](Tool) for which firmware infection? </span></li>
    <ul style="list-style-type:disc; line-height:0.6;">
       <li><span style="font-size:0.6em" >Rootkit in firmware of SSD, NIC, EC, BMC, modem, USB thumb-drive, battery gauge, charger</span></li>
@@ -573,9 +558,6 @@ another page
 @snapend
 
 
-
-
-@snapend
 
 Note:
 #### Is Security Software real protection?
@@ -886,19 +868,47 @@ Note:
 - OS selectively locking out devices
 - Never allow sensitive data to be stored in Memory unencrypted
 
+ 
+---
+blank page after
+---
+blank page before 
+### page
+### another line
+
+another page
 
 
----?image=/assets/images/slides/Slide44.JPG
+
+---?image=/assets/images/slides/Slide22.JPG
 @title[Unfettered Access to Hardware – HDD/SSD ]
-<br>
-<p align="right"><span class="gold" ><b>Unfettered Access to Hardware – HDD/SSD</b></span></p>
-<br>
-<br>
+<p align="right"><span class="gold" >@size[1.1em](<b>Unfettered Access to Hardware – HDD/SSD</b>)</span></p>
+@snap[north-west span-50]
 <br>
 <br>
 <br>
+<p style="line-height:80%"><span style="font-size:0.8em" ><br>
+Access to all data stored on HDD/SSD<br><br>
+Even when data is stored on self-encrypting drives (SED)
+</span></p>
+@snapend
+
+@snap[north-east span-50]
 <br>
-<p style="line-height:50%" align="right"><span style="font-size:0.5em" ><a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> : PC World – Destroying your hard drive is the only<br> way to stop this super advanced malware</span></p>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.8em" ><br>
+Cyber espionage groups utilize advanced form of malware that is very hard to remove once it's infected your PC. <br><br>
+Malware reprograms the hard drive’s firmware, creating hidden sectors <br><br>
+Destroying your hard drive is the only way to stop this super advanced malware
+</span></p>
+<br>
+<br>
+<br>
+<p style="line-height:50%" align="right"><span style="font-size:0.5em" >
+<a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> 
+: PC World – Destroying your hard drive is the only<br> way to stop this super advanced malware</span></p>
+@snapend
 
 Note:
 
