@@ -1048,7 +1048,7 @@ blank page after
 blank page before 
 ### page
 ### another line
----
+
 another page
 
 
@@ -1061,23 +1061,23 @@ another page
 <br>
 <br>
 <br>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.9em">Why is platform firmware Security important<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em">Why is platform firmware Security important<br>&nbsp;</span></p>)
 @snapend
 
-@snap[north span-20]
+@snap[north span-20 fragment]
 <br>
 <br>
 <br>
 <br>
-<p style="line-height:60%"><span style="font-size:01.9em">@fa[arrow-right gp-bullet-ltgreen]<br>&nbsp;</span></p>)
+<p style="line-height:60%"><span style="font-size:01.9em">@fa[arrow-right gp-bullet-ltgreen]<br>&nbsp;</span></p>
 @snapend
 
-@snap[north-east span-40]
+@snap[north-east span-40 fragment]
 <br>
 <br>
 <br>
 <br>
-@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.9em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
 @snapend
 
 
