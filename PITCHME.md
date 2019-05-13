@@ -920,7 +920,7 @@ blank page after
 blank page before 
 ### page
 ### another line
----
+
 another page
 
 
@@ -937,13 +937,18 @@ Etcetera
 </span></p>
 @snapend
 
-@snap[east span-55]
+@snap[east span-40]
 <br>
 <br>
 <br>
 <br>
 <br>
-<p style="line-height:30%" align="left"><span style="font-size:0.45em" ><br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br>
 EC –    embedded controllers <br>
 BMC – Baseboard Management Component
 </span></p>
@@ -963,11 +968,11 @@ Note:
 ---?image=/assets/images/slides/Slide24_1.JPG
 @title[Making System Unbootable (Bricking) ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Making System Unbootable &lpar;Bricking&rpar;</b>)</span></p>
-@snap[north-east span-50]
+@snap[north-east span-55]
 <br>
 <br>
 <br>
-<ul style="list-style-type:disc; line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.8em" >Corrupt firmware or </span></li>
   <li><span style="font-size:0.8em" >Corrupt cirtical configuration</span></li>
   <li><span style="font-size:0.8em" >Stored in Flash "ROM" memeory</span></li>
@@ -977,7 +982,7 @@ Note:
 @snapend
 
 @snap[south-east span-40]
-<p align="right"><span style="font-size:0.5em" ><a href="http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx">Source</a> : CIH virus, was first discovered in 1998</span></p>
+<p style="line-height:40%" align="right"><span style="font-size:0.5em" ><a href="http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx">Source</a> : CIH virus, was first discovered<br> in 1998</span></p>
 <BR>
 @snapend
 
