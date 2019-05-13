@@ -95,7 +95,8 @@ Note:
 ---
 #### Blank slide before
 <br>
-Another
+Another 
+1
 
 ---?image=/assets/images/slides/Slide31_1.JPG
 @title[UEFI & Platform Initialization Task Flow]
@@ -116,7 +117,7 @@ S-CRTM<sup> 1</sup>; Init caches/MTRRs; Cache-as-RAM (NEM); Recovery; TPM Init
 <br>
 <br>
 <br>
-<p style="line-height:50%" align="left"><span style="font-size:0.6em" >
+<p style="line-height:50%" align="left"><span style="font-size:0.5em" >
 S-CRTM: Measure DXE/BDS<br>
 Early CPU/PCH Init<br>
 Memory (DIMMs, DRAM) Init<br>
@@ -126,7 +127,7 @@ Boot Mode (normal, S3, Recovery, Capsule update)
 
 
 
-@snap[north-east span-55]
+@snap[north-east span-50]
 <br>
 <br>
 <br>
@@ -134,7 +135,7 @@ Boot Mode (normal, S3, Recovery, Capsule update)
 <br>
 <br>
 <br>
-<p style="line-height:50%" align="left"><span style="font-size:0.6em" ><br>
+<p style="line-height:50%" align="left"><span style="font-size:0.5em" ><br><br>
 UEFI “Core” functionality, Continue initialization of platform & devices Enum FV, dispatch drivers (network, I/O, service..), Produce Boot and Runtime Services, SMM Initialization
 </span></p>
 @snapend
@@ -152,26 +153,9 @@ UEFI “Core” functionality, Continue initialization of platform & devices Enu
 <br>
 <br>
 <br>
-<p style="line-height:50%" align="left"><span style="font-size:0.6em" >
+<p style="line-height:50%" align="left"><span style="font-size:0.5em" ><br>
 Boot Manager (Select Boot Device)<br>
 EFI Shell/Apps; OS Boot Loader(s); Option ROM
-</span></p>
-@snapend
-
-@snap[north-west span-35]
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p style="line-height:50%" align="right"><span style="font-size:0.4em" >
-ACPI, UEFI SystemTable, SMBIOS table,<br>
-Lock resources 
 </span></p>
 @snapend
 
@@ -179,22 +163,51 @@ Lock resources
 <br>
 <br>
 <br>
+
 <br>
 <br>
 <br>
+
 <br>
 <br>
 <br>
+
 <br>
 <br>
 <br>
-<p style="line-height:50%" align="right"><span style="font-size:0.4em" >
+<p style="line-height:30%" align="right"><span style="font-size:0.4em" >
+ACPI, UEFI SystemTable, SMBIOS table,<br>
+Lock resources 
+</span></p>
+@snapend
+
+@snap[north-west span-65]
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<p style="line-height:30%" align="right"><span style="font-size:0.4em" >
 ExitBootServices. Minimal UEFI services<br> (Variable, Capsule)
 </span></p>
 @snapend
 
 @snap[south-west span-55]
-<p style="line-height:50%" align="left"><span style="font-size:0.4em" >
+<p style="line-height:50%" align="left"><span style="font-size:0.3em" >
 <sup>1</sup>S-CRTM - static core root of trust for measurement
 </span></p>
 @snapend
