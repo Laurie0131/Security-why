@@ -1048,7 +1048,7 @@ blank page after
 blank page before 
 ### page
 ### another line
-
+---
 another page
 
 
@@ -1056,15 +1056,15 @@ another page
 ---
 @title[Summary - Platform Firmware Security – Why is it important? ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Summary <br></b>)<b>Platform Firmware Security – Why is it important?</b></span></p>
-@snap[north-west span-40]
+@snap[north-west span-45]
 <br>
 <br>
 <br>
 <br>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em">Why is platform firmware Security important<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.7em">Why is platform firmware Security important<br>&nbsp;</span></p>)
 @snapend
 
-@snap[north span-20 fragment]
+@snap[north span-20 ]
 <br>
 <br>
 <br>
@@ -1072,12 +1072,12 @@ another page
 <p style="line-height:60%"><span style="font-size:01.9em">@fa[arrow-right gp-bullet-ltgreen]<br>&nbsp;</span></p>
 @snapend
 
-@snap[north-east span-40 fragment]
+@snap[north-east span-45 fragment]
 <br>
 <br>
 <br>
 <br>
-@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.8em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.7em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
 @snapend
 
 
