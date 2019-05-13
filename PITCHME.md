@@ -62,7 +62,6 @@ another
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb fa-2x gp-bullet-red2]<br>
 <br>
 <br>
-<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb fa-2x gp-bullet-red2]<br>
 
 @snapend 
@@ -92,82 +91,108 @@ Note:
 - Processor cores execute reset microcode (initializes x86 state, parses FW interface table, etc.)
 - RESET VECTOR - Finally, reset microcode fetches the first instruction at physical address FFFFFFF0h known as reset vector
 
+
 ---
-#### Blank slide after
-
-+++?image=/assets/images/slides/Slide56.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI Boot Execution Flow 02]
-<p align="right"><span class="gold" ><b>UEFI Boot Execution Flow</b></span></p>
-
-Note:
-#### List of potential areas to attack:
-- BootGuard (SPI and Memory attack?)
-- Capsule update
-- S3 Resume
-- SMM
-- Secure variables
-- Boot APIs & Runtime APIs
-- SPI attack with BIOSGuard disabled?
-- ACPI?
-- SMM COM buffer
-- OS Boot loader 
-
-- Confirm that any calls to unsafe string functions are replaced by safe string functions.
-
-- Hardware boot sequence before the reset vector
-- External power supplied (e.g. 12V) to the system and settles 
-- Power is driven in a sequence to multiple processor and chipset voltage rails
-- Platform clocks are derived from external clock and oscillators
-- Processor reset signal is de-asserted
-- Power management logic in the CPU executes reset sequence (samples fuses, handshake with the PCH, reads Power-On configuration etc.)
-- Power management logic brings cores out of reset
-- Processor cores execute reset microcode (initializes x86 state, parses FW interface table, etc.)
-- RESET VECTOR - Finally, reset microcode fetches the first instruction at physical address FFFFFFF0h known as reset vector
+#### Blank slide before
 
 
-+++?image=/assets/images/slides/Slide57.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[UEFI Boot Execution Flow 03]
-<p align="right"><span class="gold" ><b>UEFI Boot Execution Flow</b></span></p>
-
-Note:
-#### List of potential areas to attack:
-- BootGuard (SPI and Memory attack?)
-- Capsule update
-- S3 Resume
-- SMM
-- Secure variables
-- Boot APIs & Runtime APIs
-- SPI attack with BIOSGuard disabled?
-- ACPI?
-- SMM COM buffer
-- OS Boot loader 
-
-- Confirm that any calls to unsafe string functions are replaced by safe string functions.
-
-- Hardware boot sequence before the reset vector
-- External power supplied (e.g. 12V) to the system and settles 
-- Power is driven in a sequence to multiple processor and chipset voltage rails
-- Platform clocks are derived from external clock and oscillators
-- Processor reset signal is de-asserted
-- Power management logic in the CPU executes reset sequence (samples fuses, handshake with the PCH, reads Power-On configuration etc.)
-- Power management logic brings cores out of reset
-- Processor cores execute reset microcode (initializes x86 state, parses FW interface table, etc.)
-- RESET VECTOR - Finally, reset microcode fetches the first instruction at physical address FFFFFFF0h known as reset vector
-
-
-
----?image=/assets/images/slides/Slide59.JPG
+---?image=/assets/images/slides/Slide31_1.JPG
 @title[UEFI & Platform Initialization Task Flow]
-<p align="right"><span class="gold" ><b>UEFI & Platform Initialization Task Flow</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>UEFI & Platform Initialization Task Flow</b>)</span></p>
 
+@snap[north-east span-70]
+<br>
+<br>
+<br>
+<p style="line-height:50%"  align="left"><span style="font-size:0.6em" >
+S-CRTM<sup> 1</sup>; Init caches/MTRRs; Cache-as-RAM (NEM); Recovery; TPM Init
+</span></p>
+@snapend
+
+@snap[north-east span-60]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" align="left"><span style="font-size:0.6em" >
+S-CRTM: Measure DXE/BDS<br>
+Early CPU/PCH Init<br>
+Memory (DIMMs, DRAM) Init<br>
+Boot Mode (normal, S3, Recovery, Capsule update)
+</span></p>
+@snapend
+
+
+
+@snap[north-east span-50]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" align="left"><span style="font-size:0.6em" >
+UEFI “Core” functionality, Continue initialization of platform & devices Enum FV, dispatch drivers (network, I/O, service..), Produce Boot and Runtime Services, SMM Initialization
+</span></p>
+@snapend
+
+
+@snap[north-east span-40]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" align="left"><span style="font-size:0.6em" >
+Boot Manager (Select Boot Device)<br>
+EFI Shell/Apps; OS Boot Loader(s); Option ROM
+</span></p>
+@snapend
+
+@snap[north-west span-45]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" align="right"><span style="font-size:0.4em" >
+ACPI, UEFI SystemTable, SMBIOS table,<br>
+Lock resources 
+</span></p>
+@snapend
+
+@snap[north-west span-55]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" align="right"><span style="font-size:0.4em" >
+ExitBootServices. Minimal UEFI services<br> (Variable, Capsule)
+</span></p>
+@snapend
+
+@snap[south-west span-55]
+<p style="line-height:50%" align="left"><span style="font-size:0.4em" >
+<sup>1</sup>S-CRTM - static core root of trust for measurement
+</span></p>
+@snapend
 Note:
 
 - S-CRTM is a ”static core root of trust for measurement.” The S-CRTM is the portion of the platform firmware that must be „implicitly trusted.‟ The S-CRTM makes the first measurements, starts TPM, and detects physical presence per the TCG privacy model.
-
+ExitBootServices. Minimal UEFI services (Variable, Capsule
 
 ---?image=/assets/images/slides/Slide61.JPG
 @title[Firmware Attack Surfaces]
