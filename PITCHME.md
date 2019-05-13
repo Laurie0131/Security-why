@@ -97,7 +97,8 @@ Note:
 <br>
 Another 
 1<br>
-2
+2<br>
+3
 
 ---?image=/assets/images/slides/Slide31_1.JPG
 @title[UEFI & Platform Initialization Task Flow]
@@ -142,7 +143,7 @@ UEFI “Core” functionality, Continue initialization of platform & devices Enu
 @snapend
 
 
-@snap[north-east span-35]
+@snap[north-east span-30]
 <br>
 <br>
 <br>
@@ -198,7 +199,7 @@ Lock resources
 <br>
 <br>
 <br>
-
+<br>
 <br>
 <p style="line-height:30%" align="right"><span style="font-size:0.4em" >
 ExitBootServices. Minimal <br>UEFI services(Variable, Capsule)
