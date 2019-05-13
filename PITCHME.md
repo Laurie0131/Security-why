@@ -875,7 +875,7 @@ blank page after
 blank page before 
 ### page
 ### another line
----
+
 another page
 
 
@@ -898,11 +898,9 @@ Cyber espionage groups utilize advanced form of malware that is very hard to rem
 Malware reprograms the hard drive’s firmware, creating hidden sectors <br><br>
 Destroying your hard drive is the only way to stop this super advanced malware
 </span></p>
-<br>
-<br>
 <p style="line-height:50%" align="right"><span style="font-size:0.5em" >
 <a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> 
-: PC World – Destroying your hard drive is the only<br> way to stop this super advanced malware</span></p>
+: PC World – Destroying your hard drive is the only way to stop this super advanced malware</span></p>
 @snapend
 
 Note:
