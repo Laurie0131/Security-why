@@ -920,7 +920,7 @@ blank page after
 blank page before 
 ### page
 ### another line
----
+
 another page
 
 
@@ -951,7 +951,7 @@ Etcetera
 <br>
 <br>
 <br>
-<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br><br><br>
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br><br><br><br>
 EC –    embedded controllers <br>
 BMC – Baseboard Management Component
 </span></p>
@@ -989,6 +989,7 @@ Note:
 <BR>
 @snapend
 
+
 Note:
 
 - Source http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx
@@ -1006,15 +1007,15 @@ Note:
 
 
 
-Note:
+
 
 ---
 @title[Pre-Boot Threats ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Pre-Boot Threats </b>)</span></p>
-
-@snap[north-west span-100 fragment ]
+<p style="line-height:60%" align="left"><span style="font-size:0.8em"><br><br><b>Summary Why Attack Firmware</b></span></p>
+@snap[north-east span-90 ]
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.8em"><font color="#87E2A9"><br><br><b>Summary Why Attack Firmware</b></font></span></p>
+<br>
 <table id="recTable">
 	<tr class="fragment">
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Firmware Malware</b></span></p></td>
@@ -1038,7 +1039,7 @@ Note:
 	</tr>
 </table>
 
-@snap[south-east span-25]
+@snap[south-east span-30]
 <p style="line-height:30%" align="left"><span style="font-size:0.4em" >
 <sup>1</sup>Hypervisor Virtual Machine (HVM)
 </span></p>
