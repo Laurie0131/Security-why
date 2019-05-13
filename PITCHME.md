@@ -423,16 +423,17 @@ Note:
 blank page before 
 ### page
 ### another line
-
+---
 another page
 ---?image=/assets/images/slides/Slide13_1.JPG
 @title[Why Attack Firmware?]
 <p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
-@snap[south-east span-35 fragment]
-<p align="left" style="line-height:70%"><span style="font-size:0.9em" >Firmware Attack Methods </span></p>
+@snap[south-east span-30 ]
+<p align="left" style="line-height:70%"><span style="font-size:01.0em" ><b>Firmware Attack Methods</b> </span></p>
 <p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
-
+<br>
+<br>
 @snapend
 
 @snap[north-west span-30 fragment]
