@@ -425,7 +425,7 @@ Note:
 <p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
 @snap[south-east span-30 ]
-<p align="left" style="line-height:85%"><span style="font-size:01.10em" ><b>Firmware Attack Methods</b> </span></p>
+<p align="left" style="line-height:90%"><span style="font-size:01.10em" ><b>Firmware Attack Methods</b> </span></p>
 <p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
 <br>
 <br>
@@ -1009,8 +1009,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
-<br>
 <table id="recTable">
 	<tr class="fragment">
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Firmware Malware</b></span></p></td>
@@ -1029,7 +1027,7 @@ Note:
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Evil Maid</b></span></p></td>
 	</tr>
 	<tr class="fragment">
-		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>HVM<sup>1</sup>> Rootkits &lpar;Blue Pill&rpar;</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>HVM<sup>1</sup> Rootkits &lpar;Blue Pill&rpar;</b></span></p></td>
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>HW Trojans</b></span></p></td>
 	</tr>
 </table>
@@ -1048,7 +1046,7 @@ blank page after
 blank page before 
 ### page
 ### another line
----
+
 another page
 
 
