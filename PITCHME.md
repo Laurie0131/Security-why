@@ -423,17 +423,23 @@ Note:
 blank page before 
 ### page
 ### another line
----
+
 another page
 ---?image=/assets/images/slides/Slide13_1.JPG
 @title[Why Attack Firmware?]
 <p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
+@snap[south-east span-35 fragment]
+<p align="left" style="line-height:70%"><span style="font-size:0.9em" >Firmware Attack Methods </span></p>
+<p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
+
+@snapend
+
 @snap[north-west span-30 fragment]
 <br>
 <br>
 <br>
-@box[bg-royal text-white  waved  my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Extreme persistence</b></span><br><br>&nbsp;</p>)
+@box[bg-royal text-white  waved  my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Extreme<br> persistence</b></span><br><br>&nbsp;</p>)
 @snapend
 
 @snap[north-west span-30 fragment]
@@ -443,19 +449,19 @@ another page
 <br>
 <br>
 <p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
-@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Stealth</b></span><br><br>&nbsp;</p>)
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Stealth</b></span><br><br><br>&nbsp;</p>)
 @snapend
 
 @snap[south-west span-30 fragment]
-@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Bypass software &lpar;OS or VMM&rpar; based security</b></span><br>&nbsp;</p>)
-<br>
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Bypass software <br>&lpar;OS or VMM&rpar; based security</b></span><br>&nbsp;</p>)
+
 @snapend
 
 @snap[north span-30 fragment]
 <br>
 <br>
 <br>
-@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Unfettered acess to hardware</b></span><br>&nbsp;</p>)
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Unfettered acess to hardware</b></span><br><br>&nbsp;</p>)
 @snapend
 
 
@@ -467,14 +473,13 @@ another page
 <br>
 <br>
 <p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
-@box[bg-royal text-white  waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>OS<br>independence</b></span><br><br></p>)
+@box[bg-royal text-white  waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>OS<br>independence</b></span><br><br>&nbsp;</p>)
 @snapend
 
 
 
 @snap[south span-30 fragment]
 @box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Making the system unbootable&lpar;bricking&rpar;</span></b><br><br>&nbsp;</p>)
-<br>
 @snapend
  
 ---
