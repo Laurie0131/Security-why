@@ -948,6 +948,9 @@ Etcetera
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 <p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br>
 EC –    embedded controllers <br>
 BMC – Baseboard Management Component
@@ -976,7 +979,7 @@ Note:
   <li><span style="font-size:0.8em" >Corrupt firmware or </span></li>
   <li><span style="font-size:0.8em" >Corrupt cirtical configuration</span></li>
   <li><span style="font-size:0.8em" >Stored in Flash "ROM" memeory</span></li>
-  <li><span style="font-size:0.8em" >Of a device which is criticalfor system boot to operate</span></li>
+  <li><span style="font-size:0.8em" >Of a device which is critical for system boot to operate</span></li>
 </ul>
 <br>
 @snapend
@@ -1001,13 +1004,68 @@ Note:
 - Chernobyl areal view: http://crooksandliars.com/gordonskene/other-plans-gone-wrong-chernobyl-april
 
 
+
+
+Note:
+
+---
+@title[Pre-Boot Threats ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Pre-Boot Threats </b>)</span></p>
+
+@snap[north-west span-100 fragment ]
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.8em"><font color="#87E2A9"><br><br><b>Summary Why Attack Firmware</b></font></span></p>
+<table id="recTable">
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Firmware Malware</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>UEFI Rootkits</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Bootkits</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>SMM Rootkits</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Device FW Malware</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>ACPI Rootkits</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Option ROM Malware</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Evil Maid</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>HVM<sup>1</sup>> Rootkits &lpar;Blue Pill&rpar;</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>HW Trojans</b></span></p></td>
+	</tr>
+</table>
+
+@snap[south-east span-25]
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" >
+<sup>1</sup>Hypervisor Virtual Machine (HVM)
+</span></p>
+@snapend
+
+Note:
+
+---
+@title[Pre-Boot Threats ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Pre-Boot Threats </b>)</span></p>
+
+
+
+@snap[south-east span-25]
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" >
+<sup>1</sup>Hypervisor Virtual Machine (HVM)
+</span></p>
+@snapend
+
+Note:
+
+
 ---?image=/assets/images/slides/Slide50.JPG
 @title[Pre-Boot Threats ]
 <br>
 <br>
 <p align="left"><span class="gold" ><b>Pre-Boot<br>Threats </b></span></p>
-
-Note:
 
 
 ---?image=/assets/images/slides/Slide52.JPG
