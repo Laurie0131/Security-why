@@ -920,7 +920,7 @@ blank page after
 blank page before 
 ### page
 ### another line
-
+---
 another page
 
 
@@ -951,7 +951,7 @@ Etcetera
 <br>
 <br>
 <br>
-<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br><br><br><br>
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br><br><br><br><br>
 EC –    embedded controllers <br>
 BMC – Baseboard Management Component
 </span></p>
@@ -1012,8 +1012,10 @@ Note:
 ---
 @title[Pre-Boot Threats ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Pre-Boot Threats </b>)</span></p>
-<p style="line-height:60%" align="left"><span style="font-size:0.8em"><br><br><b>Summary Why Attack Firmware</b></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.9em"><br><br><b>Summary Why Attack Firmware</b></span></p>
 @snap[north-east span-90 ]
+<br>
+<br>
 <br>
 <br>
 <table id="recTable">
@@ -1047,35 +1049,30 @@ Note:
 
 Note:
 
----
-@title[Pre-Boot Threats ]
-<p align="right"><span class="gold" >@size[1.1em](<b>Pre-Boot Threats </b>)</span></p>
-
-
-
-@snap[south-east span-25]
-<p style="line-height:30%" align="left"><span style="font-size:0.4em" >
-<sup>1</sup>Hypervisor Virtual Machine (HVM)
-</span></p>
-@snapend
-
-Note:
-
-
----?image=/assets/images/slides/Slide50.JPG
-@title[Pre-Boot Threats ]
-<br>
-<br>
-<p align="left"><span class="gold" ><b>Pre-Boot<br>Threats </b></span></p>
 
 
 ---?image=/assets/images/slides/Slide52.JPG
 @title[Summary - Platform Firmware Security – Why is it important? ]
-<p align="right"><span class="gold" ><b>Summary <br>Platform Firmware Security – Why is it important?</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Summary <br>Platform Firmware Security – Why is it important?</b>)</span></p>
+@snap[north-west span-35]
 <br>
 <br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">Why is platform firmware Security important<br>&nbsp;</span></p>)
+@snapend
+
+@snap[north span-20]
 <br>
 <br>
+<p style="line-height:60%"><span style="font-size:01.9em">@fa[arrow-right gp-bullet-magenta]<br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-east span-35]
+<br>
+<br>
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
+@snapend
+
+
 
 Note:
 There are several Firmware attack methods – and cyber hackers will be continually finding more. We need to be able to recognize where Firmware is vulnerable to help prevent attacks on firmware.<br>In Summary: This section is the “WHY WE ARE HERE”
