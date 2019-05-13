@@ -1003,8 +1003,10 @@ Note:
 ---
 @title[Pre-Boot Threats ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Pre-Boot Threats </b>)</span></p>
-<p style="line-height:60%" align="left"><span style="font-size:0.9em"><br><br><b>Summary Why Attack Firmware</b></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.9em"><br><b>Summary Why Attack Firmware</b></span></p>
 @snap[north-east span-90 ]
+<br>
+<br>
 <br>
 <br>
 <br>
