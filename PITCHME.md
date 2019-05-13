@@ -221,20 +221,7 @@ Note:
 - E.g. Stack overflow, heap overflow or incorrect signature verification
 - Secure Boot prevents running an unknown OS loader
 
----
 
-### blank page
-
----
-  
-###  blank page 
-
----
-  
-###  blank page 2
---
-  
-###  blank page 3
 
 ---?image=/assets/images/slides/Slide4_2.JPG
 @title[UEFI Boot Flow]
