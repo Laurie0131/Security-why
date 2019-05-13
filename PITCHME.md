@@ -868,15 +868,6 @@ Note:
 - OS selectively locking out devices
 - Never allow sensitive data to be stored in Memory unencrypted
 
- 
----
-blank page after
----
-blank page before 
-### page
-### another line
-
-another page
 
 
 
@@ -898,6 +889,7 @@ Cyber espionage groups utilize advanced form of malware that is very hard to rem
 Malware reprograms the hard drive’s firmware, creating hidden sectors <br><br>
 Destroying your hard drive is the only way to stop this super advanced malware
 </span></p>
+<br>
 <p style="line-height:50%" align="right"><span style="font-size:0.5em" >
 <a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> 
 : PC World – Destroying your hard drive is the only way to stop this super advanced malware</span></p>
@@ -921,12 +913,28 @@ Note:
 
 - Source: PC World – Destroying your hard drive is the only way to stop this super advanced malware : http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html 
 
+ 
+---
+blank page after
+---
+blank page before 
+### page
+### another line
+
+another page
 
 
----?image=/assets/images/slides/Slide46.JPG
+---?image=/assets/images/slides/Slide23_1.JPG
 @title[Unfettered Access to Hardware – Etc. ]
-<p align="right"><span class="gold" ><b>Unfettered Access to Hardware – Etc.</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Unfettered Access to Hardware – Etc.</b>)</span></p>
+@snap[north-east span-60]
 <br>
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" ><br>
+NIC, WiFi, baseband modem firmware rootkits have direct access to network communications<br><br>
+EC or BMC firmware rootkit has access to platform management functions (power, thermal, NIC, keystrokes)<br><br>
+Etcetera 
+</span></p>
+
 
 Note:
 
