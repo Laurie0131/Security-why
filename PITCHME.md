@@ -500,7 +500,7 @@ blank page after
 blank page before 
 ### page
 ### another line
-
+---
 another page
 
 
@@ -511,11 +511,11 @@ another page
 <br>
 <br>
 <br>
-<p style="line-height:60%"><span style="font-size:0.8em" ><br>
-&bull;&nbsp;&nbsp;System firmware rootkit (in<br>&nbsp;&nbsp;&nbsp;&nbsp; SMM or BIOS/UEFI)<br>
-&bull;&nbsp;&nbsp;Replaces OS boot loader<br>&nbsp;&nbsp;&nbsp;&nbsp; every boot<br>
+<p style="line-height:80%"><span style="font-size:0.8em" ><br>
+&bull;&nbsp;&nbsp;System firmware rootkit <br>&nbsp;&nbsp;&nbsp;&nbsp;(in SMM or BIOS/UEFI)<br>
+&bull;&nbsp;&nbsp;Replaces OS boot loader<br>&nbsp;&nbsp;&nbsp;&nbsp;every boot<br>
 &bull;&nbsp;&nbsp;Which patches OS kernel<br>
-&bull;&nbsp;&nbsp;Firmware rootkit is protected by the hardware <br>&nbsp;&nbsp;&nbsp;&nbsp;write protections<br>
+&bull;&nbsp;&nbsp;Firmware rootkit is protected by the <br>&nbsp;&nbsp;&nbsp;&nbsp;hardware write protections<br>
 &bull;&nbsp;&nbsp;Only way to fully remove the infection is to <br>&nbsp;&nbsp;&nbsp;&nbsp;physically re-flash the flash “ROM” chip<br>
 </span></p>
 @snapend
