@@ -38,6 +38,10 @@ Note:
 <br>
 <br>
 #### Blank slide before
+---
+<br>
+<br>
+another
 
 ---?image=/assets/images/slides/Slide28_1.JPG
 <!-- .slide: data-transition="none" -->
@@ -53,12 +57,9 @@ Note:
 @snap[north-west span-100 fragment]
 <br>
 <br>
-<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb fa-2x gp-bullet-red2]<br>
 @fa[bomb fa-2x gp-bullet-red2]<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[bomb fa-2x gp-bullet-red2]<br>
-<br>
-<br>
 <br>
 <br>
 <br>
