@@ -543,7 +543,7 @@ blank page after
 blank page before 
 ### page
 ### another line
-
+---
 another page
 
 
@@ -556,15 +556,15 @@ another page
 <br>
 <br>
 <br>
-<p style="line-height:90%"><span style="font-size:01.0em" >
+<p style="line-height:95%"><span style="font-size:01.0em" >
 <b>Is Security Software Real Protection?</b>
 </span></p>
 <ul style="list-style-type:disc; line-height:0.7;">
-  <li><span style="font-size:0.8em" >Monitor of @color[red](<strike>ALL</strike>) firmware </span></li>
-  <li><span style="font-size:0.8em" >Reliably tell if infected <br>@size[9.em](@color[yellow]( False &vert; Positive)) </span></li>
+  <li><span style="font-size:0.8em" >Monitor of @color[red](ALL) firmware </span></li>
+  <li><span style="font-size:0.8em" >Reliably tell if infected <br><span style="font-size:0.8em" >(@color[yellow]( False &vert; Positive)) </span></span></li>
   <li><span style="font-size:0.8em" >Devices us @color[yellow](<i>obscure</i> ) hardware</span></li>
   <li><span style="font-size:0.8em" >Which @color[yellow](Tool) for which firmware infection? </span></li>
-   <ul style="list-style-type:disc; line-height:0.5;">
+   <ul style="list-style-type:disc; line-height:0.4;">
       <li><span style="font-size:0.6em" >Rootkit in firmware of SSD, NIC, EC, BMC, modem, USB thumb-drive, battery gauge, charger</span></li>
    </ul>
 </ul>
@@ -572,7 +572,25 @@ another page
 
 @snapend
 
+@snap[north-west span-50 fragment]
+<br>
+<br>
+<br>
+<p style="line-height:90%"><span style="font-size:01.0em" >
+<b>Is Security Software Real Protection?</b>
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.8em" >Monitor of @color[red](<strike>ALL</strike>) firmware </span></li>
+  <li><span style="font-size:0.8em" >Reliably tell if infected <br><span style="font-size:0.8em" >(@color[yellow]( False &vert; Positive)) </span></span></li>
+  <li><span style="font-size:0.8em" >Devices us @color[yellow](<i>obscure</i> ) hardware</span></li>
+  <li><span style="font-size:0.8em" >Which @color[yellow](Tool) for which firmware infection? </span></li>
+   <ul style="list-style-type:disc; line-height:0.4;">
+      <li><span style="font-size:0.6em" >Rootkit in firmware of SSD, NIC, EC, BMC, modem, USB thumb-drive, battery gauge, charger</span></li>
+   </ul>
+</ul>
 
+
+@snapend
 
 Note:
 #### Is Security Software real protection?
