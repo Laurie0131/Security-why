@@ -913,15 +913,6 @@ Note:
 
 - Source: PC World – Destroying your hard drive is the only way to stop this super advanced malware : http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html 
 
- 
----
-blank page after
----
-blank page before 
-### page
-### another line
----
-another page
 
 
 ---?image=/assets/images/slides/Slide23_1.JPG
@@ -1048,28 +1039,43 @@ Note:
 @snapend
 
 Note:
+ 
+---
+blank page after
+---
+blank page before 
+### page
+### another line
+---
+another page
 
 
 
----?image=/assets/images/slides/Slide52.JPG
+---
 @title[Summary - Platform Firmware Security – Why is it important? ]
-<p align="right"><span class="gold" >@size[1.1em](<b>Summary <br>Platform Firmware Security – Why is it important?</b>)</span></p>
-@snap[north-west span-35]
+<p align="right"><span class="gold" >@size[1.1em](<b>Summary <br></b>)<b>Platform Firmware Security – Why is it important?</b></span></p>
+@snap[north-west span-40]
 <br>
 <br>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">Why is platform firmware Security important<br>&nbsp;</span></p>)
+<br>
+<br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.9em">Why is platform firmware Security important<br>&nbsp;</span></p>)
 @snapend
 
 @snap[north span-20]
 <br>
 <br>
-<p style="line-height:60%"><span style="font-size:01.9em">@fa[arrow-right gp-bullet-magenta]<br>&nbsp;</span></p>)
+<br>
+<br>
+<p style="line-height:60%"><span style="font-size:01.9em">@fa[arrow-right gp-bullet-ltgreen]<br>&nbsp;</span></p>)
 @snapend
 
-@snap[north-east span-35]
+@snap[north-east span-40]
 <br>
 <br>
-@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
+<br>
+<br>
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.9em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
 @snapend
 
 
