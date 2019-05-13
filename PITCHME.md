@@ -920,7 +920,7 @@ blank page after
 blank page before 
 ### page
 ### another line
-
+---
 another page
 
 
@@ -951,7 +951,7 @@ Etcetera
 <br>
 <br>
 <br>
-<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br>
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br><br><br>
 EC –    embedded controllers <br>
 BMC – Baseboard Management Component
 </span></p>
