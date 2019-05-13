@@ -543,7 +543,7 @@ blank page after
 blank page before 
 ### page
 ### another line
----
+
 another page
 
 
@@ -559,12 +559,12 @@ another page
 <p style="line-height:90%"><span style="font-size:01.0em" >
 <b>Is Security Software Real Protection?</b>
 </span></p>
-<ul style="list-style-type:disc" style="line-height:0.8;">
+<ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.8em" >Monitor of @color[red](<strike>ALL</strike>) firmware </span></li>
   <li><span style="font-size:0.8em" >Reliably tell if infected <br>@size[9.em](@color[yellow]( False &vert; Positive)) </span></li>
   <li><span style="font-size:0.8em" >Devices us @color[yellow](<i>obscure</i> ) hardware</span></li>
   <li><span style="font-size:0.8em" >Which @color[yellow](Tool) for which firmware infection? </span></li>
-   <ul style="list-style-type:disc" style="line-height:0.5;">
+   <ul style="list-style-type:disc; line-height:0.5;">
       <li><span style="font-size:0.6em" >Rootkit in firmware of SSD, NIC, EC, BMC, modem, USB thumb-drive, battery gauge, charger</span></li>
    </ul>
 </ul>
