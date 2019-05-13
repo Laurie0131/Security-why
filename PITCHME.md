@@ -423,14 +423,14 @@ Note:
 blank page before 
 ### page
 ### another line
----
+
 another page
 ---?image=/assets/images/slides/Slide13_1.JPG
 @title[Why Attack Firmware?]
 <p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
 @snap[south-east span-30 ]
-<p align="left" style="line-height:70%"><span style="font-size:01.0em" ><b>Firmware Attack Methods</b> </span></p>
+<p align="left" style="line-height:80%"><span style="font-size:01.0em" ><b>Firmware Attack Methods</b> </span></p>
 <p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
 <br>
 <br>
@@ -449,7 +449,7 @@ another page
 <br>
 <br>
 <br>
-<p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
+<p style="line-height:50%"><span style="font-size:0.7em" > <br><br>&nbsp;</span></p>
 @box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Stealth</b></span><br><br><br>&nbsp;</p>)
 @snapend
 
@@ -473,7 +473,7 @@ another page
 <br>
 <br>
 <br>
-<p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
+<p style="line-height:50%"><span style="font-size:0.7em" > <br><br>&nbsp;</span></p>
 @box[bg-royal text-white  waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>OS<br>independence</b></span><br><br>&nbsp;</p>)
 @snapend
 
