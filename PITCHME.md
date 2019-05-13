@@ -920,7 +920,7 @@ blank page after
 blank page before 
 ### page
 ### another line
-
+---
 another page
 
 
@@ -931,8 +931,8 @@ another page
 <br>
 <br>
 <p style="line-height:75%" align="left"><span style="font-size:0.8em" ><br>
-NIC, WiFi, baseband modem firmware <br>rootkits have direct access to network <br>communications<br><br><br><br>
-EC or BMC firmware rootkit has access <br>to platform management functions <br>(power, thermal, NIC, keystrokes)<br><br><br><br><br>
+NIC, WiFi, baseband modem firmware <br>rootkits have direct access to network <br>communications<br><br><br>
+EC or BMC firmware rootkit has access <br>to platform management functions <br>(power, thermal, NIC, keystrokes)<br><br><br>
 Etcetera 
 </span></p>
 
