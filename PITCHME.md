@@ -543,7 +543,7 @@ blank page after
 blank page before 
 ### page
 ### another line
-
+---
 another page
 
 
@@ -564,8 +564,7 @@ another page
   <li><span style="font-size:0.8em" >Reliably tel if infected @color[yellow]( False &vert; Positive) </span></li>
   <li><span style="font-size:0.8em" >Devices us @color[yellow](<i>obscure</i> ) hardware</span></li>
   <li><span style="font-size:0.8em" >Which @color[yellow](Tool) for which firmware infection? </span></li>
-  <li><span style="font-size:0.8em" > </span></li>
-   <ul style="list-style-type:disc" style="line-height:0.8;">
+   <ul style="list-style-type:disc" style="line-height:0.6;">
       <li><span style="font-size:0.6em" >Rootkit in firmware of SSD, NIC, EC, BMC, modem, USB thumb-drive, battery gauge, charger</span></li>
    </ul>
 </ul>
