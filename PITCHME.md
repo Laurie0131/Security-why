@@ -493,16 +493,6 @@ Note:
 
 - There are examples in the real world about attacks in each of these categories 
 
- 
----
-blank page after
----
-blank page before 
-### page
-### another line
----
-another page
-
 
 ---?image=/assets/images/slides/Slide14_1.JPG
 @title[Extreme Persistence]
@@ -546,12 +536,44 @@ Note:
 - Only way to fully remove the infection is to physically re-flash the flash “ROM” chip
 
 
+ 
+---
+blank page after
+---
+blank page before 
+### page
+### another line
+
+another page
 
 
----?image=/assets/images/slides/Slide31.JPG
+
+---?image=/assets/images/slides/Slide15_1.JPG
 @title[Stealth]
 <br>
 #### <p align="left"><span class="gold" ><b>Stealth</b></span></p>
+@snap[north-west span-50]
+<br>
+<br>
+<br>
+<p style="line-height:80%"><span style="font-size:01.0em" >
+<b>Is Security Software Real Protection?</b>
+</span></p>
+<ul style="list-style-type:disc" style="line-height:0.8;">
+  <li><span style="font-size:0.8em" >Monitor of @color[red](ALL) firmware </span></li>
+  <li><span style="font-size:0.8em" >Reliably tel if infected @color[yellow]( False &vert; Positive) </span></li>
+  <li><span style="font-size:0.8em" >Devices us @color[yellow](<i>obscure</i> ) hardware</span></li>
+  <li><span style="font-size:0.8em" >Which @color[yellow](Tool) for which firmware infection? </span></li>
+  <li><span style="font-size:0.8em" > </span></li>
+   <ul style="list-style-type:disc" style="line-height:0.8;">
+      <li><span style="font-size:0.6em" >Rootkit in firmware of SSD, NIC, EC, BMC, modem, USB thumb-drive, battery gauge, charger</span></li>
+   </ul>
+</ul>
+
+
+@snapend
+
+
 
 Note:
 #### Is Security Software real protection?
