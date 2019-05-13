@@ -920,19 +920,19 @@ blank page after
 blank page before 
 ### page
 ### another line
----
+
 another page
 
 
 ---?image=/assets/images/slides/Slide23_1.JPG
 @title[Unfettered Access to Hardware – Etc. ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Unfettered Access to Hardware – Etc.</b>)</span></p>
-@snap[north-east span-70]
+@snap[north-east span-75]
 <br>
 <br>
 <p style="line-height:75%" align="left"><span style="font-size:0.8em" ><br>
-NIC, WiFi, baseband modem firmware rootkits have direct access to network communications<br><br><br>
-EC or BMC firmware rootkit has access to platform management functions (power, thermal, NIC, keystrokes)<br><br><br>
+NIC, WiFi, baseband modem firmware <br>rootkits have direct access to network <br>communications<br><br><br><br>
+EC or BMC firmware rootkit has access <br>to platform management functions <br>(power, thermal, NIC, keystrokes)<br><br><br><br><br>
 Etcetera 
 </span></p>
 
