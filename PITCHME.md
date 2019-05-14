@@ -34,14 +34,6 @@ Note:
   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
----
-<br>
-<br>
-#### Blank slide before
----
-<br>
-<br>
-another
 
 ---?image=/assets/images/slides/Slide28_1.JPG
 <!-- .slide: data-transition="none" -->
@@ -98,13 +90,19 @@ Note:
 Another 
 1<br>
 2<br>
-3
+
 
 ---?image=/assets/images/slides/Slide31_1.JPG
 @title[UEFI & Platform Initialization Task Flow]
 <p align="right"><span class="gold" >@size[1.1em](<b>UEFI & Platform Initialization Task Flow</b>)</span></p>
 
-@snap[north-east span-75]
+@snap[south-west span-55]
+<p style="line-height:50%" align="left"><span style="font-size:0.3em" >
+<sup>1</sup>S-CRTM - static core root of trust for measurement
+</span></p>
+@snapend
+
+@snap[north-east span-75 fragment]
 <br>
 <br>
 <br>
@@ -113,7 +111,7 @@ S-CRTM<sup> 1</sup>; Init caches/MTRRs; Cache-as-RAM (NEM); Recovery; TPM Init
 </span></p>
 @snapend
 
-@snap[north-east span-60]
+@snap[north-east span-60 fragment]
 <br>
 <br>
 <br>
@@ -129,7 +127,7 @@ Boot Mode (normal, S3, Recovery, Capsule update)
 
 
 
-@snap[north-east span-50]
+@snap[north-east span-50  fragment]
 <br>
 <br>
 <br>
@@ -143,7 +141,7 @@ UEFI “Core” functionality, Continue initialization of platform & devices Enu
 @snapend
 
 
-@snap[north-east span-30]
+@snap[north-east span-30 fragment]
 <br>
 <br>
 <br>
@@ -161,7 +159,7 @@ EFI Shell/Apps; OS Boot Loader(s); Option ROM
 </span></p>
 @snapend
 
-@snap[north-west span-45]
+@snap[north-west span-45 fragment]
 <br>
 <br>
 <br>
@@ -183,7 +181,7 @@ Lock resources
 </span></p>
 @snapend
 
-@snap[north-west span-60]
+@snap[north-west span-60 fragment]
 <br>
 <br>
 <br>
@@ -206,19 +204,19 @@ ExitBootServices. Minimal <br>UEFI services(Variable, Capsule)
 </span></p>
 @snapend
 
-@snap[south-west span-55]
-<p style="line-height:50%" align="left"><span style="font-size:0.3em" >
-<sup>1</sup>S-CRTM - static core root of trust for measurement
-</span></p>
-@snapend
+
 Note:
 
 - S-CRTM is a ”static core root of trust for measurement.” The S-CRTM is the portion of the platform firmware that must be „implicitly trusted.‟ The S-CRTM makes the first measurements, starts TPM, and detects physical presence per the TCG privacy model.
 ExitBootServices. Minimal UEFI services (Variable, Capsule
 
----?image=/assets/images/slides/Slide61.JPG
+---?image=/assets/images/slides/Slide31_1.JPG
 @title[Firmware Attack Surfaces]
 <p align="right"><span class="gold" ><b>Firmware Attack Surfaces</b></span></p>
+
+@snap[south-east span-30 fragment]
+![Yellow-arrow](/assets/images/LftYellowArrow.png)
+@snapend 
 
 Note:
 
