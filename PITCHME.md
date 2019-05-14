@@ -253,6 +253,7 @@ Note:
 Another 
 1<br>
 2<br>
+3
 
 ---
 @title[Goals of security architecture and assets that are protected ]
@@ -269,7 +270,7 @@ Availability, Integrity, Confidentiality,  Accountability, Assurance
 <br>
 <br>
 <br>
-<p style="line-height:50%" ><br>&nbsp;</p>
+<p style="line-height:50%" >&nbsp;</p>
 @box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
@@ -341,13 +342,12 @@ Availability, Integrity, Confidentiality,  Accountability, Assurance
 <br>
 <br>
 <br>
-<p style="line-height:50%" ><br>&nbsp;</p>
+<p style="line-height:50%" >&nbsp;</p>
 @box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
 
 @snap[north span-75 ]
-<br>
 <br>
 <br>
 <br>
@@ -368,11 +368,11 @@ Availability, Integrity, Confidentiality,  Accountability, Assurance
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.8em" ><b>Accountability</b></span></p></td>
-		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:050%"><span style="font-size:0.6em" ><font color="black">Also Authenticity -  traced uniquely to the source entity</font></span></p></td>
+		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:040%"><span style="font-size:0.6em" ><font color="black">Also Authenticity -  traced uniquely to the source entity</font></span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.8em" ><b>Assurance</b></span></p></td>
-		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:050%"><span style="font-size:0.6em" ><font color="black">Guarantee on the correctness, Non-repudiation</font></span></p></td>
+		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:040%"><span style="font-size:0.6em" ><font color="black">Guarantee on the correctness, Non-repudiation</font></span></p></td>
 	</tr>
 </table>
 @snapend
