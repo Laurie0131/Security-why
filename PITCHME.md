@@ -254,7 +254,7 @@ Another
 1<br>
 2<br>
 3<br>
-
+4
 ---
 @title[Goals of security architecture and assets that are protected ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Goals of security architecture and assets<br>that are protected </b>)</span></p>
@@ -423,7 +423,7 @@ Note:
 @snap[north-west span-100 ]
 <br>
 <br>
-<p style="line-height:80%" align="left"><span style="font-size:0.9em" >
+<p style="line-height:80%" align="left"><span style="font-size:0.9em" ><br>
 "@color[yellow](My house is secure)"is almost meaningless<br>
 @size[.7em](&bull;&nbsp;Against a burglar? Against a meteor strike? A thermonuclear device?)<br>
 "@color[yellow](My system is secure)"is almost meaningless<br>
@@ -438,7 +438,8 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.8em" >
+<br>
+<p style="line-height:70%" align="left"><span style="font-size:0.8em" ><br>
 Threat modeling is a process to define the goals and constraints of a (software) security solution<br>
 @size[.7em](&bull;&nbsp;Translate user requirements to security requirements )
 </span></p>
@@ -454,7 +455,8 @@ Threat modeling is a process to define the goals and constraints of a (software)
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.8em" >
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.8em" ><br>
 We use threat modeling for our UEFI / PI codebase<br>
 @size[.7em](&bull;&nbsp; We believe the process and findings are applicable to driver implementations as well as UEFI implementations in general)<br>
 </span></p>
