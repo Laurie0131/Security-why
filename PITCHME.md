@@ -84,12 +84,7 @@ Note:
 - RESET VECTOR - Finally, reset microcode fetches the first instruction at physical address FFFFFFF0h known as reset vector
 
 
----
-#### Blank slide before
-<br>
-Another 
-1<br>
-2<br>
+
 
 
 ---?image=/assets/images/slides/Slide31_1.JPG
@@ -210,7 +205,15 @@ Note:
 - S-CRTM is a ”static core root of trust for measurement.” The S-CRTM is the portion of the platform firmware that must be „implicitly trusted.‟ The S-CRTM makes the first measurements, starts TPM, and detects physical presence per the TCG privacy model.
 ExitBootServices. Minimal UEFI services (Variable, Capsule
 
----?image=/assets/images/slides/Slide31_1.JPG
+---
+#### Blank slide before
+<br>
+Another 
+1<br>
+2<br>
+3
+
+---?image=/assets/images/slides/Slide32_1.JPG
 @title[Firmware Attack Surfaces]
 <p align="right"><span class="gold" ><b>Firmware Attack Surfaces</b></span></p>
 
