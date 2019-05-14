@@ -253,7 +253,8 @@ Note:
 Another 
 1<br>
 2<br>
-3
+3<br>
+4
 
 ---
 @title[Goals of security architecture and assets that are protected ]
@@ -415,6 +416,33 @@ Note:
 3. Confidentiality (of data and system information) Confidentiality is the requirement that private or confidential information not be disclosed to unauthorized individuals. Confidentiality protection applies to data in storage, during processing, and while in transit. For many organizations, confidentiality is frequently behind availability and integrity in terms of importance. Yet for some systems and for specific types of data in most systems (e.g., authenticators), confidentiality is extremely important. 
 4. Accountability (to the individual level) Accountability is the requirement that actions of an entity may be traced uniquely to that entity. Accountability is often an organizational policy requirement and directly supports nonrepudiation, deterrence, fault isolation, intrusion detection and prevention, and after-action recovery and legal action. 
 5. Assurance (that the other four objectives have been adequately met) Assurance is the basis for confidence that the security measures, both technical and operational, work as intended to protect the system and the information it processes. The other four security objectives (integrity, availability, confidentiality, and accountability) have been adequately met by a specific implementation when: • required functionality is present and correctly implemented, • there is sufficient protection against unintentional errors (by users or software), and • there is sufficient resistance to intentional penetration or by-pass. Assurance is essential; without it the other objectives are not met. However, assurance is a continuum; the amount of assurance needed varies between systems.
+
+
+---
+@title[What to build & defend – Rationale for a threat model]
+<p align="right"><span class="gold" >@size[1.1em](<b>What to build & defend <br> – Rationale for a threat model</b>)</span></p>
+<p style="line-height:80%" align="right"><span style="font-size:0.9em" >
+"@color[yellow](My house is secure)"is almost meaningless<br>
+@size[.8em](&bull;&nbsp;Against a burglar? Against a meteor strike? A thermonuclear device?)<br>
+"@color[yellow](My system is secure)"is almost meaningless<br>
+@size[.8em](&bull;&nbsp;Against what? To what extent?)<br>
+<br>
+Threat modeling is a process to define the goals and constraints of a (software) security solution<br>
+@size[.8em](&bull;&nbsp;Translate user requirements to security requirements )<br>
+We use threat modeling for our UEFI / PI codebase<br>
+@size[.8em](&bull;&nbsp; We believe the process and findings are applicable to driver implementations as well as UEFI implementations in general)<br>
+</span></p>
+
+@snap[south span-85 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">We Need to protect our Assets from Threats<br>&nbsp;</span></p>)
+@snapend
+
+Note:
+- https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1 
+- UEFI open platforms_Vincent.ppt slide 53  - CanSecWest 2015 -  Refrences [6]: reference # [6] Slide 53 of PPT
+
+
+- The KEY POINT is we need to protect our Assets from threats 
 
 
 ---?image=/assets/images/slides/Slide67.JPG
