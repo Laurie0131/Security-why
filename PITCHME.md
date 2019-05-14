@@ -205,14 +205,7 @@ Note:
 - S-CRTM is a ”static core root of trust for measurement.” The S-CRTM is the portion of the platform firmware that must be „implicitly trusted.‟ The S-CRTM makes the first measurements, starts TPM, and detects physical presence per the TCG privacy model.
 ExitBootServices. Minimal UEFI services (Variable, Capsule
 
----
-#### Blank slide before
-<br>
-Another 
-1<br>
-2<br>
-3<br>
-4
+
 
 ---?image=/assets/images/slides/Slide32_1.JPG
 @title[Firmware Attack Surfaces]
@@ -253,11 +246,46 @@ Note:
 - Plug in that PCIe card and invite its Option ROM to the party.
 - OROM code pulled in by BIOS at boot time
 
+---
+<br>
+#### Blank slide before
+<br>
+Another 
+1<br>
 
----?image=/assets/images/slides/Slide63.JPG
+
+---
 @title[Goals of security architecture and assets that are protected ]
-<p align="right"><span class="gold" ><b>Goals of security architecture and assets<br>that are protected </b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Goals of security architecture and assets<br>that are protected </b>)</span></p>
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives </span></p>
+@snapend
+
+@snap[north span-70 ]
+<br>
+<p style="line-height:50%" ><br>&nbsp;</p>
+@box[bg-grey-50  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+<br>
+@snapend
+
+@snap[north-east span-80 ]
+<br>
+<p style="line-height:50%" ><br>&nbsp;</p>
+<p style="line-height:70%" align="left"><span style="font-size:0.9em" >
+<b>The goal of information technology security: </b>
+</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.7em" >
+Enable an organization to meet all of its mission/business objectives by implementing systems with due care consideration of IT-related risks to the organization, its partners and customers. 
+</span></p>
+@snapend
+
+@snap[north span-70 fragment ]
+<br>
+<p style="line-height:50%" ><br>&nbsp;</p>
+@box[bg-grey-50  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+<br>
+@snapend
 
 Note:
 
@@ -294,12 +322,24 @@ Note:
 4. Accountability (to the individual level) Accountability is the requirement that actions of an entity may be traced uniquely to that entity. Accountability is often an organizational policy requirement and directly supports nonrepudiation, deterrence, fault isolation, intrusion detection and prevention, and after-action recovery and legal action. 
 5. Assurance (that the other four objectives have been adequately met) Assurance is the basis for confidence that the security measures, both technical and operational, work as intended to protect the system and the information it processes. The other four security objectives (integrity, availability, confidentiality, and accountability) have been adequately met by a specific implementation when: • required functionality is present and correctly implemented, • there is sufficient protection against unintentional errors (by users or software), and • there is sufficient resistance to intentional penetration or by-pass. Assurance is essential; without it the other objectives are not met. However, assurance is a continuum; the amount of assurance needed varies between systems.
 
-+++?image=/assets/images/slides/Slide64.JPG
++++
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Goals of security architecture and assets that are protected  02]
-<p align="right"><span class="gold" ><b>Goals of security architecture and assets<br>that are protected </b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Goals of security architecture and assets<br>that are protected </b>)</span></p>
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives </span></p>
+@snapend
+
+@snap[north span-70  ]
+<br>
+<p style="line-height:50%" ><br>&nbsp;</p>
+@box[bg-grey-50  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
 
 Note:
 
