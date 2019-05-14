@@ -920,7 +920,7 @@ Another
 1<br>
 2<br>
 3<br>
-4
+
 ---?image=/assets/images/slides/Slide77.JPG
 @title[Threat Model with Examples]
 <p align="right"><span class="gold" ><b>Threat Model with Examples</b></span></p>
@@ -943,27 +943,27 @@ Another
 	</tr>
 	<tr>
 		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:010%"><span style="font-size:0.45em" >SMM </span></p></td>
-		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >Callouts; Acess to SMM </span></p></td>
-		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >TSEG, SMRR, SMM_CODE_CHK </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:010%"><span style="font-size:0.35em" >Callouts; Acess to SMM </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:020%"><span style="font-size:0.35em" >TSEG, SMRR, SMM_CODE_CHK </span></p></td>
 		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >CHIPSEC </span></p></td>
 	</tr>
 	<tr>
-		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:030%"><span style="font-size:0.45em" >Execution Duritng Boot Flow </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >Run malware in OP ROM  </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >Secur Boot, DMA protection  </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >Manual testing -CHIPSEC </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:010%"><span style="font-size:0.45em" >Execution Duritng Boot Flow </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:010%"><span style="font-size:0.35em" >Run malware in OP ROM  </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:020%"><span style="font-size:0.35em" >Secur Boot, DMA protection  </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:020%"><span style="font-size:0.35em" >Manual testing -CHIPSEC </span></p></td>
 	</tr>
 	<tr>
 		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:030%"><span style="font-size:0.45em" >S3 Boot Script & S3 Resume Boot Flow </span></p></td>
-		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >Resume reconifiguration losing locks </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:020%"><span style="font-size:0.35em" >Resume reconifiguration losing locks </span></p></td>
 		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:010%"><span style="font-size:0.35em" >SMM Lock Box </span></p></td>
-		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >Manual testing -CHIPSEC </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:020%"><span style="font-size:0.35em" >Manual testing -CHIPSEC </span></p></td>
 	</tr>
 	<tr>
-		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:010%"><span style="font-size:0.45em" >UEFI Variables (includes Authenticated) </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >Variable store full; Content change </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:030%"><span style="font-size:0.45em" >UEFI Variables (includes Authenticated) </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:020%"><span style="font-size:0.35em" >Variable store full; Content change </span></p></td>
 		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:010%"><span style="font-size:0.35em" >Atributes, Lock Protocol </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:030%"><span style="font-size:0.35em" >Manual testing -CHIPSEC </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0005"><p style="line-height:020%"><span style="font-size:0.35em" >Manual testing -CHIPSEC </span></p></td>
 	</tr>
 	<tr>
 		<td align="left" bgcolor="#0d0d0d" height=".0005"><p style="line-height:010%"><span style="font-size:0.35em" >ETC &nbsp;.&nbsp;.&nbsp;. </span></p></td>
@@ -984,8 +984,8 @@ ETC ... scrolled off the bottom
 <br>
 <br>
 <br>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.55em">Why is platform firmware Security important<br>&nbsp;</span></p>)
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.55em">UEFI Boot flow with the threat model<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Why is platform firmware Security important<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">UEFI Boot flow with the threat model<br>&nbsp;</span></p>)
 @snapend
 
 @snap[north span-20 ]
@@ -1001,8 +1001,8 @@ ETC ... scrolled off the bottom
 <br>
 <br>
 <br>
-@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.55em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
-@box[bg-royal text-white rounded my-box-pad2 fragment ](<p style="line-height:40%"><span style="font-size:0.55em">Identify where UEFI FW is vulnerable &amp; define Threat Model<br>&nbsp;</span></p>)
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
+@box[bg-royal text-white rounded my-box-pad2 fragment ](<p style="line-height:40%"><span style="font-size:0.6em">Identify where UEFI FW is vulnerable &amp; define Threat Model<br>&nbsp;</span></p>)
 @snapend
 
 
