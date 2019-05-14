@@ -254,7 +254,6 @@ Another
 1<br>
 2<br>
 3<br>
-4
 
 ---
 @title[Goals of security architecture and assets that are protected ]
@@ -421,7 +420,7 @@ Note:
 ---
 @title[What to build & defend – Rationale for a threat model]
 <p align="right"><span class="gold" >@size[1.1em](<b>What to build & defend <br> – Rationale for a threat model</b>)</span></p>
-<p style="line-height:80%" align="right"><span style="font-size:0.9em" >
+<p style="line-height:80%" align="left"><span style="font-size:0.9em" >
 "@color[yellow](My house is secure)"is almost meaningless<br>
 @size[.8em](&bull;&nbsp;Against a burglar? Against a meteor strike? A thermonuclear device?)<br>
 "@color[yellow](My system is secure)"is almost meaningless<br>
