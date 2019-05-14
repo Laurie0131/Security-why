@@ -253,7 +253,7 @@ Note:
 Another 
 1<br>
 2<br>
-3<br>
+
 ---
 @title[Goals of security architecture and assets that are protected ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Goals of security architecture and assets<br>that are protected </b>)</span></p>
@@ -351,6 +351,8 @@ Availability, Integrity, Confidentiality,  Accountability, Assurance
 <br>
 <br>
 <br>
+<br>
+<br>
 <table id="recTable">
 	<tr class="fragment">
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.8em" ><b><u>C</u>onfidentiality</b></span></p></td>
@@ -366,11 +368,11 @@ Availability, Integrity, Confidentiality,  Accountability, Assurance
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.8em" ><b>Accountability</b></span></p></td>
-		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:030%"><span style="font-size:0.6em" ><font color="black">Also Authenticity -  traced uniquely to the source entity</font></span></p></td>
+		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:050%"><span style="font-size:0.6em" ><font color="black">Also Authenticity -  traced uniquely to the source entity</font></span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.8em" ><b>Assurance</b></span></p></td>
-		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:030%"><span style="font-size:0.6em" ><font color="black">Guarantee on the correctness, Non-repudiation</font></span></p></td>
+		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:050%"><span style="font-size:0.6em" ><font color="black">Guarantee on the correctness, Non-repudiation</font></span></p></td>
 	</tr>
 </table>
 @snapend
