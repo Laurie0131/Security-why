@@ -896,9 +896,9 @@ Note:
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:0.8em" ><br>
 A Threat Model (TM) defines the security assertions and constraints for a product<br>
-@size[.6em](&bull;&nbsp;Assets  )<br>
-@size[.6em](&bull;&nbsp;Threats  )<br>
-@size[.6em](&bull;&nbsp;Mitigations  )<br>
+@size[.8em](&bull;&nbsp;Assets  )<br>
+@size[.8em](&bull;&nbsp;Threats  )<br>
+@size[.8em](&bull;&nbsp;Mitigations  )<br>
 </span></p>
 @snapend
 
@@ -930,7 +930,7 @@ Another
 1<br>
 2<br>
 3<br>
-
+4
 ---?image=/assets/images/slides/Slide77.JPG
 @title[Threat Model with Examples]
 <p align="right"><span class="gold" ><b>Threat Model with Examples</b></span></p>
