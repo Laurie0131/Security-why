@@ -247,15 +247,6 @@ Note:
 - OROM code pulled in by BIOS at boot time
 
 ---
-<br>
-#### Blank slide before
-<br>
-Another 
-1<br>
-2<br>
-3<br>
-4
----
 @title[Goals of security architecture and assets that are protected ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Goals of security architecture and assets<br>that are protected </b>)</span></p>
 @snap[north-east span-50 ]
@@ -465,18 +456,6 @@ We use threat modeling for our UEFI / PI codebase<br>
 @snap[south span-85 fragment]
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">We Need to protect our Assets from Threats<br>&nbsp;</span></p>)
 @snapend
-
-Note:
-- https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1 
-- UEFI open platforms_Vincent.ppt slide 53  - CanSecWest 2015 -  Refrences [6]: reference # [6] Slide 53 of PPT
-
-
-- The KEY POINT is we need to protect our Assets from threats 
-
-
----?image=/assets/images/slides/Slide67.JPG
-@title[What to build & defend – Rationale for a threat model]
-<p align="right"><span class="gold" ><b>What to build & defend <br> – Rationale for a threat model</b></span></p>
 
 Note:
 - https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1 
@@ -933,10 +912,67 @@ Note:
 - Few big assets vs lots of focused assets
 
 
+---
+<br>
+#### Blank slide before
+<br>
+Another 
+1<br>
+2<br>
+3<br>
+4
+
 ---?image=/assets/images/slides/Slide77.JPG
 @title[Threat Model with Examples]
 <p align="right"><span class="gold" ><b>Threat Model with Examples</b></span></p>
 
+@snap[north span-100 ]
+<br>
+<table id="recTable">
+	<tr>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Asset </b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Example Threas </b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Mitigations </b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Checks </b></span></p></td>
+	</tr>
+	<tr>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Fimware/BIOS Flash Contents </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >CIH attack: erase Boot block </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >SPI locks, descriptor </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >CHIPSEC </span></p></td>
+	</tr>
+	<tr>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >SMM </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Callouts; Acess to SMM </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >TSEG, SMRR, SMM_CODE_CHK </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >CHIPSEC </span></p></td>
+	</tr>
+	<tr>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Execution Duritng Boot Flow </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Run malware in OP ROM  </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Secur Boot, DMA protection  </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Manual testing -CHIPSEC </span></p></td>
+	</tr>
+	<tr>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >S3 Boot Script & S3 Resume Boot Flow </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Resume reconifiguration losing locks </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >SMM Lock Box </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Manual testing -CHIPSEC </span></p></td>
+	</tr>
+	<tr>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >UEFI Variables (includes Authenticated & non-Authenticated) </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Variable store full; Content change </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Atributes, Lock Protocol </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Manual testing -CHIPSEC </span></p></td>
+	</tr>
+	<tr>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >ETC &nbsp;.&nbsp;.&nbsp;. </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >&nbsp;</span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >&nbsp; </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >&nbsp; </span></p></td>
+	</tr>
+</table>
+@snapend
 Note:
 
 
