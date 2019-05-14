@@ -253,7 +253,7 @@ Note:
 Another 
 1<br>
 2<br>
-3
+
 
 ---
 @title[Goals of security architecture and assets that are protected ]
@@ -271,7 +271,7 @@ Availability, Integrity, Confidentiality,  Accountability, Assurance
 <br>
 <br>
 <p style="line-height:50%" >&nbsp;</p>
-@box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -343,7 +343,7 @@ Availability, Integrity, Confidentiality,  Accountability, Assurance
 <br>
 <br>
 <p style="line-height:50%" >&nbsp;</p>
-@box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -412,51 +412,6 @@ Note:
 3. Confidentiality (of data and system information) Confidentiality is the requirement that private or confidential information not be disclosed to unauthorized individuals. Confidentiality protection applies to data in storage, during processing, and while in transit. For many organizations, confidentiality is frequently behind availability and integrity in terms of importance. Yet for some systems and for specific types of data in most systems (e.g., authenticators), confidentiality is extremely important. 
 4. Accountability (to the individual level) Accountability is the requirement that actions of an entity may be traced uniquely to that entity. Accountability is often an organizational policy requirement and directly supports nonrepudiation, deterrence, fault isolation, intrusion detection and prevention, and after-action recovery and legal action. 
 5. Assurance (that the other four objectives have been adequately met) Assurance is the basis for confidence that the security measures, both technical and operational, work as intended to protect the system and the information it processes. The other four security objectives (integrity, availability, confidentiality, and accountability) have been adequately met by a specific implementation when: • required functionality is present and correctly implemented, • there is sufficient protection against unintentional errors (by users or software), and • there is sufficient resistance to intentional penetration or by-pass. Assurance is essential; without it the other objectives are not met. However, assurance is a continuum; the amount of assurance needed varies between systems.
-
-
-
-+++?image=/assets/images/slides/Slide65.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Goals of security architecture and assets that are protected  03]
-<p align="right"><span class="gold" ><b>Goals of security architecture and assets<br>that are protected </b></span></p>
-<p align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives </span></p>
-
-Note:
-
-- source : https://firmware.intel.com/sites/default/files/uefi-pi-tcg-firmware-white-paper%5B1%5D.pdf fig 3   assurance - NON – Ra PU DEE A Tion
-
-- How do does industry help us solve the problem.
- - Set GOALs  and OBJECTIVES
-
-- NIST - National Institute of Standards and Technology 
-
-
-- Key Concept Security Goal- The goal of information technology security is to: Enable an organization to meet all of its mission/business objectives by implementing systems with due care consideration of IT-related risks to the organization, its partners and customers. 
-
-- The security goal can be met through the following security objectives:
-- s started with: 
-- The CIA triad of Confidentiality, Integrity, and Availability is at the heart of information security 
-- NOT Central Intelligent Agency
-
-- Then NIST SP 800-33 further defined these 5.
-- See also : CIAAN https://securopia.wordpress.com/2011/08/25/security-models-cia-and-ciaan/
-
-- Underlying Technical Models for Information Technology Security NIST SP 800-33
-
-- National Institute of Standards and Technology NIST 800 33 pdf  sec 2.0 Security Goal and Objectives http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf
-
-- Security Goal The goal of information technology security is to: Enable an organization to meet all of its mission/business objectives by implementing systems with due care consideration of IT-related risks to the organization, its partners and customers. 
-
-- The security goal can be met through the following security objectives:
-
-#### CIA
-1. Availability (of systems and data for intended use only) Availability is a requirement intended to assure that systems work promptly and service is not denied to authorized users. This objective protects against: • Intentional or accidental attempts to either: − perform unauthorized deletion of data or − otherwise cause a denial of service or data. • Attempts to use system or data for unauthorized purposes Availability is frequently an organization’s foremost security objective. 
-2. Integrity (of system and data) Integrity has two facets: • Data integrity (the property that data has not been altered in an unauthorized manner while in storage, during processing, or while in transit) or • System integrity (the quality that a system has when performing the intended function in an unimpaired manner, free from unauthorized manipulation). Integrity is commonly an organization’s most important security objective after availability. 
-3. Confidentiality (of data and system information) Confidentiality is the requirement that private or confidential information not be disclosed to unauthorized individuals. Confidentiality protection applies to data in storage, during processing, and while in transit. For many organizations, confidentiality is frequently behind availability and integrity in terms of importance. Yet for some systems and for specific types of data in most systems (e.g., authenticators), confidentiality is extremely important. 
-4. Accountability (to the individual level) Accountability is the requirement that actions of an entity may be traced uniquely to that entity. Accountability is often an organizational policy requirement and directly supports nonrepudiation, deterrence, fault isolation, intrusion detection and prevention, and after-action recovery and legal action. 
-5. Assurance (that the other four objectives have been adequately met) Assurance is the basis for confidence that the security measures, both technical and operational, work as intended to protect the system and the information it processes. The other four security objectives (integrity, availability, confidentiality, and accountability) have been adequately met by a specific implementation when: • required functionality is present and correctly implemented, • there is sufficient protection against unintentional errors (by users or software), and • there is sufficient resistance to intentional penetration or by-pass. Assurance is essential; without it the other objectives are not met. However, assurance is a continuum; the amount of assurance needed varies between systems.
-
 
 
 ---?image=/assets/images/slides/Slide67.JPG
