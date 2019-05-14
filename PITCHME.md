@@ -253,7 +253,7 @@ Note:
 Another 
 1<br>
 2<br>
-
+3
 
 ---
 @title[Goals of security architecture and assets that are protected ]
@@ -377,6 +377,9 @@ Availability, Integrity, Confidentiality,  Accountability, Assurance
 </table>
 @snapend
 
+@snap[south span-85 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">All of these objectives are interdependent with Assurance<br>&nbsp;</span></p>)
+@snapend
 
 Note:
 
