@@ -920,12 +920,13 @@ Another
 1<br>
 2<br>
 3<br>
-
+4
 ---?image=/assets/images/slides/Slide77.JPG
 @title[Threat Model with Examples]
 <p align="right"><span class="gold" ><b>Threat Model with Examples</b></span></p>
 
 @snap[north span-100 ]
+<br>
 <br>
 <table id="recTable">
 	<tr>
@@ -976,24 +977,22 @@ Another
 Note:
 ETC ... scrolled off the bottom
 
----?image=/assets/images/slides/Slide79.JPG
+---
 @title[Summary - Platform Firmware Security – Why is it important? - boot flow]
 <p align="right"><span class="gold" >@size[1.1em](<b>Summary <br></b>)<b>Platform Firmware Security – Why is it important?</b></span></p>
 @snap[north-west span-45]
 <br>
 <br>
 <br>
-<br>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.7em">Why is platform firmware Security important<br>&nbsp;</span></p>)
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.7em">UEFI Boot flow with the threat model<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.6em">Why is platform firmware Security important<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.6em">UEFI Boot flow with the threat model<br>&nbsp;</span></p>)
 @snapend
 
 @snap[north span-20 ]
 <br>
 <br>
 <br>
-<br>
-<p style="line-height:60%"><span style="font-size:01.9em">@fa[arrow-right gp-bullet-ltgreen]<br><br>
+<p style="line-height:60%"><span style="font-size:01.25em">@fa[arrow-right gp-bullet-ltgreen]<br><br>
 @fa[arrow-right gp-bullet-ltgreen]<br>
 &nbsp;</span></p>
 @snapend
@@ -1002,9 +1001,8 @@ ETC ... scrolled off the bottom
 <br>
 <br>
 <br>
-<br>
-@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.7em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
-@box[bg-royal text-white rounded my-box-pad2 fragment ](<p style="line-height:70%"><span style="font-size:0.7em">Identify where UEFI FW is vulnerable &amp; define Threat Model<br>&nbsp;</span></p>)
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.6em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
+@box[bg-royal text-white rounded my-box-pad2 fragment ](<p style="line-height:60%"><span style="font-size:0.6em">Identify where UEFI FW is vulnerable &amp; define Threat Model<br>&nbsp;</span></p>)
 @snapend
 
 
