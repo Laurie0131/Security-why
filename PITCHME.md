@@ -895,10 +895,10 @@ Note:
 <br>
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:0.8em" ><br>
-A Threat Model (TM) defines the security assertions and constraints for a product<br>
-@size[.8em](&bull;&nbsp;Assets  )<br>
-@size[.8em](&bull;&nbsp;Threats  )<br>
-@size[.8em](&bull;&nbsp;Mitigations  )<br>
+A Threat Model (TM) defines the security assertions and constraints for a product<br><br>
+@size[.8em](&nbsp;&nbsp;&bull;&nbsp;Assets  )<br>
+@size[.8em](&nbsp;&nbsp;&bull;&nbsp;Threats  )<br>
+@size[.8em](&nbsp;&nbsp;&bull;&nbsp;Mitigations  )<br>
 </span></p>
 @snapend
 
@@ -922,15 +922,6 @@ Note:
 - Few big assets vs lots of focused assets
 
 
----
-<br>
-#### Blank slide before
-<br>
-Another 
-1<br>
-2<br>
-3<br>
-4
 ---?image=/assets/images/slides/Slide77.JPG
 @title[Threat Model with Examples]
 <p align="right"><span class="gold" ><b>Threat Model with Examples</b></span></p>
