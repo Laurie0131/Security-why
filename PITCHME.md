@@ -920,7 +920,7 @@ Another
 1<br>
 2<br>
 3<br>
-4
+
 
 ---?image=/assets/images/slides/Slide77.JPG
 @title[Threat Model with Examples]
@@ -937,33 +937,33 @@ Another
 	</tr>
 	<tr>
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Fimware/BIOS Flash Contents </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >CIH attack: erase Boot block </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >SPI locks, descriptor </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >CIH attack: erase Boot block </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >SPI locks, descriptor </span></p></td>
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >CHIPSEC </span></p></td>
 	</tr>
 	<tr>
 		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >SMM </span></p></td>
-		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Callouts; Acess to SMM </span></p></td>
-		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >TSEG, SMRR, SMM_CODE_CHK </span></p></td>
-		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >CHIPSEC </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >Callouts; Acess to SMM </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >TSEG, SMRR, SMM_CODE_CHK </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >CHIPSEC </span></p></td>
 	</tr>
 	<tr>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Execution Duritng Boot Flow </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Run malware in OP ROM  </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >Execution Duritng Boot Flow </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >Run malware in OP ROM  </span></p></td>
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Secur Boot, DMA protection  </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Manual testing -CHIPSEC </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >Manual testing -CHIPSEC </span></p></td>
 	</tr>
 	<tr>
-		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >S3 Boot Script & S3 Resume Boot Flow </span></p></td>
-		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Resume reconifiguration losing locks </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >S3 Boot Script & S3 Resume Boot Flow </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >Resume reconifiguration losing locks </span></p></td>
 		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >SMM Lock Box </span></p></td>
-		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Manual testing -CHIPSEC </span></p></td>
+		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >Manual testing -CHIPSEC </span></p></td>
 	</tr>
 	<tr>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >UEFI Variables (includes Authenticated & non-Authenticated) </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Variable store full; Content change </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Atributes, Lock Protocol </span></p></td>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >Manual testing -CHIPSEC </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >UEFI Variables (includes Authenticated & non-Authenticated) </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >Variable store full; Content change </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >Atributes, Lock Protocol </span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:030%"><span style="font-size:0.5em" >Manual testing -CHIPSEC </span></p></td>
 	</tr>
 	<tr>
 		<td align="left" bgcolor="#0d0d0d" height=".0025"><p style="line-height:010%"><span style="font-size:0.5em" >ETC &nbsp;.&nbsp;.&nbsp;. </span></p></td>
