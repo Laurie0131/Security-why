@@ -254,24 +254,23 @@ Another
 1<br>
 2<br>
 3<br>
-4
 ---
 @title[Goals of security architecture and assets that are protected ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Goals of security architecture and assets<br>that are protected </b>)</span></p>
 @snap[north-east span-50 ]
 <br>
 <br>
-<p style="line-height:40%" align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives <br>
+<p style="line-height:35%" align="right"><span style="font-size:0.4em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives <br>
 Availability, Integrity, Confidentiality,  Accountability, Assurance  
 </span></p>
 @snapend
 
-@snap[north span-75 ]
+@snap[north span-80 ]
 <br>
 <br>
 <br>
 <p style="line-height:50%" ><br>&nbsp;</p>
-@box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -333,17 +332,17 @@ Note:
 @snap[north-east span-50 ]
 <br>
 <br>
-<p style="line-height:40%" align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives <br>
+<p style="line-height:35%" align="right"><span style="font-size:0.4em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives <br>
 Availability, Integrity, Confidentiality,  Accountability, Assurance  
 </span></p>
 @snapend
 
-@snap[north span-75 ]
+@snap[north span-80 ]
 <br>
 <br>
 <br>
 <p style="line-height:50%" ><br>&nbsp;</p>
-@box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-25  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -367,11 +366,11 @@ Availability, Integrity, Confidentiality,  Accountability, Assurance
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.8em" ><b>Accountability</b></span></p></td>
-		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><font color="black">Also Authenticity -  traced uniquely to the source entity</font></span></p></td>
+		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:030%"><span style="font-size:0.6em" ><font color="black">Also Authenticity -  traced uniquely to the source entity</font></span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.8em" ><b>Assurance</b></span></p></td>
-		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><font color="black">Guarantee on the correctness, Non-repudiation</font></span></p></td>
+		<td align="left" bgcolor="#bfbfbf" height=".0025"><p style="line-height:030%"><span style="font-size:0.6em" ><font color="black">Guarantee on the correctness, Non-repudiation</font></span></p></td>
 	</tr>
 </table>
 @snapend
