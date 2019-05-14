@@ -252,26 +252,35 @@ Note:
 <br>
 Another 
 1<br>
-
+2<br>
 
 ---
 @title[Goals of security architecture and assets that are protected ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Goals of security architecture and assets<br>that are protected </b>)</span></p>
 @snap[north-east span-50 ]
 <br>
+<br>
 <p align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives </span></p>
 @snapend
 
 @snap[north span-70 ]
 <br>
+<br>
+<br>
+<br>
+<br>
 <p style="line-height:50%" ><br>&nbsp;</p>
-@box[bg-grey-50  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-50  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
 
-@snap[north-east span-80 ]
+@snap[north span-65 ]
 <br>
-<p style="line-height:50%" ><br>&nbsp;</p>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" ><br><br>&nbsp;</p>
 <p style="line-height:70%" align="left"><span style="font-size:0.9em" >
 <b>The goal of information technology security: </b>
 </span></p>
@@ -280,10 +289,14 @@ Enable an organization to meet all of its mission/business objectives by impleme
 </span></p>
 @snapend
 
-@snap[north span-70 fragment ]
+@snap[north span-70 fragment]
+<br>
+<br>
+<br>
+<br>
 <br>
 <p style="line-height:50%" ><br>&nbsp;</p>
-@box[bg-grey-50  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-50  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -329,16 +342,13 @@ Note:
 <p align="right"><span class="gold" >@size[1.1em](<b>Goals of security architecture and assets<br>that are protected </b>)</span></p>
 @snap[north-east span-50 ]
 <br>
+<br>
 <p align="right"><span style="font-size:0.5em" ><a href="http://csrc.nist.gov/publications/nistpubs/800-33/sp800-33.pdf">NIST SP 800-33</a> – IT Security Objectives </span></p>
 @snapend
 
-@snap[north span-70  ]
 <br>
-<p style="line-height:50%" ><br>&nbsp;</p>
-@box[bg-grey-50  text-white rounded](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 <br>
-@snapend
-
+Table to go here
 
 
 Note:
