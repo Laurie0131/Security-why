@@ -211,13 +211,14 @@ ExitBootServices. Minimal UEFI services (Variable, Capsule
 Another 
 1<br>
 2<br>
-3
+3<br>
+4
 
 ---?image=/assets/images/slides/Slide32_1.JPG
 @title[Firmware Attack Surfaces]
 <p align="right"><span class="gold" ><b>Firmware Attack Surfaces</b></span></p>
 
-@snap[south-east span-30 fragment]
+@snap[south-east span-35 fragment]
 ![Yellow-arrow](/assets/images/LftYellowArrow.png)
 @snapend 
 
