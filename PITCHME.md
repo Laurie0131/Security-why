@@ -197,6 +197,24 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[UEFI Secure Boot ]
 <p align="right"><span class="gold" >@size[1.1em](<b>UEFI Secure Boot </b>)</span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.9em" ><b>
+Software ID checking during every step of the boot flow:</b></span></p>
+
+@snap[north-east span-85]
+<br>
+<br>
+<br>
+<p class="fragment" style="line-height:75%" align="left"><span style="font-size:0.8em" >
+1. UEFI System BIOS (updated via secure process)
+</span></p>
+<p class="fragment" style="line-height:75%" align="left"><span style="font-size:0.8em" >
+2. Add-In Cards (signed UEFI Option ROMs)
+</span></p>
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
+&nbsp;
+</span></p>
+
+@snapend
 
 Note:
 - New feature to use authenticated firmware variables as the OS loader “root of trust”
@@ -216,6 +234,24 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[UEFI Secure Boot 02 ]
 <p align="right"><span class="gold" >@size[1.1em](<b>UEFI Secure Boot </b>)</span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.9em" ><b>
+Software ID checking during every step of the boot flow:</b></span></p>
+
+@snap[north-east span-85]
+<br>
+<br>
+<br>
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
+1. UEFI System BIOS (updated via secure process)
+</span></p>
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
+2. Add-In Cards (signed UEFI Option ROMs)
+</span></p>
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
+&nbsp;
+</span></p>
+
+@snapend
 
 Note:
 - New feature to use authenticated firmware variables as the OS loader “root of trust”
@@ -234,7 +270,24 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[UEFI Secure Boot 03 ]
 <p align="right"><span class="gold" >@size[1.1em](<b>UEFI Secure Boot </b>)</span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.9em" ><b>
+Software ID checking during every step of the boot flow:</b></span></p>
 
+@snap[north-east span-85]
+<br>
+<br>
+<br>
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
+1. UEFI System BIOS (updated via secure process)
+</span></p>
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
+2. Add-In Cards (signed UEFI Option ROMs)
+</span></p>
+<p class="fragment" style="line-height:75%" align="left"><span style="font-size:0.8em" >
+3. OS Boot Loader (checks for “secure mode” at boot)
+</span></p>
+
+@snapend
 
 
 
@@ -267,7 +320,7 @@ Software ID checking during every step of the boot flow:</b></span></p>
 <p style="line-height:75%" align="left"><span style="font-size:0.8em" >
 2. Add-In Cards (signed UEFI Option ROMs)
 </span></p>
-<p class="fragment" style="line-height:75%" align="left"><span style="font-size:0.8em" >
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
 3. OS Boot Loader (checks for “secure mode” at boot)
 </span></p>
 
@@ -289,6 +342,8 @@ Note:
 ### blank page after
 <br>
 1
+<br>
+2
 
 
 ---?image=/assets/images/slides/Slide98.JPG
