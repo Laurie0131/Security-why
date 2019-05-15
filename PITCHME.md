@@ -472,7 +472,8 @@ Note:
 #### slide
 <br>
 1<br>
-2
+2<br>
+3
 
 ---?image=/assets/images/slides/Slide63_1.JPG
 @title[BIOS Firmware uses SPI Flash]
@@ -494,12 +495,13 @@ Serial Peripheral Interface (SPI)
   <li><span style="font-size:0.7em" >SPI Flash Descriptor  - Access Control table defines which masters (CPU, ME, GbE) can access which regions</span></li>
 </ul>
 <br>
+<br>
 <span style="font-size:0.7em" ><b>Flash Descriptor has to be write-protected</b>
 </span>
 @snapend
 
 @snap[south-west span-40]
-<p style="line-height:40%" align="left"><span style="font-size:0.4em" >
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" >
 ME – Manageability Engine<br>
 GbE – Gigabit Ethernet 
 </span></p>
@@ -545,15 +547,15 @@ computer leaves the manufacturing floor.
 @title[System Flash Security ]
 <p align="right"><span class="gold" ><b>System Flash Security </b></span></p>
 <span style="font-size:0.9em" >Chipset (SPI controller) based protections</span>
-<ul>
-  <li><span style="font-size:0.9em" >SMM based BIOS Write Protection: write-protects entire BIOS/Firmware region from software other than SMI handler firmware executing in SMM</span>  </li>
-  <li><span style="font-size:0.9em" >SPI Protected Range registers(`PR0-PR4`) : read/write protection of SPI flash regions based on Flash Linear Address  for program register access</span>  </li>
-  <li><span style="font-size:0.9em" >Flash Descriptor based access control: defines read/write access to each flash region by each master</span>  </li>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.8em" >SMM based BIOS Write Protection: write-protects entire BIOS/Firmware region from software other than SMI handler firmware executing in SMM</span>  </li>
+  <li><span style="font-size:0.8em" >SPI Protected Range registers(`PR0-PR4`) : read/write protection of SPI flash regions based on Flash Linear Address  for program register access</span>  </li>
+  <li><span style="font-size:0.8em" >Flash Descriptor based access control: defines read/write access to each flash region by each master</span>  </li>
 </ul>
 <br>
-<span style="font-size:0.9em" >Firmware may use SPI flash chips write protection(`WP#`)</span>
+<span style="font-size:0.8em" >Firmware may use SPI flash chips write protection(`WP#`)</span>
 <br>
-<span style="font-size:0.9em" >`PR0-PR4` defined in SPI MMIO </span>
+<span style="font-size:0.8em" >`PR0-PR4` defined in SPI MMIO </span>
 
 Note:
 
@@ -564,21 +566,29 @@ Note:
 - Flash Descriptor based access control
 
 
----?image=/assets/images/slides/Slide114_1.JPG
+---
 @title[Lock SPI - BIOS Range is not protected - Threats ]
 <p align="right"><span class="gold" ><b>Lock SPI - </b><span style="font-size:0.9em" ><b>BIOS Range is not protected - Threats</b></span></span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.8em" >BIOS Write Protections often still not properly enabled on many systems  </span>  </li>
+  <li><span style="font-size:0.8em" >SMM based write protection of entire BIOS region is often not used: BIOS_CONTROL[SMM_BWP]  </span>  </li>
+  <li><span style="font-size:0.8em" >If SPI Protected Ranges (mode agnostic) are used (defined by PR0-PR4 in SPI MMIO), they often don’t cover entire BIOS & NVRAM  </span>  </li>
+  <li><span style="font-size:0.8em" >Some platforms use SPI device specific write protection but only for boot block/startup code or SPI Flash descriptor region  </span>  </li>
+</ul>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p style="line-height:50%"><span style="font-size:0.5em" >References: <a href="http://phrack.org/issues/66/7.html"> Persistent BIOS Infection</a> (used <a href="Http://flashrom.org/Flashrom">flashrom </a>
+<span style="font-size:0.8em" ><font color="yellow">Mitigations: </font></span>
+<ul style="list-style-type:disc; line-height:0.5;">
+  <li><span style="font-size:0.6em" >Set BIOS_CONTROL[SMM_BWP] &lt;- 1 </span>  </li>
+  <li><span style="font-size:0.6em" >Program SPI flash protected ranges (PRx) to cover BIOS range </span>  </li>
+</ul>
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >References: <a href="http://phrack.org/issues/66/7.html"> Persistent BIOS Infection</a> (used <a href="Http://flashrom.org/Flashrom">flashrom </a>
 on legacy BIOS), <a href="https://cansecwest.com/slides/2013/Evil Maid Just Got Angrier.pdf">Evil Maid Just Got Angrier</a>,<br> 
 <a href="https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf">BIOS Chronomancy</a>, 
 <a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">A Tale Of One Software Bypass...</a> </span></p>
+@snapend
+
 
 Note:
 What are some threats that can happen to the Flash SPI 
