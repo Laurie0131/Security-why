@@ -917,7 +917,7 @@ Note:
 <br>
 1<br>
 2<br>
-
+3
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -1066,27 +1066,28 @@ Note:
 
 
 @snap[south-west span-30]
-<p style="line-height:60%" align="left"><span style="font-size:0.6em" >
+<p style="line-height:40%" align="left"><span style="font-size:0.55em" >
 Each version fixes some issues with the previous. Since none are known to have security flaws, each new version allows updates to all older versions.
-<br>
+<br><br>
 </span></p>
 @snapend
 
 @snap[south span-30]
-<p style="line-height:60%" align="left"><span style="font-size:0.6em" >
+<p style="line-height:40%" align="left"><span style="font-size:0.55em" >
 In V4, one of the issues fixed in V3 is realized to be a security fix.  V4 will not allow updates to earlier versions, even V3 since it allows update to V2.
+<br><br>
 </span></p>
 @snapend
 
-@snap[south-east span-20]
-<p style="line-height:60%" align="left"><span style="font-size:0.6em" >
-Version 5 can now accept only versions 5 and 4.
+@snap[south-east span-15]
+<p style="line-height:40%" align="left"><span style="font-size:0.55em" >
+Version 5 can now accept only versions 5 and 4.<br>
 </span></p>
 @snapend
 
 @snap[south-west span-100]
 <p style="line-height:30%"><span style="font-size:0.4em" >
-Reference: <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1"> UEFI open platforms_Vincent</a> slide 24  - CanSecWest 2015 -  Refrences [6]: reference # [6] Slide 26 of PPT
+Reference: <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1"> UEFI open platforms_Vincent</a> CanSecWest 2015 
 </span></p>
 @snapend
 		  
