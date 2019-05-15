@@ -917,7 +917,7 @@ Note:
 <br>
 1<br>
 2<br>
-3
+
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -970,7 +970,7 @@ FMP capsule image format
   <li><span style="font-size:0.75em" >Update FMP drivers  </span>  </li>
   <li><span style="font-size:0.75em" >FMP payloads </span>  </li>
   <ul style="list-style-type:none; line-height:0.55;">
-     <li><span style="font-size:0.5em" ><br>binary update image and <br>
+     <li><span style="font-size:0.6em" >binary update image and <br>
          optional vendor code </span>  </li>
   </ul>
 </ul>
@@ -1200,8 +1200,8 @@ When all platform manufacturers &nbsp; . &nbsp;. &nbsp;. &nbsp;
 </ul>
 @snapend
 
-@snap[south span-85 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">.&nbsp;.&nbsp;.&nbsp;and don't introduce a single bug in all of this, of course @fa[smile gp-bullet-white]<br>&nbsp;</span></p>)
+@snap[south span-95 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.9em">and don't introduce a single bug in all of this, of course <br>@fa[smile gp-bullet-white]&nbsp;</span></p>)
 @snapend
 
 
@@ -1229,6 +1229,48 @@ Note:
 <br>
 <br>
 <br>
+
+Note:
+- BootGuard – Verfication
+- TxT – Measured
+- Combination of BootGuard, Txt, and UEFI Secure boot help mitigate some threats
+
+- In addition NIST SP 800-147 Secure updates will help mitigate some threats
+
+- and don’t’ introduce a single bug in all of this, of course.  
+
+---
+@title[Summary - Platform Firmware Security – Why is it important? - boot flow]
+<p align="right"><span class="gold" >@size[1.1em](<b>Summary <br></b>)<b>Platform Firmware Security – Why is it important?</b></span></p>
+@snap[north-west span-45]
+<br>
+<br>
+<br>
+@box[bg-purple-pp text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Why is platform firmware Security important<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">UEFI Boot flow with the threat model<br><br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Security technologies overview<br><br>&nbsp;</span></p>)
+@snapend
+
+@snap[north span-20 ]
+<br>
+<br>
+<br>
+<p style="line-height:60%"><span style="font-size:01.25em">@fa[arrow-right gp-bullet-ltgreen]<br><br><br>
+@fa[arrow-right gp-bullet-ltgreen]<br><br><br>
+@fa[arrow-right gp-bullet-ltgreen]<br>
+&nbsp;</span></p>
+@snapend
+
+@snap[north-east span-45 ]
+<br>
+<br>
+<br>
+@box[bg-royal text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
+@box[bg-royal text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Identify where UEFI FW is vulnerable &amp; define Threat Model<br>&nbsp;</span></p>)
+@box[bg-royal text-white rounded my-box-pad2 fragment ](<p style="line-height:40%"><span style="font-size:0.6em">Boot Guard, Secure Boot and NIST Secure Updates provide mitigations to some hacking methods <br>&nbsp;</span></p>)
+@snapend
+
+
 
 Note:
 - BootGuard – Verfication
