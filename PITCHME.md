@@ -917,7 +917,7 @@ Note:
 <br>
 1<br>
 2<br>
-
+3
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -1138,7 +1138,7 @@ Note:
 @title[SMM BIOS Update Trust Boundary]
 <br>
 <p align="left"><span class="gold" ><b>SMM BIOS Update Trust Boundary</b></span></p>
-<ul style="list-style-type:disc; line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.8em" >For runtime BIOS Update (e.g. on server platforms), all complex SMI handlers code is in the trust boundary of the firmware update		  </span> </li>
   <li><span style="font-size:0.8em" >Different systems have different SMI handlers which makes it difficult to ensure consistent security level of SMI code across all system and security level of firmware update  </span> </li>
   <li><span style="font-size:0.8em" >BIOS Guard reduces SMI handler attack surface, using one signed BIOS Guard Authenticated Code Module (ACM)  </span> </li>
@@ -1156,15 +1156,14 @@ Note:
 @title[BIOS Guard Based Firmware Update]
 <p align="right"><span class="gold" ><b>BIOS Guard Based Firmware Update</b></span></p>
 
-@snap[north-west span-55]
-<br>
+@snap[north-west span-50]
 <br>
 <br>
 <ul style="list-style-type:disc; line-height:0.7;">
-   <li><span style="font-size:0.8em" >BIOS Guard can update contents of the BIOS region in system SPI flash and EC firmware on EC flash memory</span> </li>
-   <li><span style="font-size:0.8em" >BIOS Guard module is Authenticated Code Module (ACM) executing in internal processor AC RAM </span> </li>
-   <li><span style="font-size:0.8em" >When BIOS Guard is enabled, only BIOS Guard module is able to write to system SPI flash memory </span> </li>
-   <li><span style="font-size:0.8em" >BIOS Guard verifies the signature of a firmware update package signed by a platform manufacturer prior to writing to system SPI flash memory </span> </li>
+   <li><span style="font-size:0.7em" >BIOS Guard can update contents of the BIOS region in system SPI flash and EC firmware on EC flash memory</span> </li>
+   <li><span style="font-size:0.7em" >BIOS Guard module is Authenticated Code Module (ACM) executing in internal processor AC RAM </span> </li>
+   <li><span style="font-size:0.7em" >When BIOS Guard is enabled, only BIOS Guard module is able to write to system SPI flash memory </span> </li>
+   <li><span style="font-size:0.7em" >BIOS Guard verifies the signature of a firmware update package signed by a platform manufacturer prior to writing to system SPI flash memory </span> </li>
 </ul>
 @snapend
 
@@ -1177,7 +1176,7 @@ Note:
 
 
         
----?image=/assets/images/slides/Slide142.JPG
+---
 @title[When Is Secure Boot Actually Secure?]
 <p align="right"><span class="gold" ><b>When Is Secure Boot Actually Secure?</b></span></p>
 @snap[north-west span-100]
@@ -1202,7 +1201,7 @@ When all platform manufacturers &nbsp; . &nbsp;. &nbsp;. &nbsp;
 @snapend
 
 @snap[south span-85 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">.&nbsp;.&nbsp;.&nbsp;and don't introduce a single bug in all of this, of course &#9787; <br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">.&nbsp;.&nbsp;.&nbsp;and don't introduce a single bug in all of this, of course @fa[smile gp-bullet-white]<br>&nbsp;</span></p>)
 @snapend
 
 
