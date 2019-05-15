@@ -473,7 +473,8 @@ Note:
 <br>
 1<br>
 2<br>
-3
+3<br>
+4
 
 ---?image=/assets/images/slides/Slide63_1.JPG
 @title[BIOS Firmware uses SPI Flash]
@@ -489,7 +490,7 @@ Serial Peripheral Interface (SPI)
 <br>
 <br>
 <br>
-<ul style="list-style-type:disc; line-height:0.6;">
+<ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.7em" >Access controlled by the Peripheral Controller Hub (PCH)</span></li>
   <li><span style="font-size:0.7em" >Flash Memory  - Direct access to physical address space is programed through SPI MMIO registers</span></li>
   <li><span style="font-size:0.7em" >SPI Flash Descriptor  - Access Control table defines which masters (CPU, ME, GbE) can access which regions</span></li>
@@ -577,6 +578,7 @@ Note:
 </ul>
 <br>
 <span style="font-size:0.8em" ><font color="yellow">Mitigations: </font></span>
+<br>
 <ul style="list-style-type:disc; line-height:0.5;">
   <li><span style="font-size:0.6em" >Set BIOS_CONTROL[SMM_BWP] &lt;- 1 </span>  </li>
   <li><span style="font-size:0.6em" >Program SPI flash protected ranges (PRx) to cover BIOS range </span>  </li>
@@ -609,20 +611,32 @@ https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-
 
 
 
----?image=/assets/images/slides/Slide116.JPG
+---?image=/assets/images/slides/Slide67_1.JPG
 <!-- .slide: data-transition="none" -->
 @title[Solving Firmware Update]
-<p align="right"><span class="gold" ><b>Solving Firmware Update</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Solving Firmware Update</b>)</span></p>
+
+@snap[north-west span-45 fragment]
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" >Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and <a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a></span>
+<p style="line-height:30%"><span style="font-size:0.9em" >
+Reliable update story
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.8em" >Fault tolerant</span>  </li>
+  <li><span style="font-size:0.8em" >Scalable & repeatable</span>  </li>
+</ul>
+@snapend
+
+
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and 
+<a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a>
+</span></p>
+@snapend
+
 
 
 
@@ -642,23 +656,32 @@ Note:
 
   
 
-+++?image=/assets/images/slides/Slide117.JPG
++++?image=/assets/images/slides/Slide68_1.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Solving Firmware Update 02]
-<p align="right"><span class="gold" ><b>Solving Firmware Update</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Solving Firmware Update</b>)</span></p>
+
+@snap[north-west span-45]
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" >Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and <a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a></span>
+<p style="line-height:30%"><span style="font-size:0.9em" >
+Reliable update story
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.8em" >Fault tolerant</span>  </li>
+  <li><span style="font-size:0.8em" >Scalable & repeatable</span>  </li>
+</ul>
+@snapend
 
 
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and 
+<a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a>
+</span></p>
+@snapend
 
 Note:
 - reference: UEFI open platforms_Vincent.ppt slide 24  - CanSecWest 2015 -  Refrences [6]: https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1
@@ -674,21 +697,48 @@ Note:
   - Firmware Management Protocol
   - Capsule Signing
 
-+++?image=/assets/images/slides/Slide118.JPG
++++?image=/assets/images/slides/Slide69_1.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
 @title[Solving Firmware Update 03]
-<p align="right"><span class="gold" ><b>Solving Firmware Update</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Solving Firmware Update</b>)</span></p>
+
+@snap[north-west span-45]
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" >Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and <a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a></span>
+<p style="line-height:30%"><span style="font-size:0.9em" >
+Reliable update story
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.8em" >Fault tolerant</span>  </li>
+  <li><span style="font-size:0.8em" >Scalable & repeatable</span>  </li>
+</ul>
+@snapend
+
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and 
+<a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a>
+</span></p>
+@snapend
+
+@snap[west span-45 fragment]
+<p style="line-height:30%"><span style="font-size:0.9em" >
+How can UEFI Help?
+</span></p>
+
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.8em" >Capsule model for binary delivery</span>  </li>
+  <li><span style="font-size:0.8em" >Bus / Device Enumeration</span>  </li>
+  <li><span style="font-size:0.8em" >Managing updates via :</span>  </li>
+  <ul style="list-style-type:disc; line-height:0.6;">
+      <li><span style="font-size:0.6em" >EFI System Resource Table </span>  </li>
+      <li><span style="font-size:0.6em" >Firmware Management Protocol</span>  </li>
+      <li><span style="font-size:0.6em" >Capsule Signing</span>  </li>
+  </ul>
+</ul>
+@snapend
 
 
 
@@ -705,39 +755,6 @@ Note:
   - EFI System Resource Table 
   - Firmware Management Protocol
   - Capsule Signing
-  
-+++?image=/assets/images/slides/Slide119.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Solving Firmware Update 04]
-<p align="right"><span class="gold" ><b>Solving Firmware Update</b></span></p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" >Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1">UEFI, Open Platforms</a> and <a href=" https://cansecwest.com/slides/2015/UEFI%20open%20platforms_Vincent.pptx">ppt</a></span>
-
-
-
-Note:
-- reference: UEFI open platforms_Vincent.ppt slide 24  - CanSecWest 2015 -  Refrences [6]: https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1
-
-##### Reliable update story
-- Fault tolerant
-- Scalable & repeatable
-##### How can UEFI Help?
-- Capsule model for binary delivery
-- Bus / Device Enumeration
-- Managing updates via 
-  - EFI System Resource Table 
-  - Firmware Management Protocol
-  - Capsule Signing
-  
   
 
 ---?image=/assets/images/slides/Slide121.JPG
