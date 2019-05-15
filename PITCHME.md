@@ -467,14 +467,7 @@ Note:
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flash Device</span>
 <span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
----
-<br>
-#### slide
-<br>
-1<br>
-2<br>
-3<br>
-4
+
 
 ---?image=/assets/images/slides/Slide63_1.JPG
 @title[BIOS Firmware uses SPI Flash]
@@ -602,6 +595,14 @@ https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf
 https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf
 
 
+---
+<br>
+#### slide
+<br>
+1<br>
+2<br>
+3<br>
+4
 
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Firmware Secure Update Sub-section]
@@ -622,7 +623,7 @@ https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-
 <p style="line-height:30%"><span style="font-size:0.9em" >
 Reliable update story
 </span></p>
-<ul style="list-style-type:disc; line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.8em" >Fault tolerant</span>  </li>
   <li><span style="font-size:0.8em" >Scalable & repeatable</span>  </li>
 </ul>
@@ -668,7 +669,7 @@ Note:
 <p style="line-height:30%"><span style="font-size:0.9em" >
 Reliable update story
 </span></p>
-<ul style="list-style-type:disc; line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.8em" >Fault tolerant</span>  </li>
   <li><span style="font-size:0.8em" >Scalable & repeatable</span>  </li>
 </ul>
@@ -709,7 +710,7 @@ Note:
 <p style="line-height:30%"><span style="font-size:0.9em" >
 Reliable update story
 </span></p>
-<ul style="list-style-type:disc; line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.8em" >Fault tolerant</span>  </li>
   <li><span style="font-size:0.8em" >Scalable & repeatable</span>  </li>
 </ul>
@@ -724,11 +725,12 @@ Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologie
 @snapend
 
 @snap[west span-45 fragment]
+<br>
 <p style="line-height:30%"><span style="font-size:0.9em" >
 How can UEFI Help?
 </span></p>
-
-<ul style="list-style-type:disc; line-height:0.7;">
+<br>
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.8em" >Capsule model for binary delivery</span>  </li>
   <li><span style="font-size:0.8em" >Bus / Device Enumeration</span>  </li>
   <li><span style="font-size:0.8em" >Managing updates via :</span>  </li>
