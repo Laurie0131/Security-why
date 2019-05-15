@@ -601,8 +601,7 @@ https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-
 <br>
 1<br>
 2<br>
-3<br>
-4
+
 
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Firmware Secure Update Sub-section]
@@ -724,8 +723,9 @@ Reference [6] at : <a href="https://firmware.intel.com/blog/security-technologie
 </span></p>
 @snapend
 
-@snap[west span-45 fragment]
+@snap[north-west span-45 fragment]
 <br>
+<br><br><br><br><br>
 <p style="line-height:30%"><span style="font-size:0.9em" >
 How can UEFI Help?
 </span></p>
