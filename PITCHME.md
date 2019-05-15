@@ -917,7 +917,7 @@ Note:
 <br>
 1<br>
 2<br>
-3
+
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -1068,7 +1068,7 @@ Note:
 @snap[south-west span-30]
 <p style="line-height:40%" align="left"><span style="font-size:0.55em" >
 Each version fixes some issues with the previous. Since none are known to have security flaws, each new version allows updates to all older versions.
-<br><br>
+<br><br><br><br><br>
 </span></p>
 @snapend
 
@@ -1081,7 +1081,7 @@ In V4, one of the issues fixed in V3 is realized to be a security fix.  V4 will 
 
 @snap[south-east span-15]
 <p style="line-height:40%" align="left"><span style="font-size:0.55em" >
-Version 5 can now accept only versions 5 and 4.<br>
+Version 5 can now accept only versions 5 and 4.<br><br><br>
 </span></p>
 @snapend
 
@@ -1098,10 +1098,31 @@ Reference: https://firmware.intel.com/blog/security-technologies-and-minnowboard
 
 
          
----?image=/assets/images/slides/Slide136.JPG
+---?image=/assets/images/slides/Slide80_1.JPG
 @title[Hardware based System Firmware Update]
 <p align="right"><span class="gold" ><b>Hardware based System Firmware Update</b></span></p>
-		  
+
+@snap[north-west span-50]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:80%"><span style="font-size:0.9em" >
+BIOS Guard address SMM vulnerabilities by strengthening the update trust boundary 
+</span></p>
+@snapend
+
+
+
+	
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Reference: <a href="http://www.intel.com/content/dam/www/public/us/en/documents/white-papers/security-technologies-4th-gen-core-retail-paper.pdf ">security-technologies-4th-gen-core-retail-paper.pdf</a>
+</span></p>
+@snapend
+
+	
 Note:
 - Reference: security-technologies-4th-gen-core-retail-paper.pdf http://www.intel.com/content/dam/www/public/us/en/documents/white-papers/security-technologies-4th-gen-core-retail-paper.pdf 
 
@@ -1117,7 +1138,7 @@ Note:
 @title[SMM BIOS Update Trust Boundary]
 <br>
 <p align="left"><span class="gold" ><b>SMM BIOS Update Trust Boundary</b></span></p>
-<ul>
+<ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.8em" >For runtime BIOS Update (e.g. on server platforms), all complex SMI handlers code is in the trust boundary of the firmware update		  </span> </li>
   <li><span style="font-size:0.8em" >Different systems have different SMI handlers which makes it difficult to ensure consistent security level of SMI code across all system and security level of firmware update  </span> </li>
   <li><span style="font-size:0.8em" >BIOS Guard reduces SMI handler attack surface, using one signed BIOS Guard Authenticated Code Module (ACM)  </span> </li>
@@ -1131,9 +1152,21 @@ Note:
 
 
         
----?image=/assets/images/slides/Slide140.JPG
+---?image=/assets/images/slides/Slide82_1.JPG
 @title[BIOS Guard Based Firmware Update]
 <p align="right"><span class="gold" ><b>BIOS Guard Based Firmware Update</b></span></p>
+
+@snap[north-west span-55]
+<br>
+<br>
+<br>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.8em" >BIOS Guard can update contents of the BIOS region in system SPI flash and EC firmware on EC flash memory</span> </li>
+   <li><span style="font-size:0.8em" >BIOS Guard module is Authenticated Code Module (ACM) executing in internal processor AC RAM </span> </li>
+   <li><span style="font-size:0.8em" >When BIOS Guard is enabled, only BIOS Guard module is able to write to system SPI flash memory </span> </li>
+   <li><span style="font-size:0.8em" >BIOS Guard verifies the signature of a firmware update package signed by a platform manufacturer prior to writing to system SPI flash memory </span> </li>
+</ul>
+@snapend
 
 Note:
 
@@ -1147,14 +1180,31 @@ Note:
 ---?image=/assets/images/slides/Slide142.JPG
 @title[When Is Secure Boot Actually Secure?]
 <p align="right"><span class="gold" ><b>When Is Secure Boot Actually Secure?</b></span></p>
+@snap[north-west span-100]
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<p style="line-height:80%"><span style="font-size:0.9em" >
+When all platform manufacturers &nbsp; . &nbsp;. &nbsp;. &nbsp;
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+   <li><span style="font-size:0.8em" >protect the UEFI BIOS from programmable SPI writes by malware, </span> </li>
+   <li><span style="font-size:0.8em" >allow only signed UEFI BIOS updates, </span> </li>
+   <li><span style="font-size:0.8em" >protect authorized update software, </span> </li>
+   <li><span style="font-size:0.8em" >correctly program and protect SPI Flash descriptor, </span> </li>
+   <li><span style="font-size:0.8em" >protect Secure Boot persistent configuration variables in NVRAM, </span> </li>
+   <li><span style="font-size:0.8em" >implement authenticated variable updates, </span> </li>
+   <li><span style="font-size:0.8em" >protect variable update API, </span> </li>
+   <li><span style="font-size:0.8em" >disable Compatibility Support Module (Legacy BIOS), </span> </li>
+   <li><span style="font-size:0.8em" >don’t allow unsigned legacy Option ROMs, </span> </li>
+   <li><span style="font-size:0.8em" >configure secure image verification policies, </span> </li>
+   <li><span style="font-size:0.8em" >. &nbsp;. &nbsp;. &nbsp;</span> </li>
+</ul>
+@snapend
+
+@snap[south span-85 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.9em">.&nbsp;.&nbsp;.&nbsp;and don't introduce a single bug in all of this, of course &#9787; <br>&nbsp;</span></p>)
+@snapend
+
 
 Note:
 
