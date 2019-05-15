@@ -917,7 +917,7 @@ Note:
 <br>
 1<br>
 2<br>
-3
+
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -956,7 +956,7 @@ Note:
 ---?image=/assets/images/slides/Slide77_1.JPG
 @title[UEFI Capsule Update – Firmware Management Protocol (FMP)]
 <p align="right"><span class="gold" ><b>UEFI Capsule Update<br> – Firmware Management Protocol (FMP)</b></span></p>
-<p style="line-height:30%"><span style="font-size:0.9em" >
+<p style="line-height:30%"><span style="font-size:0.9em" ><br><br>
 FMP capsule image format
 </span></p>
 
@@ -967,15 +967,16 @@ FMP capsule image format
 <br>
 <br>
 <ul style="list-style-type:disc; line-height:0.7;">
-  <li><span style="font-size:0.7em" >Update FMP drivers  </span>  </li>
-  <li><span style="font-size:0.7em" >FMP payloads </span>  </li>
-  <ul style="list-style-type:none; line-height:0.5;">
+  <li><span style="font-size:0.75em" >Update FMP drivers  </span>  </li>
+  <li><span style="font-size:0.75em" >FMP payloads </span>  </li>
+  <ul style="list-style-type:none; line-height:0.55;">
      <li><span style="font-size:0.5em" >binary update image and <br>
          optional vendor code </span>  </li>
   </ul>
 </ul>
 <br>
-<p style="line-height:80%"><span style="font-size:0.8em" ><font color="yellow">
+<br>
+<p style="line-height:70%"><span style="font-size:0.8em" ><font color="yellow">
 The platform may consume a FMP protocol to update the firmware image
 </font></span></p>
 @snapend
@@ -1001,9 +1002,30 @@ Note:
 
 
           
----?image=/assets/images/slides/Slide132.JPG
+---?image=/assets/images/slides/Slide78_1.JPG
 @title[UEFI Firmware Secure “Capsule” Update]
 <p align="right"><span class="gold" ><b>UEFI Firmware Secure “Capsule” Update</b></span></p>
+<p style="line-height:30%"><span style="font-size:0.9em" ><br><br>
+Capsule update is a runtime service used to update UEFI FW
+</span></p>
+
+@snap[north-east span-45]
+<br>
+<br>
+<br>
+<ol style="line-height:0.7;">
+  <li><span style="font-size:0.75em" >Update is initiated by update application/OS run‐time  </span>  </li>
+  <li><span style="font-size:0.75em" >Update application stores update “capsule” in DRAM or HDD on ESP &rpar;e.g. <font color="yellow">\EFI\CapsuleUpdate</font>&lpar; </span>  </li>
+  <li><span style="font-size:0.75em" >Upon reboot or S3 resume, FW finds and parses update capsule </span>  </li>
+  <li><span style="font-size:0.75em" >After FW verifies digital signature of the capsule, FW writes new BIOS FV(s) to SPI flash memory </span>  </li>
+</ol>
+
+@snapend
+
+@snap[south-east span-55]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+ESP - EFI System Partition
+</span></p>
 		  
 Note:
 
