@@ -917,7 +917,7 @@ Note:
 <br>
 1<br>
 2<br>
-
+3
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -963,6 +963,9 @@ FMP capsule image format
 @snap[north-west span-35]
 <br>
 <br>
+<br>
+<br>
+<br>
 <ul style="list-style-type:disc; line-height:0.7;">
   <li><span style="font-size:0.7em" >Update FMP drivers  </span>  </li>
   <li><span style="font-size:0.7em" >FMP payloads </span>  </li>
@@ -972,7 +975,7 @@ FMP capsule image format
   </ul>
 </ul>
 <br>
-<p style="line-height:30%"><span style="font-size:0.8em" ><font color="yellow">
+<p style="line-height:80%"><span style="font-size:0.8em" ><font color="yellow">
 The platform may consume a FMP protocol to update the firmware image
 </font></span></p>
 @snapend
