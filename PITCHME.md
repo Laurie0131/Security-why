@@ -595,13 +595,6 @@ https://media.blackhat.com/us-13/US-13-Butterworth-BIOS-Security-Slides.pdf
 https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf
 
 
----
-<br>
-#### slide
-<br>
-1<br>
-2<br>
-
 
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Firmware Secure Update Sub-section]
@@ -918,10 +911,39 @@ Note:
 4. Non-Bypassability
   – Bus mastering that bypasses the main processor (e.g., DMA -Direct Memory Access to the system flash) shall not be capable of directly modifying the firmware. – Microcontrollers on the system shall not be capable of directly modifying the firmware.
 
+---
+<br>
+#### slide
+<br>
+1<br>
+2<br>
+
           
----?image=/assets/images/slides/Slide128.JPG
+---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
-<p align="right"><span class="gold" ><b>Signed Firmware Update</b></span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Signed Firmware Update</b>)</span></p>
+
+@snap[north-west span-35]
+<br>
+<br>
+<ul style="list-style-type:disc; line-height:0.8;">
+  <li><span style="font-size:0.8em" >RTU protected by flash locking mechanisms at the hardware level </span>  </li>
+  <li><span style="font-size:0.8em" >BIOS key store includes the full public key used to verify the signature of all BIOS and firmware updates</span>  </li>
+  <li><span style="font-size:0.8em" >Capsule Update with UEFI FMP</span>  </li>
+</ul>
+<br>
+@snapend
+
+@snap[south-west span-35]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+RTU - BIOS Root of Trust for Update<br>
+FMP - Firmware Management Protocol
+<br>
+<br>
+Source:
+<a href=" http://en.community.dell.com/techcenter/extras/m/white_papers/20287278/download">Dell Signed Firmware Update (NIST 800-147)</a>
+</span></p>
+@snapend
 
 Note:
 - The RTU is protected by the OEM proprietary flash locking mechanisms at the hardware level and all updates to the RTU must be signed. 
@@ -931,19 +953,37 @@ Note:
 
 
           
----?image=/assets/images/slides/Slide130.JPG
+---?image=/assets/images/slides/Slide77_1.JPG
 @title[UEFI Capsule Update – Firmware Management Protocol (FMP)]
 <p align="right"><span class="gold" ><b>UEFI Capsule Update<br> – Firmware Management Protocol (FMP)</b></span></p>
+<p style="line-height:30%"><span style="font-size:0.9em" >
+FMP capsule image format
+</span></p>
+
+@snap[north-west span-35]
 <br>
 <br>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" >Update FMP drivers  </span>  </li>
+  <li><span style="font-size:0.7em" >FMP payloads </span>  </li>
+  <ul style="list-style-type:none; line-height:0.5;">
+     <li><span style="font-size:0.5em" >binary update image and <br>
+         optional vendor code </span>  </li>
+  </ul>
+</ul>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<span style="font-size:0.5em" >Source: <a href="https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf ">Capsule Update & Recovery EDK_II PDF</a> </span>
+<p style="line-height:30%"><span style="font-size:0.8em" ><font color="yellow">
+The platform may consume a FMP protocol to update the firmware image
+</font></span></p>
+@snapend
+
+
+@snap[south-west span-55]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Source: <a href="https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf ">Capsule Update & Recovery EDK_II PDF</a> 
+</span></p>
+@snapend
+
 
 Note:
 - This slide shows  The FMP capsule image format.
