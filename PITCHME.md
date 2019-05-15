@@ -150,7 +150,7 @@ TXT - uses a Trusted Platform Module (TPM) and cryptographic techniques to provi
 @title[Full Verified Boot Sequence ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Full Verified Boot Sequence </b>)</span></p>
 
-@snap[southwest span-75]
+@snap[south-west span-75]
 <p style="line-height:50%"> <span style="font-size:0.5em" >References : <a href="https://firmware.intel.com/sites/default/files/resources/Platform_Security_Review_Intel_Cisco_White_Paper.pdf">Platform_Security_Review PDF</a>, <br><a href="http://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/4th-gen-core-family-mobile-brief.pdf">4th-gen-core-family PDF</a></span></p>
 @snapend
 
@@ -254,20 +254,20 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[UEFI Secure Boot 04 ]
 <p align="right"><span class="gold" >@size[1.1em](<b>UEFI Secure Boot </b>)</span></p>
-<p style="line-height:75%" align="left"><span style="font-size:01.em" ><b>
+<p style="line-height:80%" align="left"><span style="font-size:0.9em" ><b>
 Software ID checking during every step of the boot flow:</b></span></p>
 
-@snap[north-east span-75]
+@snap[north-east span-85]
 <br>
 <br>
 <br>
-<p style="line-height:75%" align="left"><span style="font-size:0.9em" >
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
 1. UEFI System BIOS (updated via secure process)
 </span></p>
-<p style="line-height:75%" align="left"><span style="font-size:0.9em" >
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
 2. Add-In Cards (signed UEFI Option ROMs)
 </span></p>
-<p class="fragment" style="line-height:75%" align="left"><span style="font-size:0.9em" >
+<p class="fragment" style="line-height:75%" align="left"><span style="font-size:0.8em" >
 3. OS Boot Loader (checks for “secure mode” at boot)
 </span></p>
 
@@ -287,7 +287,8 @@ Note:
 ---
 <br>
 ### blank page after
-
+<br>
+1
 
 
 ---?image=/assets/images/slides/Slide98.JPG
