@@ -1194,7 +1194,7 @@ When all platform manufacturers &nbsp; . &nbsp;. &nbsp;. &nbsp;
 @snapend
 
 @snap[south span-95 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.9em">and don't introduce a single bug in all of this, of course <br>@fa[smile-wink fa-2x gp-bullet-white]<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.9em">and don't introduce a single bug in all of this, of course <br>@fa[smile-wink gp-bullet-white]<br>&nbsp;</span></p>)
 @snapend
 
 
