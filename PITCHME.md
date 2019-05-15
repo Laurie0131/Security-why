@@ -918,7 +918,7 @@ Note:
 1<br>
 2
 <br>
-
+3
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -970,8 +970,8 @@ FMP capsule image format
 <ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.75em" >Update FMP drivers  </span>  </li>
   <li><span style="font-size:0.75em" >FMP payloads </span>  
-   <span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;
-         binary update image and <br>&nbsp;&nbsp;&nbsp;
+   <span style="font-size:0.6em" ><br>&nbsp;&nbsp;
+         binary update image and <br>&nbsp;&nbsp;
          optional vendor code </span>  </li>
   </ul>
 </ul>
@@ -1296,8 +1296,7 @@ Note:
 <br>
 <br>
 <br>
-<br>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
+<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Security technologies overview<br><br><br>&nbsp;</span></p>)
 @snapend
@@ -1308,7 +1307,7 @@ Note:
 <br>
 <br>
 <p style="line-height:60%"><span style="font-size:01.25em">&nbsp;<br><br><br>
-&nbsp;<br><br><br>
+&nbsp;<br><br><br><br>
 @fa[arrow-right gp-bullet-ltgreen]<br>
 &nbsp;</span></p>
 @snapend
@@ -1317,8 +1316,7 @@ Note:
 <br>
 <br>
 <br>
-<br>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
+<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
 @box[bg-royal text-white rounded my-box-pad2 ](<p style="line-height:40%"><span style="font-size:0.6em">Boot Guard, Secure Boot and NIST Secure Updates provide mitigations to some hacking methods <br>&nbsp;</span></p>)
 @snapend
