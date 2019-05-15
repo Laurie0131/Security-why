@@ -918,7 +918,7 @@ Note:
 1<br>
 2
 <br>
-3
+
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -969,9 +969,9 @@ FMP capsule image format
 <br>
 <ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.75em" >Update FMP drivers  </span>  </li>
-  <li><span style="font-size:0.75em" >FMP payloads </span>  </li>
-  <ul style="list-style-type:none; line-height:0.55;">
-     <li><span style="font-size:0.6em" >binary update image and <br>
+  <li><span style="font-size:0.75em" >FMP payloads </span>  
+   <span style="font-size:0.6em" ><br>&nbsp;&nbsp;&nbsp;
+         binary update image and <br>&nbsp;&nbsp;&nbsp;
          optional vendor code </span>  </li>
   </ul>
 </ul>
@@ -1202,7 +1202,7 @@ When all platform manufacturers &nbsp; . &nbsp;. &nbsp;. &nbsp;
 @snapend
 
 @snap[south span-95 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.9em">and don't introduce a single bug in all of this, of course <br>@fa[smile gp-bullet-white]&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:80%"><span style="font-size:0.9em">and don't introduce a single bug in all of this, of course <br>@fa[smile gp-bullet-white]<br>&nbsp;</span></p>)
 @snapend
 
 
@@ -1296,12 +1296,14 @@ Note:
 <br>
 <br>
 <br>
+<br>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Security technologies overview<br><br><br>&nbsp;</span></p>)
 @snapend
 
 @snap[north span-20  fragment]
+<br>
 <br>
 <br>
 <br>
@@ -1312,6 +1314,7 @@ Note:
 @snapend
 
 @snap[north-east span-45  fragment]
+<br>
 <br>
 <br>
 <br>
