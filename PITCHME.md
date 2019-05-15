@@ -472,16 +472,19 @@ Note:
 #### slide
 <br>
 1<br>
+2
 
 ---?image=/assets/images/slides/Slide63_1.JPG
 @title[BIOS Firmware uses SPI Flash]
 <br>
-<p align="left"><span class="gold" >@size[1.1em](<b>BIOS Firmware uses SPI Flash</b>)</span></p>
+<p align="left"><span class="gold" >@size[1.0em](<b>BIOS Firmware uses SPI Flash</b>)</span></p>
 <p style="line-height:75%" align="left"><span style="font-size:0.8em" >
 Serial Peripheral Interface (SPI)
 </span></p>
 
 @snap[north-west span-65]
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -500,13 +503,10 @@ Serial Peripheral Interface (SPI)
 ME – Manageability Engine<br>
 GbE – Gigabit Ethernet 
 </span></p>
-<BR>
 @snapend
 
 
-<p style="line-height:75%" align="left"><span style="font-size:0.8em" >
-1. UEFI System BIOS (updated via secure process)
-</span></p>
+
 Note:
 
 - Source: Intel 7 Series Chipset PCH datasheet : http://www.intel.com/content/dam/www/public/us/en/documents/datasheets/7-series-chipset-pch-datasheet.pdf
