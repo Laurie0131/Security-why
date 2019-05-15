@@ -917,7 +917,7 @@ Note:
 <br>
 1<br>
 2<br>
-
+3
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -966,11 +966,11 @@ FMP capsule image format
 <br>
 <br>
 <br>
-<ul style="list-style-type:disc; line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.75em" >Update FMP drivers  </span>  </li>
   <li><span style="font-size:0.75em" >FMP payloads </span>  </li>
   <ul style="list-style-type:none; line-height:0.55;">
-     <li><span style="font-size:0.5em" >binary update image and <br>
+     <li><span style="font-size:0.5em" ><br>binary update image and <br>
          optional vendor code </span>  </li>
   </ul>
 </ul>
@@ -1009,11 +1009,13 @@ Note:
 Capsule update is a runtime service used to update UEFI FW
 </span></p>
 
-@snap[north-east span-45]
+@snap[north-east span-50]
 <br>
 <br>
 <br>
-<ol style="line-height:0.7;">
+<br>
+<br>
+<ol style="line-height:0.75;">
   <li><span style="font-size:0.75em" >Update is initiated by update application/OS run‐time  </span>  </li>
   <li><span style="font-size:0.75em" >Update application stores update “capsule” in DRAM or HDD on ESP &rpar;e.g. <font color="yellow">\EFI\CapsuleUpdate</font>&lpar; </span>  </li>
   <li><span style="font-size:0.75em" >Upon reboot or S3 resume, FW finds and parses update capsule </span>  </li>
@@ -1026,7 +1028,16 @@ Capsule update is a runtime service used to update UEFI FW
 <p style="line-height:30%"><span style="font-size:0.4em" >
 ESP - EFI System Partition
 </span></p>
-		  
+<br><br>
+@snapend
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Source: UEFI Spec Version 2.4 Facilitates Secure Update <a href="http://uefi.org/">UEFI Summerfest</a> – July 15‐19, 2013
+</span></p>
+@snapend	
+
+	  
 Note:
 
 - Source: UEFI Spec Version 2.4 Facilitates Secure Update UEFI Summerfest – July 15‐19, 2013  http://uefi.org/
