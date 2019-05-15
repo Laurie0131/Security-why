@@ -911,14 +911,6 @@ Note:
 4. Non-Bypassability
   – Bus mastering that bypasses the main processor (e.g., DMA -Direct Memory Access to the system flash) shall not be capable of directly modifying the firmware. – Microcontrollers on the system shall not be capable of directly modifying the firmware.
 
----
-<br>
-#### slide
-<br>
-1<br>
-2
-<br>
-
           
 ---?image=/assets/images/slides/Slide76_1.JPG
 @title[Signed Firmware Update]
@@ -1294,7 +1286,8 @@ Note:
 ---
 <br>
 ### page slide<br>
-1
+1<br>
+2
 
 ---
 @title[Summary - Platform Firmware Security – Why is it important? - boot flow]
@@ -1325,7 +1318,7 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>)
+<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">UEFI Boot flow with the threat model<br><br>&nbsp;</span></p>)
 @snapend
 
@@ -1342,7 +1335,7 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>)
+<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
 @box[bg-royal text-white rounded my-box-pad2 fragment ](<p style="line-height:40%"><span style="font-size:0.6em">Identify where UEFI FW is vulnerable &amp; define Threat Model<br>&nbsp;</span></p>)
 @snapend
 
