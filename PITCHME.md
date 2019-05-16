@@ -1294,7 +1294,7 @@ Note:
 <br>
 @box[bg-purple-pp text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Why is platform firmware Security important<br>&nbsp;</span></p>)
 @box[bg-purple-pp text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">UEFI Boot flow with the threat model<br><br>&nbsp;</span></p>)
-@box[bg-purple-pp text-grey rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Security technologies overview<br><br><br>&nbsp;</span></p>)
+@box[bg-purple-pp text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Security technologies overview<br><br><br>&nbsp;</span></p>)
 @snapend
 
 @snap[north span-20 ]
@@ -1313,7 +1313,7 @@ Note:
 <br>
 @box[bg-royal text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
 @box[bg-royal text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Identify where UEFI FW is vulnerable &amp; define Threat Model<br>&nbsp;</span></p>)
-@box[bg-royal text-grey rounded my-box-pad2 ](<p style="line-height:40%"><span style="font-size:0.6em">Boot Guard, Secure Boot and NIST Secure Updates provide mitigations to some hacking methods <br>&nbsp;</span></p>)
+@box[bg-royal text-gray rounded my-box-pad2 ](<p style="line-height:40%"><span style="font-size:0.6em">Boot Guard, Secure Boot and NIST Secure Updates provide mitigations to some hacking methods <br>&nbsp;</span></p>)
 
 @snapend
 
@@ -1322,7 +1322,7 @@ Note:
 <br>
 <br>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
+<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Security technologies overview<br><br><br>&nbsp;</span></p>)
 @snapend
@@ -1344,7 +1344,7 @@ Note:
 <br>
 <br>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
+<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 @box[bg-royal text-white rounded my-box-pad2 ](<p style="line-height:40%"><span style="font-size:0.6em">Boot Guard, Secure Boot and NIST Secure Updates provide mitigations to some hacking methods <br>&nbsp;</span></p>)
 @snapend
