@@ -1377,4 +1377,7 @@ Note:
 ![broken-bottle](/assets/images/broken_bottle.png)
 @snapend 
 
+@snap[south-east span-30 ]
+![broken-bottle](/assets/images/broken_bottle.png)
+@snapend 
 
