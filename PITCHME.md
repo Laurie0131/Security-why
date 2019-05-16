@@ -1373,5 +1373,8 @@ Note:
 - test 1
 - test 2
 - test 3
+@snap[south-west span-30 fragment]
+![broken-bottle](/assets/images/broken_bottle.png)
+@snapend 
 
 
