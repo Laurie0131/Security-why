@@ -1323,7 +1323,7 @@ Note:
 <br>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
+<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Security technologies overview<br><br><br>&nbsp;</span></p>)
 @snapend
 
@@ -1334,7 +1334,7 @@ Note:
 <br>
 <p style="line-height:60%"><span style="font-size:01.25em">&nbsp;<br><br><br>
 &nbsp;<br><br><br>
-&nbsp;<br><br><br>
+&nbsp;<br><br><br><br>
 @fa[arrow-right gp-bullet-ltgreen]<br>
 &nbsp;</span></p>
 @snapend
@@ -1345,7 +1345,7 @@ Note:
 <br>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 <p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br>&nbsp;</span></p>
+<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
 @box[bg-royal text-white rounded my-box-pad2 ](<p style="line-height:40%"><span style="font-size:0.6em">Boot Guard, Secure Boot and NIST Secure Updates provide mitigations to some hacking methods <br>&nbsp;</span></p>)
 @snapend
 
@@ -1364,3 +1364,5 @@ Note:
 #### page blank slide
 
 1
+<br>
+2
