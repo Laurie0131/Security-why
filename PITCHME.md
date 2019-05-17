@@ -94,6 +94,10 @@ Note:
  CRETE -<a href="https://github.com/SVL-PSU/crete-dev"> github crete-dev</a> </span></p>
 </ul>
 
+@snap[south-east span-25]
+![excite](/assets/images/Excite.png)
+@snapend
+
 Note:
 
 
@@ -264,14 +268,13 @@ Note:
 <p align="center"><span class="gold" >@size[1.1](<b>Raising the Bar for Platform Security</b>)</span></p>
 
 @snap[south-west span-100]
-<p style="line-height:80%"><span style="font-size:0.9em" >
+<p style="line-height:80%"><span style="font-size:0.95em" >
 Empowering End-Users to Make a Risk Decision<br><br>
 </span></p>
 <p style="line-height:30%"><span style="font-size:0.4em" >
 Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">CHIPSEC-csw14 PDF </a>
 </span></p>
 @snapend
-<span style="font-size:0.5em" >Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">CHIPSEC-csw14 PDF </a></span>
 
 Note:
 - Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf
@@ -286,7 +289,7 @@ Note:
 - Introducing CHIPSEC
 
  
----?image=/assets/images/slides/Slide9_1.JPG
+---?image=/assets/images/slides/Slide95_1.JPG
 @title[What is CHIPSEC?]
 <p align="center"><span class="gold" >@size[1.1](<b>What is CHIPSEC?</b>)</span></p>
 <div class="left2">
@@ -318,11 +321,13 @@ Note:
 - Think about how MSR and the Chipset is programed,  CHIPSEC can look for known miss- configurations and make a report 
 
  
----
+
+---?image=/assets/images/slides/SlideChipSec_logo.JPG
 @title[Chipsec Framework overview]
 <p align="center"><span class="gold" >@size[1.1](<b>Chipsec Framework overview</b>)</span></p>
 
 @snap[north span-85]
+<br>
 <br>
 <br>
 ![Chipsec_diagram](/assets/images/Chipsec_diagram.png)
@@ -560,7 +565,7 @@ Note:
 Note:
 
 
----?image=/assets/images/slides/SlideChipSec_logo.JPG
+---?image=/assets/images/slides/SlideChipSec_logo2.JPG
 @title[CHIPSEC Modules ]
 <br>
 <p align="center"><span class="gold" >@size[1.1](<b>CHIPSEC Modules </b>)</span></p>
@@ -581,7 +586,7 @@ Note:
 Here are some more Details about CHIPSEC
 
 
----?image=/assets/images/slides/SlideChipSec_logo.JPG
+---?image=/assets/images/slides/SlideChipSec_logo2.JPG
 @title[CHIPSEC Modules ]
 <br>
 <p align="center"><span class="gold" >@size[1.1](<b>CHIPSEC Modules </b>)</span></p>
