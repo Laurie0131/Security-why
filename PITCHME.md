@@ -282,8 +282,8 @@ Note:
 @snap[north span-30 fragment]
 <br>
 <br>
-<br>
-<p style="line-height:30%"><span style="font-size:0.4em" ><br>
+
+<p style="line-height:30%"><span style="font-size:0.4em" ><br><br>
 </span></p>
 
 ![TestModules](/assets/images/TestModules.png)
