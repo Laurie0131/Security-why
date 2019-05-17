@@ -267,10 +267,14 @@ Note:
 @title[Raising the Bar for Platform Security]
 <p align="center"><span class="gold" >@size[1.1](<b>Raising the Bar for Platform Security</b>)</span></p>
 
-@snap[south-west span-100]
-<p style="line-height:80%"><span style="font-size:0.95em" >
-Empowering End-Users to Make a Risk Decision<br><br>
+@snap[south-west span-100 fragment]
+<p style="line-height:80%"><span style="font-size:0.95em" ><b>
+Empowering End-Users to Make a Risk Decision</b><br><br>
 </span></p>
+<br>
+@snapend
+
+@snap[south-west span-100]
 <p style="line-height:30%"><span style="font-size:0.4em" >
 Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">CHIPSEC-csw14 PDF </a>
 </span></p>
