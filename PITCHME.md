@@ -42,7 +42,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide173.JPG
 @title[Build a Security Mindset]
-<p align="right"><span class="gold" ><b>Build a Security Mindset</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>Build a Security Mindset</b>)</span></p>
 <br>
 <div class="left">
 <br>
@@ -70,7 +70,7 @@ Note:
 
 ---
 @title[What is Excite?]
-<p align="right"><span class="gold" ><b>What is Excite?</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>What is Excite?</b>)</span></p>
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><font color="yellow">Goal</font></span>  </li>
   <ul style="list-style-type:disc">
@@ -124,7 +124,7 @@ Note:
 
 ---
 @title[What is Fuzzing?]
-<p align="right"><span class="gold" ><b>What is Fuzzing?</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>What is Fuzzing?</b>)</span></p>
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" >Technique of providing variety of invalid, unexpected, or random data as inputs to target code to try to make it misbehave </span>  </li>
   <ul style="list-style-type:disc">
@@ -144,7 +144,7 @@ Note:
  
 ---?image=/assets/images/slides/Slide150.JPG
 @title[Symbolic Execution  (S2E)– SMM Example]
-<p align="right"><span class="gold" ><b>Symbolic Execution  (S2E)– SMM Example</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>Symbolic Execution  (S2E)– SMM Example</b>)</span></p>
 <br>
 <div class="left2">
 <ul style="list-style-type:disc">
@@ -167,9 +167,16 @@ Note:
 - Given a snapshot of SMRAM, the base address of SMRAM, and the address of the variable interrupt handler in SMRAM, the tool uses S2E to run the symbolic execution engine to search for concrete examples of a call to the SMI interrupt handler that causes the handler to read memory outside of SMRAM
   
  
----?image=/assets/images/slides/Slide152.JPG
+---?image=/assets/images/slides/Slide91_1.JPG
 @title[Excite - Common Flow]
-<p align="right"><span class="gold" ><b>Excite - Common Flow</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>Excite - Common Flow</b>)</span></p>
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+<sup>1.</sup>Selective Symbolic Execution ( S2E | CRETE)  <br>
+<sup>2.</sup><a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop (fuzzier)</a>
+</span></p>
+@snapend
 
 Note:
 - On the slide you can see Excite flow. Currently it works almost automatically. Source tree of BIOS is downloaded from repository, and we build it.  Then the BIOS is executed either on a live system or using Simics
@@ -192,7 +199,7 @@ Note:
 
 ---
 @title[Excite Benefits]
-<p align="right"><span class="gold" ><b>Excite Benefits</b></span></p>
+<p align="right"><span class="gold" >@size[1.1](<b>Excite Benefits</b>)</span></p>
 <br>
 <ul style="list-style-type:none">
   <li><span style="font-size:0.9em" ><b>Extend fuzzing beyond interface level </b></span>  </li>
@@ -206,7 +213,12 @@ Note:
 <br>
 <br>
 <br>
-<span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource: <a href="https://firmware.intel.com/content/smi-transfer-monitor-stm ">STM-SMI Transfer Monitor </a></span>
+<span style="font-size:0.4em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource: <a href="https://firmware.intel.com/content/smi-transfer-monitor-stm ">STM-SMI Transfer Monitor </a></span>
+
+@snap[south-east span-25]
+![excite](/assets/images/Excite.png)
+@snapend
+
 
 Note:
 
@@ -247,19 +259,18 @@ Note:
   
 
  
----?image=/assets/images/slides/Slide156.JPG
+---?image=/assets/images/slides/Slide94_1.JPG
 @title[Raising the Bar for Platform Security]
-<p align="center"><span class="gold" ><b>Raising the Bar for Platform Security</b></span></p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<p align="center"><span class="gold" >@size[1.1](<b>Raising the Bar for Platform Security</b>)</span></p>
+
+@snap[south-west span-100]
+<p style="line-height:80%"><span style="font-size:0.9em" >
+Empowering End-Users to Make a Risk Decision<br><br>
+</span></p>
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">CHIPSEC-csw14 PDF </a>
+</span></p>
+@snapend
 <span style="font-size:0.5em" >Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">CHIPSEC-csw14 PDF </a></span>
 
 Note:
@@ -275,9 +286,9 @@ Note:
 - Introducing CHIPSEC
 
  
----?image=/assets/images/slides/Slide158.JPG
+---?image=/assets/images/slides/Slide9_1.JPG
 @title[What is CHIPSEC?]
-<p align="center"><span class="gold" ><b>What is CHIPSEC?</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>What is CHIPSEC?</b>)</span></p>
 <div class="left2">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" ><font color="yellow"><b>Framework for Platform Security Assessment</b></font></span>  </li>
@@ -307,17 +318,31 @@ Note:
 - Think about how MSR and the Chipset is programed,  CHIPSEC can look for known miss- configurations and make a report 
 
  
----?image=/assets/images/slides/Slide160.JPG
+---
 @title[Chipsec Framework overview]
-<p align="center"><span class="gold" ><b>Chipsec Framework overview</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>Chipsec Framework overview</b>)</span></p>
+
+@snap[north span-85]
+<br>
+<br>
+![Chipsec_diagram](/assets/images/Chipsec_diagram.png)
+@snapend
+
+@snap[south-west span-100]
+<p style="line-height:30%"><span style="font-size:0.4em" >
+Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">Cansecwest 2014</a>
+</span></p>
+
+@snapend
 
 Note:
 
+
  
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo.JPG
 @title[Example Chipsec Check - SPI Controller LOCK]
 <br>
-<p align="center"><span class="gold" ><b>Example Chipsec Check - SPI Controller LOCK</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>Example Chipsec Check - SPI Controller LOCK</b>)</span></p>
 <br>
 <ul style="list-style-type:disc">
   <li><span style="font-size:0.8em" ><font color="cyan">FLOCKDN – Reg that Locks critical SPI controller registers</font></span>  </li>
@@ -346,10 +371,10 @@ Note:
 - For example FLOCKDN – Lock down REG that Locks critical SPI controller registers
 
 
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo.JPG
 @title[Sample Issue Discovered]
 <br>
-<p align="center"><span class="gold" ><b>Sample Issue Discovered</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>Sample Issue Discovered</b>)</span></p>
 <span style="font-size:01.0em" ><font color="cyan">Is BIOS correctly protected?</font></span>
 <br>
 ```
@@ -378,10 +403,9 @@ Note:
 - There are many other tests
 
 
-
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo2.JPG
 @title[Known Threats and Chipsec modules]
-<p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>Known Threats and Chipsec modules</b>)</span></p>
 
 <table id="recTable">
 	<tr>
@@ -458,11 +482,11 @@ Note:
 Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf
 
 
-+++?image=/assets/images/slides/Slide158_1.JPG
++++?image=/assets/images/slides/SlideChipSec_logo2.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-@title[Known Threats and Chipsec modules]
-<p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
+@title[Known Threats and Chipsec modules 02]
+<p align="center"><span class="gold" >@size[1.1](<b>Known Threats and Chipsec modules</b>)</span></p>
 
 <table id="recTable">
 	<tr>
@@ -508,11 +532,11 @@ Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Asse
 
 Note:
 
-+++?image=/assets/images/slides/Slide158_1.JPG
++++?image=/assets/images/slides/SlideChipSec_logo2.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-@title[Known Threats and Chipsec modules]
-<p align="center"><span class="gold" ><b>Known Threats and Chipsec modules</b></span></p>
+@title[Known Threats and Chipsec modules 03]
+<p align="center"><span class="gold" >@size[1.1](<b>Known Threats and Chipsec modules</b>)</span></p>
 
 <table id="recTable">
 	<tr>
@@ -536,10 +560,10 @@ Note:
 Note:
 
 
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo.JPG
 @title[CHIPSEC Modules ]
 <br>
-<p align="center"><span class="gold" ><b>CHIPSEC Modules </b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>CHIPSEC Modules </b>)</span></p>
 <span style="font-size:0.9em" >Modules encapsulate the main functionality of CHIPSEC:</span> 
 <ol>
   <li><span style="font-size:0.8em" >Tests for known vulnerabilities in firmware</span>  </li>
@@ -557,10 +581,10 @@ Note:
 Here are some more Details about CHIPSEC
 
 
----?image=/assets/images/slides/Slide158_1.JPG
+---?image=/assets/images/slides/SlideChipSec_logo.JPG
 @title[CHIPSEC Modules ]
 <br>
-<p align="center"><span class="gold" ><b>CHIPSEC Modules </b></span></p>
+<p align="center"><span class="gold" >@size[1.1](<b>CHIPSEC Modules </b>)</span></p>
 <br>
 <ul>
   <li><span style="font-size:0.8em" >All modules reside in `chipsec/modules` directory</span>  </li>
