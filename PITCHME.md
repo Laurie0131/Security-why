@@ -287,7 +287,7 @@ Note:
 </span></p>
 @snapend
 
-@snap[north-west span-30 fragment]
+@snap[north-east span-25 fragment]
 <br>
 <br>
 <br>
