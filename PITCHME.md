@@ -653,17 +653,15 @@ Note:
 ---
 @title[Common Tools for Firmware Security Testing]
 <p align="right"><span class="gold" >@size[1.1](<b>Common Tools for Firmware Security Testing</b>)</span></p>
-<br>
-<p style="line-height:80%"><span style="font-size:0.9em" >
+
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
 <a href="">CHIPSEC</a>: open source framework for analyzing the security of platform firmware and hardware configuration at runtime, based on the 
 Unified Extensible Firmware Interface (<a href="">UEFI</a>) specification.
-<br>
+<br><br>
 <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite">Symbolic Execution and Virtual Platforms: Excite</a> project on Intel uses a combination of symbolic execution, fuzzing, and concrete testing to find 
 vulnerabilities in firmware running on Wind River* <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite">Simics</a> virtual platforms.
 </span></p>
-<br>
-<br>
-<p style="line-height:70%"><span style="font-size:0.8em" >
+<p style="line-height:70%"><span style="font-size:0.8em" ><br>
 <font color="yellow"><i>
 Great tools… but they’re based on integration testing, so issues are more expensive to detect and mitigate. 
 <u>Can we improve testing before integration?</u>
