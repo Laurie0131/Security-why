@@ -254,14 +254,6 @@ Note:
 - Open-source? TBD
 
 
-
----?image=assets/images/gitpitch-audience.jpg
-@title[HBFA  Sub-section]
-<br><br><br><br><br><br><br>
-<p style="line-height:80%"><span style="font-size:01.1em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#e49436">Shift-Left Firmware Security Testing :</font></span></p>
-<span style="font-size:0.9em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host-based Firmware Analyzer (HBFA) </span>
-  
-
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Known Issue  Sub-section]
 <br><br><br><br><br><br><br>
@@ -649,6 +641,32 @@ Here are some more Details about CHIPSEC
   
 
 Note:
+
+
+
+---?image=assets/images/gitpitch-audience.jpg
+@title[HBFA  Sub-section]
+<br><br><br><br><br><br><br>
+<p style="line-height:80%"><span style="font-size:01.1em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#e49436">Shift-Left Firmware Security Testing :</font></span></p>
+<span style="font-size:0.9em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host-based Firmware Analyzer (HBFA) </span>
+  
+---
+@title[Common Tools for Firmware Security Testing]
+<p align="right"><span class="gold" >@size[1.1em](<b>Common Tools for Firmware Security Testing</b></span></p>
+<p style="line-height:80%"><span style="font-size:0.9em" >
+<a href="">CHIPSEC</a>: open source framework for analyzing the security of platform firmware and hardware configuration at runtime, based on the 
+Unified Extensible Firmware Interface (<a href="">UEFI</a>) specification.
+<br>
+<a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite">Symbolic Execution and Virtual Platforms: Excite</a> project on Intel uses a combination of symbolic execution, fuzzing, and concrete testing to find 
+vulnerabilities in firmware running on Wind River* <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite">Simics*</a> virtual platforms.
+<br>
+<br>
+<font color="yellow"><i>
+Great tools… but they’re based on integration testing, so issues are more expensive to detect and mitigate. 
+<u>Can we improve testing before integration?</u>
+</i></font>
+</span></p>
+
 
 
 
