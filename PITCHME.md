@@ -256,6 +256,13 @@ Note:
 
 
 ---?image=assets/images/gitpitch-audience.jpg
+@title[HBFA  Sub-section]
+<br><br><br><br><br><br><br>
+<p style="line-height:80%"><span style="font-size:01.1em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#e49436">Shift-Left Firmware Security Testing :</font></span></p>
+<span style="font-size:0.9em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host-based Firmware Analyzer (HBFA) </span>
+  
+
+---?image=assets/images/gitpitch-audience.jpg
 @title[Known Issue  Sub-section]
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Known Issue :</span>
@@ -644,6 +651,7 @@ Here are some more Details about CHIPSEC
 Note:
 
 
+
 ---
 @title[Summary - Platform Firmware Security – Why is it important? - boot flow]
 <p align="right"><span class="gold" >@size[1.1em](<b>Summary <br></b>)<b>Platform Firmware Security – Why is it important?</b></span></p>
@@ -715,12 +723,3 @@ Note:
 - Ongoing tools to validate security mechanism 
 
 
----
-
-<br>
-#### blank page
-
-1<br>
-2<br>
-3
----?include=test/PITCHME.md
