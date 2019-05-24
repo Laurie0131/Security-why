@@ -668,8 +668,153 @@ Great tools… but they’re based on integration testing, so issues are more ex
 </i></font>
 </span></p>
 
+Note:
+
+ 
+---?image=/assets/images/slides/Slide106_1.JPG
+@title[Shift Left – Design for Security Test (DFST)]
+<p align="right"><span class="gold" >@size[1.1](<b>Shift Left – Design for Security Test (DFST)</b>)</span></p>
+
+@snap[south span-85 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">How can we improve security test efficiency?<br>&nbsp;</span></p>)
+@snapend
 
 
+Note:
+
+As testing moves toward the release there is an increase to the cost
+
+How can we improve security test efficiency?
+
+---
+@title[Design for Security Test (DFST)]
+<p align="right"><span class="gold" >@size[1.1](<b>Design for Security Test (DFST)</b>)</span></p>
+<br>
+
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
+<i>&quot;Engineers should recognize that reducing risk is not an impossible task, even under financial and time constrains.<br>
+All it takes in many cases is a different perspective on the design problem.&quot;</i>
+</span></p>
+<p style="line-height:80%" align="right"><span style="font-size:0.8em" ><br>
+  &hyphen;&hyphen; Mike Martin & Roland Schinizinger
+</span></p>
+
+
+---?image=/assets/images/slides/Slide108_1.JPG
+@title[Host-based Firmware Analyzer]
+<p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer</b>)</span></p>
+
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
+Test for BIOS code under OS:  Pure software logic
+</span></p>
+
+@snap[north span-85 fragment]
+<br>
+<br>
+<br>
+<br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">Benefit: @color[yellow](30X) faster than UEFI based running env(OVMF).<br>&nbsp;</span></p>)
+@snapend
+
+Note:
+
+---
+@title[Host-based Firmware Analyzer Architecture]
+<p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer Architecture</b>)</span></p>
+
+@snap[north span-85 fragment]
+<br>
+![HBFA_FW](/assets/images/HostBasedFW_test.png)
+@snapend
+
+@snap[south span-85 fragment]
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">Benefit: @color[yellow](30X) faster than UEFI based running env(OVMF).<br>&nbsp;</span></p>)
+@snapend
+
+Note:
+
+
+---?image=/assets/images/slides/Slide110_1.JPG
+@title[Host-based Firmware Analyzer]
+<p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer</b>)</span></p>
+
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
+<font color="cyan"><i>OS based environment utilizing best-in-class test tools</i></font>
+</span></p>
+
+@snap[north-west span-45]
+<br>
+<br>
+<br>
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
+GUI and command-line interfaces<br>
+Fuzzing testing (AFL, libFuzzer, Peach)<br>
+Symbolic execution (KLEE/STP)<br>
+Address Sanitizer & Code Coverage<br>
+Automated unit test execution<br>
+Instrumentation methods for fault injection and trace<br>
+Database of unit test cases<br>
+</span></p>
+@snapend
+
+---
+@title[Host-based Firmware Analyzer summary]
+<p align="right"><span class="gold" >@size[1.1](<b>HBFA - Summary</b>)</span></p>
+<p style="line-height:80%"><span style="font-size:0.9em" >
+<font color="cyan">Host Based Firmware Analyzer (HBFA)</font>
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" >Isolate test environment – run test under OS (like OS application)		  </span> </li>
+  <li><span style="font-size:0.7em" >Integrate with OS based fuzz/Symbolic tool, such as AFL, KLEE, Peach.		  </span> </li>
+  <li><span style="font-size:0.7em" >Provide an infrastructure to build Pure Software Logic function of BIOS.		  </span> </li>
+</ul>
+
+<p style="line-height:80%"><span style="font-size:0.9em" >
+<font color="cyan">Benefit</font> - Make it Easy for
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" >Secure Fuzzy Test.		  </span> </li>
+  <li><span style="font-size:0.7em" >Test automation and case reuse.		  </span> </li>
+  <li><span style="font-size:0.7em" >Code Coverage , debugging with OS Debugger tool		  </span> </li>
+</ul>
+
+
+---
+@title[Host-based Firmware Analyzer Expectation]
+<p align="right"><span class="gold" >@size[1.1](<b>Expectation</b>)</span></p>
+<p style="line-height:80%"><span style="font-size:0.9em" >
+<b>Developer:</b>
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" >Easily enable fuzz test in unit test Phase.  </span> </li>
+</ul>
+
+<p style="line-height:80%"><span style="font-size:0.9em" >
+<b>Benefit</b>
+</span></p>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.7em" >Reduce the total cost of a project. </span> </li>
+  <li><span style="font-size:0.7em" >Help to detect and fix security issue quickly  </span> </li>
+  <li><span style="font-size:0.7em" >QA can focus on other security test. (eg, system level or cost much time to set up env)  </span> </li>
+</ul>
+
+<p style="line-height:70%"><span style="font-size:0.7em" >
+Release on <a href="https://www.tianocore.org>tianocore.org</a> wiki page for <a href="https://github.com/tianocore/tianocore.github.io/wiki/Host-Based-Firmware-Analyzer"> Host Based Firmware Analyzer(HBFA)</a>
+</span></p>
+
+---?image=/assets/images/slides/Slide104_1.JPG
+@title[EDK II Security White Paper list ]
+<p align="right"><span class="gold" >@size[1.1](<b>EDK II Security White Paper list </b>)</span></p>
+
+
+@snap[north-west span-45]
+<br>
+<br>
+<br>
+<p style="line-height:80%"><span style="font-size:0.9em" >
+List of helpful links and white papers based on Security with EDK II on wiki <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Security-White-Papers">Edk II Security White Papers</a>
+</span></p>
+@snapend
 
 ---
 @title[Summary - Platform Firmware Security – Why is it important? - boot flow]
