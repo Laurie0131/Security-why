@@ -729,7 +729,7 @@ Note:
 ![HBFA_FW](/assets/images/HostBasedFW_test.png)
 @snapend
 
-@snap[south span-85 fragment]
+@snap[south span-90 fragment]
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:85%"><span style="font-size:0.8em">Implementing  testing UEFI Firmware under OS environment <br>&nbsp;</span></p>)
 @snapend
 
@@ -748,15 +748,16 @@ Note:
 <br>
 <br>
 <br>
-<br>
-<ul style="list-style-type:disc; line-height:0.7;">
-  <li><span style="font-size:0.65em" >GUI and command-line interfaces	  </span> </li>
-  <li><span style="font-size:0.65em" >Fuzzing testing (AFL, libFuzzer, Peach)		  </span> </li>
-  <li><span style="font-size:0.65em" >Symbolic execution (KLEE/STP)		  </span> </li>
-  <li><span style="font-size:0.65em" >Address Sanitizer & Code Coverage		  </span> </li>
-  <li><span style="font-size:0.65em" >Automated unit test execution	  </span> </li>
-  <li><span style="font-size:0.65em" >Instrumentation methods for fault injection and trace	  </span> </li>
-  <li><span style="font-size:0.65em" >FDatabase of unit test cases		  </span> </li>
+
+
+<ul style="list-style-type:none; line-height:0.7;">
+  <li><span style="font-size:0.65em" >GUI and command-line interfaces	 <br> </span> </li>
+  <li><span style="font-size:0.65em" >Fuzzing testing (AFL, libFuzzer, Peach)		<br>  </span> </li>
+  <li><span style="font-size:0.65em" >Symbolic execution (KLEE/STP)		<br>  </span> </li>
+  <li><span style="font-size:0.65em" >Address Sanitizer & Code Coverage		 <br> </span> </li>
+  <li><span style="font-size:0.65em" >Automated unit test execution	 <br> </span> </li>
+  <li><span style="font-size:0.65em" >Instrumentation methods for fault injection and trace	 <br> </span> </li>
+  <li><span style="font-size:0.65em" >FDatabase of unit test cases		<br>  </span> </li>
 </ul>
 @snapend
 
