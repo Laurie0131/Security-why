@@ -751,13 +751,13 @@ Note:
 
 
 <ul style="list-style-type:none; line-height:0.7;">
-  <li><span style="font-size:0.65em" >GUI and command-line interfaces	 <br> </span> </li>
-  <li><span style="font-size:0.65em" >Fuzzing testing (AFL, libFuzzer, Peach)		<br>  </span> </li>
-  <li><span style="font-size:0.65em" >Symbolic execution (KLEE/STP)		<br>  </span> </li>
-  <li><span style="font-size:0.65em" >Address Sanitizer & Code Coverage		 <br> </span> </li>
-  <li><span style="font-size:0.65em" >Automated unit test execution	 <br> </span> </li>
-  <li><span style="font-size:0.65em" >Instrumentation methods for fault injection and trace	 <br> </span> </li>
-  <li><span style="font-size:0.65em" >FDatabase of unit test cases		<br>  </span> </li>
+  <li><span style="font-size:0.65em" >GUI and command-line interfaces	 <br> &nbsp;</span> </li>
+  <li><span style="font-size:0.65em" >Fuzzing testing (AFL, libFuzzer, Peach)		<br>&nbsp;  </span> </li>
+  <li><span style="font-size:0.65em" >Symbolic execution (KLEE/STP)		<br>&nbsp;  </span> </li>
+  <li><span style="font-size:0.65em" >Address Sanitizer & Code Coverage		 <br>&nbsp; </span> </li>
+  <li><span style="font-size:0.65em" >Automated unit test execution	 <br>&nbsp; </span> </li>
+  <li><span style="font-size:0.65em" >Instrumentation methods for fault injection and trace	 <br>&nbsp; </span> </li>
+  <li><span style="font-size:0.65em" >FDatabase of unit test cases		<br>&nbsp;  </span> </li>
 </ul>
 @snapend
 
