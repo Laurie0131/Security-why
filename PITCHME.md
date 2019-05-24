@@ -691,12 +691,12 @@ How can we improve security test efficiency?
 <p align="right"><span class="gold" >@size[1.1](<b>Design for Security Test (DFST)</b>)</span></p>
 <br>
 
-<p style="line-height:80%"><span style="font-size:0.9em" ><br>
-<i>&quot;Engineers should recognize that reducing risk is not an impossible task, even under financial and time constrains.<br>
+<p style="line-height:80%"><span style="font-size:0.9em" ><br><br>
+<i>&quot;Engineers should recognize that reducing risk is not an impossible task, even under financial and time constrains.<br><br>
 All it takes in many cases is a different perspective on the design problem.&quot;</i>
 </span></p>
-<p style="line-height:80%" align="right"><span style="font-size:0.8em" ><br>
-  &hyphen;&hyphen; Mike Martin & Roland Schinizinger
+<p style="line-height:80%" align="right"><span style="font-size:0.7em" >
+  &hyphen;&hyphen; Mike Martin & Roland Schinizinger&nbsp;&nbsp;&nbsp;
 </span></p>
 
 
@@ -723,6 +723,8 @@ Note:
 <p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer Architecture</b>)</span></p>
 
 @snap[north span-85 fragment]
+<br>
+<br>
 <br>
 ![HBFA_FW](/assets/images/HostBasedFW_test.png)
 @snapend
