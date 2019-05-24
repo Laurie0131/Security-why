@@ -722,7 +722,7 @@ Note:
 @title[Host-based Firmware Analyzer Architecture]
 <p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer Architecture</b>)</span></p>
 
-@snap[north span-85 fragment]
+@snap[north span-85 ]
 <br>
 <br>
 <br>
@@ -730,7 +730,7 @@ Note:
 @snapend
 
 @snap[south span-85 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">Benefit: @color[yellow](30X) faster than UEFI based running env(OVMF).<br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">Implementing  testing UEFI Firmware under OS environment <br>&nbsp;</span></p>)
 @snapend
 
 Note:
@@ -740,29 +740,29 @@ Note:
 @title[Host-based Firmware Analyzer]
 <p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer</b>)</span></p>
 
-<p style="line-height:80%"><span style="font-size:0.9em" ><br>
+<p style="line-height:80%"><span style="font-size:0.9em" >
 <font color="cyan"><i>OS based environment utilizing best-in-class test tools</i></font>
 </span></p>
 
-@snap[north-west span-45]
+@snap[north-west span-50]
 <br>
 <br>
 <br>
-<p style="line-height:80%"><span style="font-size:0.9em" ><br>
-GUI and command-line interfaces<br>
-Fuzzing testing (AFL, libFuzzer, Peach)<br>
-Symbolic execution (KLEE/STP)<br>
-Address Sanitizer & Code Coverage<br>
-Automated unit test execution<br>
-Instrumentation methods for fault injection and trace<br>
-Database of unit test cases<br>
-</span></p>
+<ul style="list-style-type:none; line-height:0.7;">
+  <li><span style="font-size:0.7em" >GUI and command-line interfaces	  </span> </li>
+  <li><span style="font-size:0.7em" >Fuzzing testing (AFL, libFuzzer, Peach)		  </span> </li>
+  <li><span style="font-size:0.7em" >Symbolic execution (KLEE/STP)		  </span> </li>
+  <li><span style="font-size:0.7em" >Address Sanitizer & Code Coverage		  </span> </li>
+  <li><span style="font-size:0.7em" >Automated unit test execution	  </span> </li>
+  <li><span style="font-size:0.7em" >Instrumentation methods for fault injection and trace	  </span> </li>
+  <li><span style="font-size:0.7em" >FDatabase of unit test cases		  </span> </li>
+</ul>
 @snapend
 
 ---
 @title[Host-based Firmware Analyzer summary]
 <p align="right"><span class="gold" >@size[1.1](<b>HBFA - Summary</b>)</span></p>
-<p style="line-height:80%"><span style="font-size:0.9em" >
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
 <font color="cyan">Host Based Firmware Analyzer (HBFA)</font>
 </span></p>
 <ul style="list-style-type:disc; line-height:0.7;">
@@ -784,7 +784,7 @@ Database of unit test cases<br>
 ---
 @title[Host-based Firmware Analyzer Expectation]
 <p align="right"><span class="gold" >@size[1.1](<b>Expectation</b>)</span></p>
-<p style="line-height:80%"><span style="font-size:0.9em" >
+<p style="line-height:80%"><span style="font-size:0.9em" ><br>
 <b>Developer:</b>
 </span></p>
 <ul style="list-style-type:disc; line-height:0.7;">
@@ -801,7 +801,7 @@ Database of unit test cases<br>
 </ul>
 
 <p style="line-height:70%"><span style="font-size:0.7em" >
-Release on <a href="https://www.tianocore.org>tianocore.org</a> wiki page for <a href="https://github.com/tianocore/tianocore.github.io/wiki/Host-Based-Firmware-Analyzer"> Host Based Firmware Analyzer(HBFA)</a>
+Release on <a href="https://www.tianocore.org">tianocore.org</a> wiki page for <a href="https://github.com/tianocore/tianocore.github.io/wiki/Host-Based-Firmware-Analyzer"> Host Based Firmware Analyzer(HBFA)</a>
 </span></p>
 
 ---?image=/assets/images/slides/Slide104_1.JPG
@@ -813,8 +813,8 @@ Release on <a href="https://www.tianocore.org>tianocore.org</a> wiki page for <a
 <br>
 <br>
 <br>
-<p style="line-height:80%"><span style="font-size:0.9em" >
-List of helpful links and white papers based on Security with EDK II on wiki <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Security-White-Papers">Edk II Security White Papers</a>
+<p style="line-height:95%"><span style="font-size:0.9em" >
+List of helpful links and white papers based on Security with EDK II on wiki page: <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Security-White-Papers">Edk II Security White Papers</a>
 </span></p>
 @snapend
 
