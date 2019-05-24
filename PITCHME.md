@@ -748,7 +748,7 @@ Note:
 <br>
 <br>
 <br>
-
+<br>
 
 <ul style="list-style-type:none; line-height:0.7;">
   <li><span style="font-size:0.65em" >GUI and command-line interfaces	 <br> &nbsp;</span> </li>
@@ -767,7 +767,7 @@ Note:
 <p style="line-height:80%"><span style="font-size:0.9em" ><br>
 <font color="cyan">Host Based Firmware Analyzer (HBFA)</font>
 </span></p>
-<ul style="list-style-type:disc; line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.7em" >Isolate test environment – run test under OS (like OS application)		  </span> </li>
   <li><span style="font-size:0.7em" >Integrate with OS based fuzz/Symbolic tool, such as AFL, KLEE, Peach.		  </span> </li>
   <li><span style="font-size:0.7em" >Provide an infrastructure to build Pure Software Logic function of BIOS.		  </span> </li>
@@ -776,7 +776,7 @@ Note:
 <p style="line-height:80%"><span style="font-size:0.9em" >
 <font color="cyan">Benefit</font> - Make it Easy for
 </span></p>
-<ul style="list-style-type:disc; line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.7em" >Secure Fuzzy Test.		  </span> </li>
   <li><span style="font-size:0.7em" >Test automation and case reuse.		  </span> </li>
   <li><span style="font-size:0.7em" >Code Coverage , debugging with OS Debugger tool		  </span> </li>
@@ -796,7 +796,7 @@ Note:
 <p style="line-height:80%"><span style="font-size:0.9em" >
 <b>Benefit</b>
 </span></p>
-<ul style="list-style-type:disc; line-height:0.7;">
+<ul style="list-style-type:disc; line-height:0.8;">
   <li><span style="font-size:0.7em" >Reduce the total cost of a project. </span> </li>
   <li><span style="font-size:0.7em" >Help to detect and fix security issue quickly  </span> </li>
   <li><span style="font-size:0.7em" >QA can focus on other security test. (eg, system level or cost much time to set up env)  </span> </li>
