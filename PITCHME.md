@@ -730,7 +730,7 @@ Note:
 @snapend
 
 @snap[south span-85 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">Implementing  testing UEFI Firmware under OS environment <br>&nbsp;</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:85%"><span style="font-size:0.8em">Implementing  testing UEFI Firmware under OS environment <br>&nbsp;</span></p>)
 @snapend
 
 Note:
@@ -744,18 +744,19 @@ Note:
 <font color="cyan"><i>OS based environment utilizing best-in-class test tools</i></font>
 </span></p>
 
-@snap[north-west span-50]
+@snap[north-west span-55]
 <br>
 <br>
 <br>
-<ul style="list-style-type:none; line-height:0.7;">
-  <li><span style="font-size:0.7em" >GUI and command-line interfaces	  </span> </li>
-  <li><span style="font-size:0.7em" >Fuzzing testing (AFL, libFuzzer, Peach)		  </span> </li>
-  <li><span style="font-size:0.7em" >Symbolic execution (KLEE/STP)		  </span> </li>
-  <li><span style="font-size:0.7em" >Address Sanitizer & Code Coverage		  </span> </li>
-  <li><span style="font-size:0.7em" >Automated unit test execution	  </span> </li>
-  <li><span style="font-size:0.7em" >Instrumentation methods for fault injection and trace	  </span> </li>
-  <li><span style="font-size:0.7em" >FDatabase of unit test cases		  </span> </li>
+<br>
+<ul style="list-style-type:disc; line-height:0.7;">
+  <li><span style="font-size:0.65em" >GUI and command-line interfaces	  </span> </li>
+  <li><span style="font-size:0.65em" >Fuzzing testing (AFL, libFuzzer, Peach)		  </span> </li>
+  <li><span style="font-size:0.65em" >Symbolic execution (KLEE/STP)		  </span> </li>
+  <li><span style="font-size:0.65em" >Address Sanitizer & Code Coverage		  </span> </li>
+  <li><span style="font-size:0.65em" >Automated unit test execution	  </span> </li>
+  <li><span style="font-size:0.65em" >Instrumentation methods for fault injection and trace	  </span> </li>
+  <li><span style="font-size:0.65em" >FDatabase of unit test cases		  </span> </li>
 </ul>
 @snapend
 
