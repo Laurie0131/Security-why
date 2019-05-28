@@ -1,10 +1,11 @@
-@title[Tools and resources  Section]
+
+@title[Why Platform FW Security is important Section]
 <br><br><br><br><br><br><br>
-### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tools and resources </span>
-<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How to test firmware for security  </span>
+### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why?</span>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why is Platform Firmware Security Important ?</span>
 
 Note:
-  SecurityTechnologies.md for UEFI / EDK II Training  Security technologies overview
+  Why.md for UEFI / EDK II Training  Why Platform FW Security is important
 
   Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
 
@@ -33,861 +34,1046 @@ Note:
   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
----?image=assets/images/gitpitch-audience.jpg
-@title[Automation Sub-section]
-<br><br><br><br><br><br><br>
-### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Automation:</span>
-<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Automated Test Generation Tools</span>
 
 
----?image=/assets/images/slides/Slide173.JPG
-@title[Build a Security Mindset]
-<p align="right"><span class="gold" >@size[1.1](<b>Build a Security Mindset</b>)</span></p>
-<br>
-<div class="left">
-<br>
-<span style="font-size:0.8em" >“Finding BIOS Vulnerabilities with Symbolic Execution and Virtual Platforms”: <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite"> Excite Link</a></span>
-</div>
-<div class="right">
-<span style="font-size:0.8em" >&nbsp;</span>
-</div>
+---?image=/assets/images/slides/Slide4.JPG
+<!-- .slide: data-transition="none" -->
+@title[Why is Platform Firmware Security Important ?]
+<p align="right"><span class="gold" ><b>Why is Platform Firmware  <br>Security Important ?</b></span></p>
 
 Note:
-- We want to Build firmware with a  Security Mindset
-- Finding vulnerabilities in code is part of the constant security game between attackers and defenders. An attacker only needs to find one opening to be successful, while a defender needs to search for and plug all or at least most of the holes in a system. 
-- Thus, a defender needs more effective tools than the attacker to come out ahead.
-- Tools like excite use Symbolic Execution to test for vulnerabilities.
 
-- What if there was a tool to help us determine if the Platform Code is doing the right thing?
-- As New attacks are discovered 
-  - Research is done determining the root cause  of the attack
-- Then a test could be done to test that a platform does not expose that vulnerability
+If we think of FW like plumbing
+It needs to  standardized to simplify implementation  (Fitting the pieces of pipe together like standardized plumbing PVC Pipe)
+Where we have the Hardware,  the Firmware,  and then hand off to the OS
+
+When we look at why firmware security is important, using the analogy of the plumbing pipeline,
+If we are were to run water through this imaginary pipe we would want to know that the water source could be trusted
+With Security it is important to establish the root of trust and that we can validated that root of trust.
+And it needs to be scalable to work across a variety of needs
+
+New Ideas – new features - 
+Dog do-do - Protect from outside attacks. Protect from Things not intended to be put into the firmware
+
+Firmware needs to be done correctly from the get -go
+
+
++++?image=/assets/images/slides/Slide5.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[Why is Platform Firmware Security Important ? 02]
+<p align="right"><span class="gold" ><b>Why is Platform Firmware  <br>Security Important ?</b></span></p>
 
 
 
+Note:
+
+If we think of FW like plumbing
+It needs to  standardized to simplify implementation  (Fitting the pieces of pipe together like standardized plumbing PVC Pipe)
+Where we have the Hardware,  the Firmware,  and then hand off to the OS
+
+When we look at why firmware security is important, using the analogy of the plumbing pipeline,
+If we are were to run water through this imaginary pipe we would want to know that the water source could be trusted
+With Security it is important to establish the root of trust and that we can validated that root of trust.
+And it needs to be scalable to work across a variety of needs
+
+New Ideas – new features - 
+Dog do-do - Protect from outside attacks. Protect from Things not intended to be put into the firmware
+
+Firmware needs to be done correctly from the get -go
 
 
+
++++?image=/assets/images/slides/Slide6.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[Why is Platform Firmware Security Important ? 03]
+<p align="right"><span class="gold" ><b>Why is Platform Firmware <br> Security Important ?</b></span></p>
+
+
+
+Note:
+
+If we think of FW like plumbing
+It needs to  standardized to simplify implementation  (Fitting the pieces of pipe together like standardized plumbing PVC Pipe)
+Where we have the Hardware,  the Firmware,  and then hand off to the OS
+
+When we look at why firmware security is important, using the analogy of the plumbing pipeline,
+If we are were to run water through this imaginary pipe we would want to know that the water source could be trusted
+With Security it is important to establish the root of trust and that we can validated that root of trust.
+And it needs to be scalable to work across a variety of needs
+
+New Ideas – new features - 
+Dog do-do - Protect from outside attacks. Protect from Things not intended to be put into the firmware
+
+Firmware needs to be done correctly from the get -go
+
+
+
++++?image=/assets/images/slides/Slide7.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[Why is Platform Firmware Security Important ? 04]
+<p align="right"><span class="gold" ><b>Why is Platform Firmware <br>Security Important ?</b></span></p>
+
+
+
+Note:
+
+If we think of FW like plumbing
+It needs to  standardized to simplify implementation  (Fitting the pieces of pipe together like standardized plumbing PVC Pipe)
+Where we have the Hardware,  the Firmware,  and then hand off to the OS
+
+When we look at why firmware security is important, using the analogy of the plumbing pipeline,
+If we are were to run water through this imaginary pipe we would want to know that the water source could be trusted
+With Security it is important to establish the root of trust and that we can validated that root of trust.
+And it needs to be scalable to work across a variety of needs
+
+New Ideas – new features - 
+Dog do-do - Protect from outside attacks. Protect from Things not intended to be put into the firmware
+
+Firmware needs to be done correctly from the get -go
 
 ---
-@title[What is Excite?]
-<p align="right"><span class="gold" >@size[1.1](<b>What is Excite?</b>)</span></p>
-<ul style="list-style-type:none">
-  <li><span style="font-size:0.8em" ><font color="yellow">Goal</font></span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" ><b><u>Automatically</u></b> detect security issues  in UEFI BIOS </span>  </li>
-    <ul style="list-style-type:disc">
-       <li><span style="font-size:0.65em" >Complement  other approaches: security code reviews, static analysis, Chipsec …</span>  </li>
-    </ul>
-  </ul>
-  <li><span style="font-size:0.8em" ><font color="yellow">Aproach</font></span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" >Apply open source <b>fuzzing & symbolic execution</b> tools to Intel Architecture binaries</span>  </li>
-  </ul>
-  <li><span style="font-size:0.8em" ><font color="yellow">Versions</font></span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" ><b>Excite</b> : Symbolic Execution using CRETE and Simics</span>  </li>
-    <li><span style="font-size:0.7em" ><b>Excite DBI </b>(Dynamic Binary Instrumentation): Fuzzing using AFL and Intel Pin Tool </span>  </li>
-  </ul>
-</ul>
-<p style="line-height:40%"><span style="font-size:0.5em" >AFL - American Fuzzy Lop (fuzzer)<br>
- Pin – Intel tool to determine trace<br>
- CRETE -<a href="https://github.com/SVL-PSU/crete-dev"> github crete-dev</a> </span></p>
-</ul>
-
-@snap[south-east span-25]
-![excite](/assets/images/Excite.png)
+@title[Why???    Security]
+<p align="right"><span class="gold" >@size[01.1em](<b>Why???    Security</b>)</span></p>
+@snap[north-west span-40 ]
+<br>
+<p style="line-height:50%" >&nbsp;</p>
+@box[bg-cream2 text-black rounded my-box-pad2  ](<p style="line-height:60%">@color[red](<b>&nbsp;</b>) <span style="font-size:0.9em"><br>&nbsp;</span></p>)
+<br>
 @snapend
 
-Note:
+@snap[north-west span-40 ]
+<br>
+<p style="line-height:50%" ><br>&nbsp;<br></p>
+<p align="center" style="line-height:60%"><span style="font-size:01.1em">@color[#ff0000](<b>Without</b>) </span><span style="font-size:0.9em"><br>&nbsp;</span></p>
+<br>
+
+@snapend
 
 
-- Firmware Summit slides
-- What is Excite – Automated Test Generation
 
-- Motivation
-- Automatically detect BIOS SMI security issues  
-- Eg.  SMRAM callouts and accesses of  invalid memory regions
-- Complement  other approaches: security code reviews, static analysis, Chipsec …
-- Approach
-- Apply open source symbolic execution and fuzzing tools to x86 binaries
-- Leverage Simics to run early in a platform’s development
-- Start with  comm buffer based SMI handlers
-- Extend to SMM drivers and other UEFI components
-
-- The goal is to explore the BIOS – FW Code and Identify parts of the code that are manifesting security vulnerabilities 
-
-- PIN – Intel tool that allows the trace of the execution of where the fuzzer is getting to in the BIOS Source code.  Lines of code hit – disassembly
-- CRETE – Symbolic execution engine – open source from Portland State U. 
-
-- Excite does NOT:
-- Statically analyze C source code
-- Validate platform security settings and configuration
-- Replace security code reviews
-- Cover all types of security issues
-
-
----
-@title[What is Fuzzing?]
-<p align="right"><span class="gold" >@size[1.1](<b>What is Fuzzing?</b>)</span></p>
-<ul style="list-style-type:none">
-  <li><span style="font-size:0.8em" >Technique of providing variety of invalid, unexpected, or random data as inputs to target code to try to make it misbehave </span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.8em" >Some inputs are non-intuitive, harder for developers to discover</span>  </li><br>
-  </ul>
-  <li><span style="font-size:0.9em" ><font color="yellow"><b>Why fuzz UEFI?</b></font></span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.8em" >Find security issues early</span>  </li>
-    <ul style="list-style-type:disc">
-     <li><span style="font-size:0.7em" >Complement manual code reviews</span>  </li>
-     <li><span style="font-size:0.7em" >Re-run as software evolves</span>  </li>
-    <li><span style="font-size:0.8em" >New vulnerability detection capability</span>  </li>
-  </ul>
- </ul>
-
-Note:
+@snap[north-east span-40 ]
+<br>
+<p style="line-height:50%" >&nbsp;</p>
+@box[bg-cream2 text-black rounded my-box-pad2  ](<p style="line-height:60%"><b>&nbsp;</b><span style="font-size:0.9em"><br>&nbsp;</span></p>)
+<br>
+@snapend
  
----?image=/assets/images/slides/Slide150.JPG
-@title[Symbolic Execution  (S2E)– SMM Example]
-<p align="right"><span class="gold" >@size[1.1](<b>Symbolic Execution  (S2E)– SMM Example</b>)</span></p>
+@snap[north-east span-40 ]
 <br>
-<div class="left2">
-<ul style="list-style-type:disc">
-  <li><span style="font-size:0.8em" >Searching for SMM security vulnerabilities </span> </li>
-  <li><span style="font-size:0.8em" >Symbolic execution generates test cases that cover the computation tree of the handler and induce vulnerabilities. </span> </li>
-  <li><span style="font-size:0.8em" >Those test cases are replayed in Simics which detects illegal accesses and SMM callouts. (e.g. read memory outside SMRAM) </span> </li>
-</ul>
+<p style="line-height:50%" ><br>&nbsp;<br></p>
+<p align="center" style="line-height:60%"><span style="font-size:01.1em">@color[#87E2A9](<b>With</b>)</span> <span style="font-size:0.9em"><br>&nbsp;</span></p>
 <br>
-<br>
-<br>
+@snapend
 
-<p style="line-height:40%"><span style="font-size:0.5em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symbolic execution for BIOS security<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.usenix.org/system/files/conference/woot15/woot15-paper-bazhaniuk.pdf">woot15-paper-bazhaniuk PDF </a> </span></p>
-</div>
-<div class="right2">
-<span style="font-size:0.8em" > &nbsp;</span> 
-</div>
 
-Note: 
- 
-- Given a snapshot of SMRAM, the base address of SMRAM, and the address of the variable interrupt handler in SMRAM, the tool uses S2E to run the symbolic execution engine to search for concrete examples of a call to the SMI interrupt handler that causes the handler to read memory outside of SMRAM
-  
- 
----?image=/assets/images/slides/Slide91_1.JPG
-@title[Excite - Common Flow]
-<p align="right"><span class="gold" >@size[1.1](<b>Excite - Common Flow</b>)</span></p>
-
-@snap[south-west span-100]
-<p style="line-height:30%"><span style="font-size:0.4em" >
-<sup>1.</sup>Selective Symbolic Execution ( S2E | CRETE)  <br>
-<sup>2.</sup><a href="http://lcamtuf.coredump.cx/afl/">American Fuzzy Lop (fuzzier)</a>
+@snap[north-west span-50 fragment]
+<br>
+<p style="line-height:50%" ><br>&nbsp;<br></p>
+<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em">&nbsp;<br>
+<b>Possible corruped or distroyed data</b><br><span style="font-size:0.7em">
+&bull; &nbsp;&nbsp; BootKit virus - MBR Rootkits<br>
+&bull; &nbsp;&nbsp; Network boot attacks e.g. &nbsp;&nbsp;PXESPOILT<br>
+&bull; &nbsp;&nbsp; Code Injection Attacks</span>
 </span></p>
+@snapend 
+
+@snap[south-west span-30 fragment]
+![broken-bottle](/assets/images/broken_bottle.png)
+@snapend 
+
+
+
+@snap[north-east span-45 fragment]
+<br>
+<p style="line-height:50%" ><br>&nbsp;<br></p>
+<br>
+<p align="left" style="line-height:80%"><span style="font-size:0.9em">&nbsp;<br>
+&bull; &nbsp;&nbsp; Data integrity<br>
+&bull; &nbsp;&nbsp; Trusted boot to OS <br>
+&bull; &nbsp;&nbsp; Trusted drivers <br>
+&bull; &nbsp;&nbsp; Trusted  Applications
+</span></p>
+@snapend 
+
+@snap[south span-25 fragment ]
+![safe](/assets/images/safe.png)
+@snapend
+@snap[south-east span-30 fragment ]
+![CIA](/assets/images/CIA.png)
+<br>
+@snapend
+Note:
+
+
+- Broken Bottle source CC : https://www.1001freedownloads.com/free-clipart/broken-bottle
+- Safe http://www.clipartkid.com/images/252/free-to-use-public-domain-miscellaneous-clip-art-page-41-jsgFX2-clipart.png
+
+- Network attacks 
+- Take the preboot execution environment and get bios-level access to the hardware from across the network, outside any control of the on-disk operating system. The pxesploit attack, releasing a new metasploit-based comprehensive PXE attack toolkit to deliver any payload reliably to many different operating systems. 
+
+- Code Injection Attacks
+- Important when firmware verifies digital signature
+- Depends on implementation flaw in a driver 
+- E.g. Stack overflow, heap overflow or incorrect signature verification
+- Secure Boot prevents running an unknown OS loader
+
+
+
+---?image=/assets/images/slides/Slide4_2.JPG
+@title[UEFI Boot Flow]
+<p align="right"><span class="gold" >@size[01.1em](<b>Firmware is Everywhere</b>) </span></p>
+@snap[north-east span-50 ]
+<br>
+<p style="line-height:50%" >&nbsp;</p>
+@box[bg-navy text-white ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" ><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+<br>
 @snapend
 
-Note:
-- On the slide you can see Excite flow. Currently it works almost automatically. Source tree of BIOS is downloaded from repository, and we build it.  Then the BIOS is executed either on a live system or using Simics
-- Next step is dumping  a snap shot of SMRAM, memory maps and addresses of SMM handlers by Simics.  (Hardware debugger like ITP on live platform)
-
-- Example of the memory snap shot – 
-  - UEFI PE Module that resides in SMRAM
-  - Intel SMI Transfer Module (STM) 
- - Purpose of the snapshot is to gather information about which memory regions are mapped to determine is memory access are done outside the correct region
-
-
-- Further test harness is created, and we run selective symbolic execution engine for generation of test cases. (CRETE / AFL)
-- We play it in simics generated by s2e tests and new tests produced by fuzzing, check security issues and measure code coverage.  
-  - For example  finding SMRAM Call out security issues
-
-- As output we have Security Issue and code coverage reports and set of test cases.
-
-- AFL - http://lcamtuf.coredump.cx/afl/  
-
-
----
-@title[Excite Benefits]
-<p align="right"><span class="gold" >@size[1.1](<b>Excite Benefits</b>)</span></p>
+@snap[north-east span-50 fragment]
 <br>
-<ul style="list-style-type:none">
-  <li><span style="font-size:0.9em" ><b>Extend fuzzing beyond interface level </b></span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.8em" >UEFI code (SMM, STM, UEFI PE modules) accessible to AFL/CRETE, Pin, gdb. </span>  </li>
-    <li><span style="font-size:0.8em" >Record/analyze code flow, call trace, memory access data  </span>  </li>
-    <li><span style="font-size:0.8em" >Individual functions accessible, new inputs created, can test different flows</span>  </li><br>
-  </ul>
-  <li><span style="font-size:0.9em" ><b>Quantify code coverage reporting </b></span>  </li>
+<p style="line-height:50%" ><br>&nbsp;</p>
+<ul style="list-style-type:disc; line-height:0.7;">
+ <li><span style="font-size:0.65em">GBe NIC, WiFi, Bluetooth, WiGig </span></li>
+ <li><span style="font-size:0.65em">Baseband (3G, LTE) Modems </span></li>
+ <li><span style="font-size:0.65em">Sensor Hubs </span></li>
+ <li><span style="font-size:0.65em">NFC, GPS Controllers </span></li>
+ <li><span style="font-size:0.65em">HDD/SSD </span></li>
+ <li><span style="font-size:0.65em">Keyboard  Embedded Controllers </span></li>
+ <li><span style="font-size:0.65em">Battery Gauge </span></li>
+ <li><span style="font-size:0.65em">Baseboard Management Controllers (BMC) </span></li>
+ <li><span style="font-size:0.65em">Graphics/Video </span></li>
+ <li><span style="font-size:0.65em">USB Thumb Drives, keyboards/mice </span></li>
+ <li><span style="font-size:0.65em">Chargers, adapters </span></li>
+ <li><span style="font-size:0.65em">TPM, security co-processors </span></li>
+ <li><span style="font-size:0.65em">Routers, network appliances </span></li>
 </ul>
 <br>
-<br>
-<br>
-<span style="font-size:0.4em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resource: <a href="https://firmware.intel.com/content/smi-transfer-monitor-stm ">STM-SMI Transfer Monitor </a></span>
-
-@snap[south-east span-25]
-![excite](/assets/images/Excite.png)
 @snapend
+
+@snap[north-west span-100 fragment]
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:20%" ><br><br>&nbsp;</p>
+<p style="line-height:20%"  align="left">
+&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-red2]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-red2]<br>
+@fa[splotch gp-bullet-red2]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-red2]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-red2]<br>
+<br>&nbsp;@fa[splotch gp-bullet-red2]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-red2]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-red2]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@fa[splotch gp-bullet-red2]<br><br>
+&nbsp;&nbsp;@fa[splotch gp-bullet-red2]<br>
+</p>
+@snapend
+
+
+
+
+@snap[south-west span-45 fragment]
+<p align="right">@fa[splotch gp-bullet-red2]</p>
+<p style="line-height:20%" ><br>&nbsp;</p>
+@snapend
+
+@snap[south-east span-50 fragment]
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.8em; font-weight: bold;" >Main system firmware &lpar;BIOS, UEFI firmware, coreboot&rpar;<br>&nbsp;</span></p>)
+@snapend
+
+Note:
+### BLOCK Diagram of a Platform
+- We see that Firmware is everywher
+- GBe NIC, WiFi, Bluetooth, WiGig
+- Baseband (3G, LTE) Modems
+- Sensor Hubs
+- NFC, GPS Controllers
+- HDD/SSD
+- Keyboard and Embedded Controllers
+- Battery Gauge
+- Baseboard Management Controllers (BMC)
+- Graphics/Video
+- USB Thumb Drives, keyboards/mice
+- Chargers, adapters
+- TPM, security coprocessors
+- Routers, network appliances
+- Main system firmware (BIOS, UEFI firmware, coreboot)
+
+  GBe - Gigabit Network Interface controller
+  NFC   Near Field Communication
+  GPS	Global Positioning System
+  HDD/SSD Hard Drive - Solid State Drive
+  TPM    Trusted Platform Module
+
+Image source: http://www.tweaktown.com/reviews/7497/tyan-s7076-intel-c612-server-motherboard-review/index3.html
+
++++?image=/assets/images/slides/Slide4_2.JPG
+<!-- .slide: data-background-transition="none" -->
+<!-- .slide: data-transition="none" -->
+@title[UEFI Boot Flow]
+<p align="right"><span class="gold" >@size[01.1em](<b>Firmware is Everywhere</b>) </span></p>
+
+
+
+@snap[south-west span-50 ]
+<p align="right">@fa[splotch fa-2x gp-bullet-red2]</p>
+@snapend
+
+@snap[south-east span-50 ]
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.8em; font-weight: bold;" ><br>Main system firmware &lpar;BIOS, UEFI firmware, coreboot&rpar;<br><br>&nbsp;</span></p>)
+<br>
+<br>
+<br>
+<br>
+<br>
+@snapend
+
+Note:
+### BLOCK Diagram of a Platform
+- We see that Firmware is everywher
+- GBe NIC, WiFi, Bluetooth, WiGig
+- Baseband (3G, LTE) Modems
+- Sensor Hubs
+- NFC, GPS Controllers
+- HDD/SSD
+- Keyboard and Embedded Controllers
+- Battery Gauge
+- Baseboard Management Controllers (BMC)
+- Graphics/Video
+- USB Thumb Drives, keyboards/mice
+- Chargers, adapters
+- TPM, security coprocessors
+- Routers, network appliances
+- Main system firmware (BIOS, UEFI firmware, coreboot)
+
+  GBe - Gigabit Network Interface controller
+  NFC   Near Field Communication
+  GPS	Global Positioning System
+  HDD/SSD Hard Drive - Solid State Drive
+  TPM    Trusted Platform Module
+
+Image source: http://www.tweaktown.com/reviews/7497/tyan-s7076-intel-c612-server-motherboard-review/index3.html
+
+
+
+---?image=/assets/images/slides/Slide11.JPG
+@title[Where is UEFI Firmware]
+<p align="right"><span class="gold" ><b>@size[1.1em](Where is UEFI Firmware?)</b></span></p>
+
+Note:
+https://firmware.intel.com/blog/security-technologies-and-minnowboard-max?page=1 
+UEFI open platforms_Vincent.ppt slide 12  - CanSecWest 2015 -  Refrences [6]: reference # [6] Slide 12 of PPT
+
+SOFTWARE STACK
+Specific examples
+
+
+---?image=/assets/images/slides/Slide25.JPG
+@title[In-the-wild Firmware Attacks]
+<br>
+<p align="left"><span class="gold" ><b>In-the-wild <br>Firmware Attacks</b></span></p>
+<div class="left1">
+<ul>
+  <li><span style="font-size:0.8em" >Legacy Bootkits ( <a href="http://cdn5.esetstatic.com/eset/US/resources/docs/white-papers/white-papers-when-im-x64-bootkit-threat-evolution-2011.pdf">TDL4</a> , <a href="http://www.welivesecurity.com/wp-content/uploads/2013/04/gapz-bootkit-whitepaper.pdf">Gapz</a>. . .)</span>  </li>
+  <li><span style="font-size:0.8em" ><a href="http://www.webroot.com/blog/2011/09/13/mebromi-the-first-bios-rootkit-in-the-wild/">Mebromi BIOS rootkit</a></span>  </li>
+  <li><span style="font-size:0.8em" ><a href="https://www.virusbulletin.com/uploads/pdf/conference_slides/2010/OMurchu-VB2010.pdf">Stuxnet</a></span>  </li>
+  <li><span style="font-size:0.8em" ><a href="https://securelist.com/files/2015/02/Equation_group_questions_and_answers.pdf">EQUATION Group </a>HDD firmware malware </span>  </li>
+  <li><span style="font-size:0.8em" ><a href="http://www.intelsecurity.com/advanced-threat-research/content/data/HT-UEFI-rootkit.html">Hacking Team [ UEFI rootkit]</a></span>  </li>
+  <li><span style="font-size:0.8em" ><a href="https://blog.malwarebytes.org/threat-analysis/2016/04/petya-ransomware/">Petya</a>MBR Ransomware</span>  </li>
+  <li><span style="font-size:0.8em" >Legitimate BIOS “backdoors”: SuperFish, Computrace</span>  </li>
+</ul>
+</div>
+<div class="right1">
+<span style="font-size:01.0em" ><font color="cyan">&nbsp;</font></span>
+</div>
 
 
 Note:
+- http://d2mlnkprj9wd81.cloudfront.net/sites/default/files/images/resource-centre/IFAW%20Wild%20Tiger.jpg
+- http://www.ifaw.org/international/our-work/cats-and-dogs/creative-commons 
+- Legacy:
+	- TDL4 - trojan and bootkit created to steal data by intercepting a system's network traffic and searching for: banking usernames and passwords, credit card data, PayPal information, social security numbers, and other sensitive user data.[1] Following a series of customer complaints, Microsoft determined that Alureon caused a wave of BSoDs on some 32-bit Microsoft Windows systems. The update, MS10-015,[2] triggered these crashes by breaking assumptions made by the malware author(s).[
 
-- One of the key benefits of EXCITE is previously there has been fuzzing done at the interface level
+- TDL-4 is sometimes used synonymously with Alureon and is also the name of the rootkit that runs the botnet.
 
-- EXICTE Extends fuzzing BEYOND the interface level by
-- Stepping into specific modules and begin to FUZZ those working at a more granular bases 
-  - For example:  Stepping into the UEFI code (SMM, STM, UEFI PE modules) that is accessible to AFL/CRETE, Pin, gdb. 
+- Gapz_ For those who are curious why this threat is named Win32/Gapz here is the answer: the tag ‘GAPZ’ is used throughout all the binaries and shellcode for allocating memory. 
+- Mebromi: 2011
+- The infection starts with a small encrypted dropper that contains five crypted resource files: hook.rom, flash.dll, cbrom.exe, my.sys, bios.sys. The goal of these files will be presented later in this analysis.
 
-- We also get very detailed information about call traces - memory access data – the code flow 
-- And then we can interact with these snap shots in different ways
-    - For example: we can construct different flows and analyze that.  
-      - we can dump and modify variables / UEFI PCD
+- Stuxnet: 2010 Stuxnet is Targeted Targeting a Specific type of PLC Searches for a Specific Configuration - Stuxnet’s version intercepts
+- reads and writes to the PLC
 
-- We can access Individual functions , new inputs created and can test different flows
+- EQUATION Group: 2001: 
+- The Equation group is a highly sophisticated threat actor that has been engaged in multiple CNE (computer network exploitation) operations dating back to 2001, and perhaps as early as 1996. The Equation group uses multiple malware platforms, some of which surpass the well-known “Regin” threat in complexity and sophistication. The Equation group is probably one of the most sophisticated cyber attack groups in the world; and they are the most advanced threat actor we have seen. 
 
-- Also creates Quantify code coverage reports
+- Equation group because of their love for encryption algorithms and obfuscation strategies and the sophisticated methods used throughout their operations. 
 
-##### CHALLENGES
-- Scalability (privileged instructions, function coverage) ring3 – ring0
-- Simplification for broader deployment
-- Performance of engine  - fuzzing is slow 
-- Could accelerate with parallelization
+- HackingTeam's UEFI Rootkit Details: Intel's Advanced Threat Research team (ATR) is the presence of what appears to be a UEFI-based persistent infection mechanism. ATR has been researching vulnerabilities related to system firmware and working with a community of firmware developers and platform manufacturers to mitigate these threats
 
-- Road Map
-- Add more automation/reporting features to reduce user time
-- Broaden scale of code to be tested
-- Consolidate approaches
-- Open-source? TBD
+- Petya MBR Ransomware- 2016 -  Petya’s ransom note states that it encrypts the full disk, but this is not true. Instead, it encrypts the master file table (MFT) so that the file system is not readable.
+
+- SuperFish is a piece of software that is Pre-installed on some Lenovo computers. This software can break the HTTPS encryption used when the web browser on your computer communicates with websites that use the HTTPS protocol to protect sensitive information.Dec 1, 2015
+
+- Computrace is software built into program laptops that were purchased as part of MCLA's Laptop Initiative. In the event your laptop is stolen, the Computrace software tracks the stolen computer and provides local police with the information they need to get it back.
 
 
----?image=assets/images/gitpitch-audience.jpg
-@title[Known Issue  Sub-section]
-<br><br><br><br><br><br><br>
-### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Known Issue :</span>
-<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tools for Testing Known Issue </span>
-  
----
-@title[Raising the Bar for Platform Security]
-<p align="center"><span class="gold" >@size[1.1](<b>Raising the Bar for Platform Security</b>)</span></p>
-@snap[north-east span-10 ]
-![chipsec-logo](/assets/images/chipsec_logo.png)
-</span></p>
+---?image=/assets/images/slides/Slide13_1.JPG
+@title[Why Attack Firmware?]
+<p align="center"><span class="gold" ><b>Why Attack Firmware?</b></span></p>
 
+@snap[south-east span-30 ]
+<p align="left" style="line-height:90%"><span style="font-size:01.10em" ><b>Firmware Attack Methods</b> </span></p>
+<p style="line-height:50%"><span style="font-size:0.7em" > <br>&nbsp;</span></p>
+<br>
+<br>
 @snapend
-
 
 @snap[north-west span-30 fragment]
 <br>
 <br>
 <br>
-![NewAttacks](/assets/images/NewAttacks.png)
-</span></p>
+@box[bg-royal text-white  waved  my-box-pad2  ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Extreme<br> persistence</b></span><br><br>&nbsp;</p>)
+@snapend
+
+@snap[north-west span-30 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%"><span style="font-size:0.7em" > <br><br>&nbsp;</span></p>
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Stealth</b></span><br><br><br>&nbsp;</p>)
+@snapend
+
+@snap[south-west span-30 fragment]
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Bypass software <br>&lpar;OS or VMM&rpar; based security</b></span><br>&nbsp;</p>)
+
 @snapend
 
 @snap[north span-30 fragment]
 <br>
 <br>
-
-<p style="line-height:30%"><span style="font-size:0.4em" ><br><br>
-</span></p>
-
-![TestModules](/assets/images/TestModules.png)
-</span></p>
+<br>
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Unfettered acess to hardware</b></span><br><br>&nbsp;</p>)
 @snapend
 
-@snap[north-east span-25 fragment]
+
+
+@snap[north span-30 fragment]
 <br>
 <br>
 <br>
-<p style="line-height:30%"><span style="font-size:0.4em" ><br><br>
-</span></p>
-
-![Riskprofile](/assets/images/Riskprofile.png)
-</span></p>
-@snapend
-
-@snap[south-west span-100 fragment]
-<p style="line-height:80%"><span style="font-size:0.95em" ><b>
-Empowering End-Users to Make a Risk Decision</b><br><br>
-</span></p>
 <br>
+<br>
+<p style="line-height:50%"><span style="font-size:0.7em" > <br><br>&nbsp;</span></p>
+@box[bg-royal text-white  waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>OS<br>independence</b></span><br><br>&nbsp;</p>)
 @snapend
 
-@snap[south-west span-100]
-<p style="line-height:30%"><span style="font-size:0.4em" >
-Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">CHIPSEC-csw14 PDF </a>
-</span></p>
+
+
+@snap[south span-30 fragment]
+@box[bg-royal text-white waved my-box-pad2 ](<p style="line-height:60%"><span style="font-size:0.7em" ><b>Making the system unbootable&lpar;bricking&rpar;</span></b><br><br>&nbsp;</p>)
 @snapend
- 
 
 Note:
-- Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf
+- Brick 
+- source: http://www.clipartpanda.com/clipart_images/brick-by-brick-clipart-1-71284827
 
-- What if there was a tool to help us determine if the Platform Code is doing the right thing?
+- Firmware Attack Methods
+- Categorize the different methods
+- Why We are HERE!!!
 
-- As New attacks are discovered 
-  - Research is done determining the root cause  of the attack
+- There are examples in the real world about attacks in each of these categories 
 
-- Then a test could be done to test that a platform does not expose that vulnerability
 
-- Introducing CHIPSEC
+---?image=/assets/images/slides/Slide14_1.JPG
+@title[Extreme Persistence]
+### <p align="right"><span class="gold" ><b>Extreme Persistence</b></span></p>
+@snap[north-west span-80]
+<br>
+<br>
+<br>
+<p style="line-height:80%"><span style="font-size:0.8em" ><br>
+&bull;&nbsp;&nbsp;System firmware rootkit <br>&nbsp;&nbsp;&nbsp;&nbsp;(in SMM or BIOS/UEFI)<br>
+&bull;&nbsp;&nbsp;Replaces OS boot loader<br>&nbsp;&nbsp;&nbsp;&nbsp;every boot<br>
+&bull;&nbsp;&nbsp;Which patches OS kernel<br>
+&bull;&nbsp;&nbsp;Firmware rootkit is protected by the <br>&nbsp;&nbsp;&nbsp;&nbsp;hardware write protections<br>
+&bull;&nbsp;&nbsp;Only way to fully remove the infection is to <br>&nbsp;&nbsp;&nbsp;&nbsp;physically re-flash the flash “ROM” chip<br>
+</span></p>
+@snapend
 
- 
----?image=/assets/images/slides/Slide95_1.JPG
-@title[What is CHIPSEC?]
-<p align="center"><span class="gold" >@size[1.1](<b>What is CHIPSEC?</b>)</span></p>
-<div class="left2">
-<ul style="list-style-type:none">
-  <li><span style="font-size:0.8em" ><font color="yellow"><b>Framework for Platform Security Assessment</b></font></span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" >Tests for known security issues</span>  </li>
-    <li><span style="font-size:0.7em" >Tools for investigation of platform properties</span>  </li><br>
-  </ul>
-  <li><span style="font-size:0.8em" ><font color="yellow"><b>Open Source (GPLv2 License)</b></font></span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" >Released in 2014 – @fa[github gp-bullet-white]<span style="font-size:0.7em">&nbsp;<a href="https://github.com/chipsec/chipsec "> https://github.com/chipsec/chipsec </a></span></span>  </li>
-    <li><span style="font-size:0.7em" >Currently active community</span>  </li><br>
-    <li><p style="line-height:40%"><span style="font-size:0.7em" >Top referring sites: </span><span style="font-size:0.6em" >Google, Github, <a href="">pcworld.com</a>, 
-	<a href="">community.spiceworks.com</a>,
-	<a href="">anonhq.com</a>, Twitter, <a href="">securingtomorrow.mcafee.com</a>,
-	<a href="">intelsecurity.com</a>,
-	<a href="">cylance.com</a></span> </p> </li>
-  </ul>
+
+Note:
+
+- http://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjg-8-9tY7TAhVSx2MKHZN2CpgQjRwIBw&url=http%3A%2F%2Fwww.elainebaileyinternational.com%2Fwordpress%2Fcategory%2Faccountability%2F&bvm=bv.151426398,d.cGc&psig=AFQjCNGTmCTOJCSqC446pVthXLAKMrSKoA&ust=1491519553033668
+
+
+
+- User mode backdoor
+- Kernel mode backdoor
+
+- BIOS Level Back Door
+
+- Takes control before any other software
+- Stealth behavior
+- Generally forgotten by almost all Antiviruses
+- OS Independent (Runs outside the OS context)
+
+### on the slide
+- System firmware rootkit (in SMM or BIOS/UEFI)
+- Replaces OS boot loader every boot
+
+- Which patches OS kernel
+- Firmware rootkit is protected by the hardware write protections
+- Only way to fully remove the infection is to physically re-flash the flash “ROM” chip
+
+
+
+
+---?image=/assets/images/slides/Slide15_2.JPG
+@title[Stealth]
+<br>
+#### <p align="left"><span class="gold" ><b>Stealth</b></span></p>
+@snap[north-west span-50]
+<br>
+<br>
+<br>
+<p style="line-height:95%"><span style="font-size:01.0em" >
+<b>Is Security Software Real Protection?</b>
+</span></p>
+<ul style="list-style-type:disc; line-height:0.75;">
+  <li><span style="font-size:0.8em" >Monitor of @color[red](<strike>ALL</strike>) firmware </span></li>
+  <li><span style="font-size:0.8em" >Reliably tell if infected <br><span style="font-size:0.8em" >@color[yellow]( False &vert; Positive) </span></span></li>
+  <li><span style="font-size:0.8em" >Devices use @color[yellow](<i>obscure</i> ) hardware</span></li>
+  <li><span style="font-size:0.8em" >Which @color[yellow](Tool) for which firmware infection? </span></li>
+   <ul style="list-style-type:disc; line-height:0.6;">
+      <li><span style="font-size:0.6em" >Rootkit in firmware of SSD, NIC, EC, BMC, modem, USB thumb-drive, battery gauge, charger</span></li>
+   </ul>
 </ul>
-</div>
-<div class="right2">
-<span style="font-size:0.8em" > &nbsp;</span> 
-</div>
-Note:
-- What is Chipsec – KNOWN Issue testing
-- Designed to look for platform Miss-configurations
 
-- Think about how MSR and the Chipset is programed,  CHIPSEC can look for known miss- configurations and make a report 
-
- 
-
----?image=/assets/images/slides/SlideChipSec_logo.JPG
-@title[Chipsec Framework overview]
-<p align="center"><span class="gold" >@size[1.1](<b>Chipsec Framework overview</b>)</span></p>
-
-@snap[north span-85]
-<br>
-<br>
-<br>
-![Chipsec_diagram](/assets/images/Chipsec_diagram.png)
-@snapend
-
-@snap[south-west span-100]
-<p style="line-height:30%"><span style="font-size:0.4em" >
-Source: <a href="https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf">Cansecwest 2014</a>
-</span></p>
 
 @snapend
 
-Note:
 
-
- 
----?image=/assets/images/slides/SlideChipSec_logo.JPG
-@title[Example Chipsec Check - SPI Controller LOCK]
-<br>
-<p align="center"><span class="gold" >@size[1.1](<b>Example Chipsec Check - SPI Controller LOCK</b>)</span></p>
-<br>
-<ul style="list-style-type:disc">
-  <li><span style="font-size:0.8em" ><font color="cyan">FLOCKDN – Reg that Locks critical SPI controller registers</font></span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" >Flash Region Access Permissions</span>  </li>
-    <li><span style="font-size:0.7em" >Secondary Flash Region Access Permissions</span>  </li>
-    <li><span style="font-size:0.7em" >Flash Protected Range Registers</span>  </li>
-    <li><span style="font-size:0.7em" >Other Settings</span>  </li>
-  </ul>
-  <li><span style="font-size:0.8em" ><font color="cyan">Without setting this bit some SPI protections may be modified or bypassed</font></span>  </li>
-  <li><span style="font-size:0.8em" ><font color="cyan">Chipsec provides the `common.spi_lock` test to verify this setting</font></span>  </li>
-</ul>
-<br>
-<span style="font-size:0.5em" >FLOCKDN – Flash Configuration Lock down Reg </span>
 
 Note:
+#### Is Security Software real protection?
+
+- Stealth CC
+- https://farm1.staticflickr.com/8/7227778_c10e26cb79_o_d.jpg
+
+-Security software usually doesn’t monitor ALL firmware on the platform
+-How can software reliably tell infected from good firmware (FALSE - POSITIVE)
+-Devices use obscure hardware interfaces to their firmware
+-Which tool do we use to find BIOS/UEFI infection? And rootkit in firmware of SSD, NIC, EC, BMC, modem, USB thumb-drive, battery gauge, charger?
 
 
-- AS an Example of something CHIPSEC can test.
-
-- Think about your FLASH or SPI controller – if an attacker is going to attack through the SPI Part 
-  – they would be able to inject code  and directly write to the Flash  their own code that could then be loaded upon re-boot  thus Root Kitting your system.
-
-- CHIPSEC can test for if these flash regions are exposed to write to.
-
-- For example FLOCKDN – Lock down REG that Locks critical SPI controller registers
 
 
----?image=/assets/images/slides/SlideChipSec_logo.JPG
-@title[Sample Issue Discovered]
+---?image=/assets/images/slides/Slide33.JPG
+<!-- .slide: data-transition="none" -->
+@title[Bypass Software Security – Full Disk ]
+<p align="right"><span class="gold" ><b>Bypass Software Security – Full Disk</b></span></p>
 <br>
-<p align="center"><span class="gold" >@size[1.1](<b>Sample Issue Discovered</b>)</span></p>
-<span style="font-size:01.0em" ><font color="cyan">Is BIOS correctly protected?</font></span>
 <br>
-```
-[*] running module: chipsec.modules.common.spi_lock
-[x][ =======================================================================
-[x][ Module: SPI Flash Controller Configuration Lock
-[x][ =======================================================================
-[*] HSFS = 0x6008 << Hardware Sequencing Flash Status Register (SPIBAR + 0x4)
-    [00] FDONE            = 0 << Flash Cycle Done
-    [01] FCERR            = 0 << Flash Cycle Error
-    [02] AEL              = 0 << Access Error Log
-    [03] BERASE           = 1 << Block/Sector Erase Size
-    [05] SCIP             = 0 << SPI cycle in progress
-    [13] FDOPSS           = 1 << Flash Descriptor Override Pin-Strap Status
-    [14] FDV              = 1 << Flash Descriptor Valid
-    [15] FLOCKDN          = 0 << Flash Configuration Lock-Down
-	[-] FAILED: SPI Flash Controller configuration is not locked
-```
-<span style="background-color: #101010"><span style="font-size:0.6em" ><font color="red">`[-] FAILED: SPI Flash Controller configuration is not locked`</font></span></span><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:0.5em" ><a href="https://cansecwest.com/slides/2013/Evil%20Maid%20Just%20Got%20Angrier.pdf">Source</a>: Evil Maid Just Got Angrier: Why Full-Disk Encryption with TPM is not Secure on Many Systems</span>
 
 Note:
-- The CHIPSEC Test chipsec.modules.common.spi_lock
+- Security features like Full-Disk Encryption solutions rely on protections of the underlying firmware and hardware. Often system firmware (BIOS) doesn't use or incorrectly configures protections offered by hardware. 
 
-- Shows this report showing that the FLOCKND bit is NOT set thus the SPI Flash Controller is not locked
-
-- There are many other tests
+- The PDF Link  demonstrates that software Full-Disk Encryption solutions are still subject to Evil Maid attacks when firmware fails to correctly utilize hardware protections, even when they rely on Trusted Platform Module to protect contents on the system drive from attacks that tamper with system firmware.
 
 
----?image=/assets/images/slides/SlideChipSec_logo2.JPG
-@title[Known Threats and Chipsec modules]
-<p align="center"><span class="gold" >@size[1.1](<b>Known Threats and Chipsec modules</b>)</span></p>
 
-<table id="recTable">
-	<tr>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>Issue</span></b></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module</b></span></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>References</b></span></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >SMRAM Locking &nbsp;</span></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >common.smm&nbsp;</span></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/cansecwest2006-duflot.pdf">CanSecWest 2006</a>&nbsp;</span></td>
-	</tr>
-	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >BIOS Keyboard Buffer Sanitization </span></p></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_kbrd_buffer </span></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" ><a href="http://www.slideshare.net/endrazine/defcon-16-bypassing-preboot-authentication-passwords-by-instrumenting-the-bios-keyboard-buffer-practical-low-level-attacks-against-x86-preboot-authentication-software">DEFCON 16 </a> </span></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >SMRR Configuration </span></p></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >common.smrr </span></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" ><a href="http://www.invisiblethingslab.com/resources/misc09/smm_cache_fun.pdf">ITL 2009 </a> , 
-		<a href="http://cansecwest.com/csw09/csw09-duflot.pdf">CanSecWest 2009 </a> </span></td>
-	</tr>
-	<tr>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >BIOS Protection </span></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_wp </span></td>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.blackhat.com/presentations/bh-usa-09/WOJTCZUK/BHUSA09-Wojtczuk-AtkIntelBios-SLIDES.pdf">BlackHat USA 2009 </a>,  
-		<a href="https://www.blackhat.com/us-13/briefings.html">CanSecWest 2013 </a>, 
-		<a href="https://www.blackhat.com/us-13/briefings.html">Black Hat 2013 </a>, 
-		<a href="http://www.nosuchcon.org/talks/D2_01_Butterworth_BIOS_Chronomancy.pdf">NoSuchCon 2013 </a>, </span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >SPI Controller Locking </span></p></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >common.spi_lock </span></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" ><a href="http://www.flashrom.org/">Flashrom </a>, 
-		<a href="http://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/copernicus-question-your-assumptions-about">Copernicus </a> </span></td>
-	</tr>
-	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >BIOS Interface Locking </span></p></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_ts </span></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" ><a href="http://powerofcommunity.net/poc2007/sunbing.pdf">PoC 2007 </a> </span></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >Secure Boot variables with keys and configuration are protected </span></p></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >common.secureboot.variables </span></td>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://uefi.org/">UEFI 2.4 Spec  </a>,
-		  All Your Boot Are Belong To Us ( <a href="https://cansecwest.com/slides/2014/AllYourBoot_csw14-intel-final.pdf">here </a> & 
-		  <a href="https://cansecwest.com/slides/2014/AllYourBoot_csw14-mitre-final.pdf">here </a>) </span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >Memory remapping attack </span></p></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >remap </span></td>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.invisiblethingslab.com/resources/bh08/part2-full.pdf">Preventing and Detecting Xen Hypervisor Subversions </a> </span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >DMA attack against SMRAM </span></p></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >smm_dma </span></td>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/pacsec2007-duflot-papier.pdf">Programmed I/O accesses: a threat to VMM? </a>, 
-		<a href="http://www.ssi.gouv.fr/uploads/IMG/pdf/IT_Defense_2010_final.pdf">System Management Mode Design and Security Issues </a></span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >SMI suppression attack </span></p></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_smi </span></td>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="https://www.hackinparis.com/sites/hackinparis.com/files/JohnButterworth.pdf">Setup for Failure: Defeating Secure Boot </a> </span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >ETC . . .   </span></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" > </span></td>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >See <a href="https://github.com/chipsec/chipsec">https://github.com/chipsec/chipsec </a> </span></p></td>
-	</tr>
-</table>
+#### The PROBLEM
+- Startup UEFI BIOS firmware at reset vector is inherently trusted
+- To initiate chain of measurements or signature verification
+- But it's firmware and can be updated
 
-Note:
-Source: https://cansecwest.com/slides/2014/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf
+- If subverted or interrupted , all measurements in the chain can be forged - allowing firmware modifications to go undetected
 
 
-+++?image=/assets/images/slides/SlideChipSec_logo2.JPG
+
+#### Solution:
+-  Just let BitLocker rely on all platform manufacturers to protect the UEFI
+- BIOS from programmable SPI writes by malware,   and allow only signed UEFI BIOS updates, 
+
+
+
+- protect authorized update software, 
+- update the boot block (SEC/PEI code) securely, 
+- correctly program and protect SPI Flash descriptor, 
+- lock the SPI controller conguration, 
+- AND NO BUGS ....
+
+- Evil Maid 
+- Attack Outline Against Encrypted OS Drive
+
+1. While the owner is not watching and system is shut down.. 
+2. adversary plugs in and boots into a USB thumb drive
+3. which auto launches exploit directly modifying UEFI BIOS in unprotected SPI Flash
+4. Gets out until owner notices someone is messing with the system 
+5. Upon next boot, patched UEFI BIOS sends expected ’good’
+
+
+
+
+
+
++++?image=/assets/images/slides/Slide34.JPG
 <!-- .slide: data-background-transition="none" -->
 <!-- .slide: data-transition="none" -->
-@title[Known Threats and Chipsec modules 02]
-<p align="center"><span class="gold" >@size[1.1](<b>Known Threats and Chipsec modules</b>)</span></p>
-
-<table id="recTable">
-	<tr>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>Issue</span></b></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module</b></span></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>References</b></span></td>
-	</tr>
-	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >BIOS Interface Locking </span></p></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_ts </span></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" ><a href="http://powerofcommunity.net/poc2007/sunbing.pdf">PoC 2007 </a> </span></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >Secure Boot variables with keys and configuration are protected </span></p></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >common.secureboot.variables </span></td>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://uefi.org/">UEFI 2.4 Spec  </a>,
-		  All Your Boot Are Belong To Us ( <a href="https://cansecwest.com/slides/2014/AllYourBoot_csw14-intel-final.pdf">here </a> & 
-		  <a href="https://cansecwest.com/slides/2014/AllYourBoot_csw14-mitre-final.pdf">here </a>) </span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >Memory remapping attack </span></p></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >remap </span></td>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.invisiblethingslab.com/resources/bh08/part2-full.pdf">Preventing and Detecting Xen Hypervisor Subversions </a> </span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >DMA attack against SMRAM </span></p></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >smm_dma </span></td>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/pacsec2007-duflot-papier.pdf">Programmed I/O accesses: a threat to VMM? </a>, 
-		<a href="http://www.ssi.gouv.fr/uploads/IMG/pdf/IT_Defense_2010_final.pdf">System Management Mode Design and Security Issues </a></span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >SMI suppression attack </span></p></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_smi </span></td>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="https://www.hackinparis.com/sites/hackinparis.com/files/JohnButterworth.pdf">Setup for Failure: Defeating Secure Boot </a> </span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >ETC . . .   </span></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" > </span></td>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >See <a href="https://github.com/chipsec/chipsec">https://github.com/chipsec/chipsec </a> </span></p></td>
-	</tr>
-
-</table>
-
-Note:
-
-+++?image=/assets/images/slides/SlideChipSec_logo2.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Known Threats and Chipsec modules 03]
-<p align="center"><span class="gold" >@size[1.1](<b>Known Threats and Chipsec modules</b>)</span></p>
-
-<table id="recTable">
-	<tr>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>Issue</span></b></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>CHIPSEC Module</b></span></td>
-		<td bgcolor="#0071c5"><span style="font-size:0.75em" ><b>References</b></span></td>
-	</tr>
-	<tr>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" >SMI suppression<br> attack </span></p></td>
-		<td bgcolor="#323232"><span style="font-size:0.56em" >common.bios_smi </span></td>
-		<td bgcolor="#323232"><p style="line-height:40%"><span style="font-size:0.56em" ><a href="https://www.hackinparis.com/sites/hackinparis.com/files/JohnButterworth.pdf">Setup for Failure: <br>Defeating Secure Boot </a> </span></p></td>
-	</tr>
-	<tr>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >ETC . . .   </span></td>
-		<td bgcolor="#121212"><span style="font-size:0.56em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-		<td bgcolor="#121212"><p style="line-height:40%"><span style="font-size:0.56em" >See <a href="https://github.com/chipsec/chipsec">github.com/chipsec/ </a> </span></p></td>
-	</tr>
-
-</table>
-
-Note:
-
-
----?image=/assets/images/slides/SlideChipSec_logo2.JPG
-@title[CHIPSEC Modules ]
+@title[Bypass Software Security – Full Disk 02 ]
+<p align="right"><span class="gold" ><b>Bypass Software Security – Full Disk</b></span></p>
 <br>
-<p align="center"><span class="gold" >@size[1.1](<b>CHIPSEC Modules </b>)</span></p>
-<span style="font-size:0.9em" >Modules encapsulate the main functionality of CHIPSEC:</span> 
-<ol>
-  <li><span style="font-size:0.8em" >Tests for known vulnerabilities in firmware</span>  </li>
-  <li><span style="font-size:0.8em" >Tests for insufficient or incorrectly configured hardware protections</span>  </li>
-  <li><span style="font-size:0.8em" >Hardware/firmware-level security tools</span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" >Fuzzing tools for firmware interfaces/formats</span>  </li>
-    <li><span style="font-size:0.7em" >Manual security checkers (e.g. TE checker, DMA dumper)</span>  </li>
-    <li><span style="font-size:0.7em" >Reside in `modules/tools` directory are not launched automatically (only through –m command-line option)</span>  </li>
-  <li><span style="font-size:0.8em" >PoC exploit modules demonstrating vulnerabilities</span>  </li>
-<ol>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="right"><span style="font-size:0.5em" ><a href="https://cansecwest.com/slides/2013/Evil%20Maid%20Just%20Got%20Angrier.pdf">Source</a>: Evil Maid Just Got Angrier: Why Full-Disk Encryption with TPM is not Secure on Many Systems</span></p>
+
+Note:
+- Security features like Full-Disk Encryption solutions rely on protections of the underlying firmware and hardware. Often system firmware (BIOS) doesn't use or incorrectly configures protections offered by hardware. 
+
+- The PDF Link  demonstrates that software Full-Disk Encryption solutions are still subject to Evil Maid attacks when firmware fails to correctly utilize hardware protections, even when they rely on Trusted Platform Module to protect contents on the system drive from attacks that tamper with system firmware.
+
+
+
+#### The PROBLEM
+- Startup UEFI BIOS firmware at reset vector is inherently trusted
+- To initiate chain of measurements or signature verification
+- But it's firmware and can be updated
+
+- If subverted or interrupted , all measurements in the chain can be forged - allowing firmware modifications to go undetected
+
+
+
+#### Solution:
+-  Just let BitLocker rely on all platform manufacturers to protect the UEFI
+- BIOS from programmable SPI writes by malware,   and allow only signed UEFI BIOS updates, 
+
+
+
+- protect authorized update software, 
+- update the boot block (SEC/PEI code) securely, 
+- correctly program and protect SPI Flash descriptor, 
+- lock the SPI controller conguration, 
+- AND NO BUGS ....
+
+- Evil Maid 
+- Attack Outline Against Encrypted OS Drive
+
+1. While the owner is not watching and system is shut down.. 
+2. adversary plugs in and boots into a USB thumb drive
+3. which auto launches exploit directly modifying UEFI BIOS in unprotected SPI Flash
+4. Gets out until owner notices someone is messing with the system 
+5. Upon next boot, patched UEFI BIOS sends expected ’good’
+
+
+
+
+
+
+---?image=/assets/images/slides/Slide36.JPG
+@title[Bypass Software Security – UEFI Secure Boot ]
+<p align="right"><span class="gold" ><b>Bypass Software Security – UEFI Secure Boot</b></span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="right"><span style="font-size:0.5em" ><a href="https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf">Source</a>: A Tale of One Software Bypass of Windows Secure Boot</span></p>
 
 Note:
 
-Here are some more Details about CHIPSEC
+- The UEFI specification defines secure booting of the operating system, helping protect against bootkits and other boot time attacks. However, robust implementation of Secure Boot in the system firmware is not always trivial and mistakes in the implementation can undermine protections offered by Secure Boot. 
+
+- In Windows systems  UEFI Secure Boot is an important step towards securing platforms from malware compromising boot sequence before the OS. However, there are certain mistakes platform vendors sometimes make which can completely undermine protections offered by Secure Boot. 
+
+- The linked PDF will demonstrate an example of full software bypass of Windows 8 Secure Boot due to such mistakes on some of the latest platforms and explain how those mistakes can be avoided
+
+- So UEFI firmware updates are signed but firmware is directly writeable in SPI flash? So is NVRAM with EFI variables. Hmm… What could go wrong? 
+- Hint: Malware could patch DXE Image Verification driver in ROM or it could change persistent Secure Boot keys/configuration in NVRAM 
+
+- Malware could patch the NvRam Variable “SecureBoot”
+
+- Source: A Tale of One Software Bypass of Windows Secure Boot : https://media.blackhat.com/us-13/us-13-Bulygin-A-Tale-of-One-Software-Bypass-of-Windows-8-Secure-Boot-Slides.pdf 
 
 
----?image=/assets/images/slides/SlideChipSec_logo2.JPG
-@title[CHIPSEC Modules ]
+
+
+---?image=/assets/images/slides/Slide38.JPG
+@title[Bypass Software Security – Virtual Machine Manager ]
+<p align="right"><span class="gold" ><b>Bypass Software Security <br>– Virtual Machine Manager</b></span></p>
 <br>
-<p align="center"><span class="gold" >@size[1.1](<b>CHIPSEC Modules </b>)</span></p>
 <br>
-<ul>
-  <li><span style="font-size:0.8em" >All modules reside in `chipsec/modules` directory</span>  </li>
-  <li><span style="font-size:0.8em" >Modules can be specific to one or more platforms or common for all supported platforms</span>  </li>
-  <ul style="list-style-type:disc">
-    <li><span style="font-size:0.7em" >Modules in `modules/<platform_code>` directory will only be executed on `<platform_code>` platform </span>  </li>
-    <li><span style="font-size:0.7em" >Modules in `modules/common` directory will always be executed </span>  </li>
-  </ul>
-  <li><span style="font-size:0.8em" >Modules can implement is_supported function which can further check for supported platforms, OS environments (legacy vs. UEFI boot), etc.</span>  </li>
-</ul>
-  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:40%" align="right"><span style="font-size:0.5em" ><a href="http://www.intelsecurity.com/advanced-threat-research/content/AttackingHypervisorsViaFirmware_bhusa15_dc23.pdf">Source</a>: Attacking Hypervisors via Firmware and Hardware</span></p>
 
 Note:
 
+- http://www.intelsecurity.com/advanced-threat-research/content/AttackingHypervisorsViaFirmware_bhusa15_dc23.pdf
+
+- VMM Isolation there is an assumed protection
+
+- The PDF Link is a  research presentation that builds on a study  of hypervisor implementations as well as vulnerabilities in system firmware. 
+- If the hypervisor does not fully isolate the system firmware from attacks within a guest VM, security issues in the underlying system may be exposed. 
+
+- This research presented multiple real-world bypasses of hypervisor security using already-known firmware vulnerabilities that happened to be exposed.
+
+- Software Isolation 
+- CPU / SoC: traps to hypervisor (VM Exits), MSR & I/O permissions bitmaps, rings (PV)… 
+- Memory / MMIO: hardware page tables (e.g. EPT, NPT), software shadow page tables 
+
+- Devices Isolation 
+- CPU / SoC: interrupt remapping 
+- Memory / MMIO: IOMMU, No-DMA ranges 
 
 
----?image=assets/images/gitpitch-audience.jpg
-@title[HBFA  Sub-section]
-<br><br><br><br><br><br><br>
-<p style="line-height:80%"><span style="font-size:01.1em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#e49436">Shift-Left Firmware Security Testing :</font></span></p>
-<span style="font-size:0.9em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host-based Firmware Analyzer (HBFA) </span>
-  
----
-@title[Common Tools for Firmware Security Testing]
-<p align="right"><span class="gold" >@size[1.1](<b>Common Tools for Firmware Security Testing</b>)</span></p>
+- Protecting Memory with HW Assisted Paging 
 
-<p style="line-height:80%"><span style="font-size:0.9em" ><br>
-<a href="">CHIPSEC</a>: open source framework for analyzing the security of platform firmware and hardware configuration at runtime, based on the 
-Unified Extensible Firmware Interface (<a href="">UEFI</a>) specification.
-<br><br>
-<a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite">Symbolic Execution and Virtual Platforms: Excite</a> project on Intel uses a combination of symbolic execution, fuzzing, and concrete testing to find 
-vulnerabilities in firmware running on Wind River* <a href="https://software.intel.com/en-us/blogs/2017/06/06/finding-bios-vulnerabilities-with-excite">Simics</a> virtual platforms.
-</span></p>
+#### VMM “forensics” 
+- With the help of a rootkit in firmware any VM guest can extract all information about hypervisor and other VMs … and just from memory 
+  - VMCS structures, MSR and I/O bitmaps for each VM guest 
+  - EPT for each VM guest 
+  - Regular page tables for hypervisor and each VM guest 
+  - IOMMU pages tables for each IOMMU device 
+  - Full hypervisor memory map, VM exit handler… 
+  - Real hardware configuration (registers for real PCIe devices, MMIO contents…) 
+
+
+- Did you know that VMMs emulate virtual devices of other VMMs? 
+
+- Exploiting firmware SMI handler to attack VMM 
+
+- Attacking VMM by proxying through SMI handler 
+
+####  flashed rootkited
+- We flashed rootkited part of firmware image from within a root partition to install the rootkit 
+- The system doesn’t properly protect firmware in SPI flash memory so we could bypass write-protection 
+- Finally more systems protect firmware on the flash memory 
+  - common.bios_wp - CHIPSEC module to test write-protection 
+- Malware can exploit vulnerabilities in firmware to install a rootkit on such systems 
+
+#### Sometimes attacker doesn’t need a vulnerability in firmware…
+- When VMM grants VM direct access to firmware or hardware interfaces 
+- VM exploit doesn’t always need to exploit firmware first through these interfaces 
+- It may use firmware or hardware as a confused deputy and attack VMM through some function on behalf of firmware
+
+
+
+---?image=/assets/images/slides/Slide40.JPG
+@title[Unfettered Access to Hardware - DRAM ]
+<p align="right"><span class="gold" ><b>Unfettered Access to Hardware - DRAM</b></span></p>
+<p style="line-height:50%" align="right"><span style="font-size:0.5em" ><a href="http://www.syssec-project.eu/media/page-media/23/syssec2011-s1.4-sang.pdf">Source</a> :I/O Attacks in <br>Intel-PC Architecture ...</span></p>
+
+
+Note:
+
+#### Direct Memory Access  DMA mechanism
+
+- A DMA attack is a type of side channel attack in computer security, in which an attacker can penetrate a computer or other device, by exploiting the presence of high-speed expansion ports that permit direct memory access ("DMA").
+ 
+- DMA is included in a number of connections, because it lets a connected device (such as a camcorder, network card, storage device or other useful accessory or internal PC card) transfer data between itself and the computer at the maximum speed possible, by using direct hardware access to read or write directly to main memory without any operating system supervision or interaction. 
+
+- The legitimate uses of such devices have led to wide adoption of DMA accessories and connections, but an attacker can equally use the same facility to create an accessory that will connect using the same port, and can then potentially gain direct access to part or all of the physical memory address space of the computer, bypassing all OS security mechanisms and any lock screen, to read all that the computer is doing, steal data or cryptographic keys, install or run spyware and other exploits, or modify the system to allow backdoors or other malware.
+
+
+
+- What does Direct Memory Access mechanism stand for ?
+- I/O mechanism that enables an I/O controller
+- to perform directly a data transfer to/from the main memory without OS
+- to offload the CPU of these transfers
+- relies on a dedicated DMA engine
+
+- Examples of I/O controllers using DMA:
+network controllers (WiFi, Ethernet, . . . )
+  - ! e.g., to transfer network frames into/from the main memory disk controllers
+  - ! e.g., to transfer files into/from the main memory
+- graphic controllers
+  - ! e.g., to transfer textures, buffer objects from the main memory 5/
+
+- DMA attacks aiming at the main memory:
+  - attack (confidentiality & integrity) on software components
+  - modifications made in the main memory can be detected
+
+- Examples: [Dornseif 04, Becher 05, Carrier 04, Nick L. Petroni 04,
+- Maynor 05, Boileau 06, Duflot 07, Duflot 10, Aumaitre 09, Piegdon 07
+
+
+#### Mitigations
+-Physical security – 
+-Secure boot
+-IOMMU – I/O Memory Management Unit – Intel® VT-d can use them to block I/O transactions that have not been allowed. However,    IOMMUs mostly are used instead to give guest virtual machines passthrough access to host hardware.
+- OS selectively locking out devices
+- Never allow sensitive data to be stored in Memory unencrypted
+
+
+- Source: I/O Attacks in Intel-PC Architecture and Countermeasures by F. Lone Sang et al
+- http://www.syssec-project.eu/media/page-media/23/syssec2011-s1.4-sang.pdf
+
+
+
+
+
+---?image=/assets/images/slides/Slide42.JPG
+@title[Unfettered Access to Hardware - DRAM ]
+<p align="right"><span class="gold" ><b>Unfettered Access to Hardware - DRAM</b></span></p>
+<p style="line-height:50%" align="right"><span style="font-size:0.5em" ><a href="http://www.syssec-project.eu/media/page-media/23/syssec2011-s1.4-sang.pdf">Source</a> :I/O Attacks in <br>Intel-PC Architecture ...</span></p>
+
+
+
+Note:
+
+- Source: I/O Attacks in Intel-PC Architecture and Countermeasures by F. Lone Sang et al
+- http://www.syssec-project.eu/media/page-media/23/syssec2011-s1.4-sang.pdf
+
+
+####  Direct Memory Access  DMA mechanism
+
+- A DMA attack is a type of side channel attack in computer security, in which an attacker can penetrate a computer or other device, by exploiting the presence of high-speed expansion ports that permit direct memory access ("DMA").
+
+- DMA attacks aiming at I/O controllers’ internal memory:
+  - exploit I/O controllers’ ressources (memory, features, . . . )
+  - no modifications in the main memory, hard to detect
+    - Examples: [Dornseif 04, Triulzi 08, Triulzi 10, Lone Sang 11a]
+
+#### Mitigations
+-Physical security – 
+-Secure boot
+-IOMMU – I/O Memory Management Unit – Intel® VT-d can use them to block I/O transactions that have not been allowed. However,    IOMMUs mostly are used instead to give guest virtual machines passthrough access to host hardware.
+- OS selectively locking out devices
+- Never allow sensitive data to be stored in Memory unencrypted
+
+
+
+
+---?image=/assets/images/slides/Slide22.JPG
+@title[Unfettered Access to Hardware – HDD/SSD ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Unfettered Access to Hardware – HDD/SSD</b>)</span></p>
+@snap[north-west span-50]
+<br>
 <p style="line-height:70%"><span style="font-size:0.8em" ><br>
-<font color="yellow"><i>
-Great tools… but they’re based on integration testing, so issues are more expensive to detect and mitigate. 
-<u>Can we improve testing before integration?</u>
-</i></font>
+Access to all data stored on HDD/SSD<br><br>
+Even when data is stored on self-encrypting drives (SED)
 </span></p>
-
-Note:
-
- 
----?image=/assets/images/slides/Slide106_1.JPG
-@title[Shift Left – Design for Security Test (DFST)]
-<p align="right"><span class="gold" >@size[1.1](<b>Shift Left – Design for Security Test (DFST)</b>)</span></p>
-
-@snap[south span-85 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">How can we improve security test efficiency?<br>&nbsp;</span></p>)
 @snapend
 
-
-Note:
-
-As testing moves toward the release there is an increase to the cost
-
-How can we improve security test efficiency?
-
----
-@title[Design for Security Test (DFST)]
-<p align="right"><span class="gold" >@size[1.1](<b>Design for Security Test (DFST)</b>)</span></p>
+@snap[north-east span-50]
 <br>
-
-<p style="line-height:80%"><span style="font-size:0.9em" ><br><br>
-<i>&quot;Engineers should recognize that reducing risk is not an impossible task, even under financial and time constrains.<br><br>
-All it takes in many cases is a different perspective on the design problem.&quot;</i>
+<p style="line-height:70%" align="left"><span style="font-size:0.8em" ><br>
+Cyber espionage groups utilize advanced form of malware that is very hard to remove once it's infected your PC. <br><br>
+Malware reprograms the hard drive’s firmware, creating hidden sectors <br><br>
+Destroying your hard drive is the only way to stop this super advanced malware
 </span></p>
-<p style="line-height:80%" align="right"><span style="font-size:0.7em" >
-  &hyphen;&hyphen; Mike Martin & Roland Schinizinger&nbsp;&nbsp;&nbsp;
-</span></p>
-
-
----?image=/assets/images/slides/Slide108_1.JPG
-@title[Host-based Firmware Analyzer]
-<p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer</b>)</span></p>
-
-<p style="line-height:80%"><span style="font-size:0.9em" ><br>
-Test for BIOS code under OS:  Pure software logic
-</span></p>
-
-@snap[north span-85 fragment]
 <br>
-<br>
-<br>
-<br>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.8em">Benefit: @color[yellow](30X) faster than UEFI based running env(OVMF).<br>&nbsp;</span></p>)
+<p style="line-height:50%" align="right"><span style="font-size:0.5em" >
+<a href="http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html">Source</a> 
+: PC World – Destroying your hard drive is the only way to stop this super advanced malware</span></p>
 @snapend
 
 Note:
 
----
-@title[Host-based Firmware Analyzer Architecture]
-<p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer Architecture</b>)</span></p>
+- A cyberespionage group with a toolset similar to ones used by U.S. intelligence agencies has infiltrated key institutions in countries including Iran and Russia, utilizing a startlingly advanced form of malware that is impossible to remove once it's infected your PC
 
-@snap[north span-85 ]
+- From PC WORLD
+
+- Kaspersky Lab released a report in Feb 2015,  that said the tools were created by the “Equation” group, which it stopped short of linking to the U.S. National Security Agency. 
+
+- Infirm firmware
+- Kaspersky’s most striking finding is Equation’s ability to infect the firmware of a hard drive, or the low-level code that acts as an interface between hardware and software. 
+
+- The malware reprograms the hard drive’s firmware, creating hidden sectors on the drive that can only be accessed through a secret API (application programming interface). Once installed, the malware is impossible to remove: disk formatting and reinstalling the OS doesn’t affect it, and the hidden storage sector remains. 
+- “Theoretically, we were aware of this possibility, but as far as I know this is the only case ever that we have seen of an attacker having such an incredibly advanced capability,” said Costin Raiu, director of Kaspersky Lab’s global research and analysis team, in a phone interview Monday. 
+
+- Report link: http://25zbkz3k00wn2tp5092n6di7b5k.wpengine.netdna-cdn.com/files/2015/02/Equation_group_questions_and_answers.pdf 
+
+- Source: PC World – Destroying your hard drive is the only way to stop this super advanced malware : http://www.pcworld.com/article/2884952/equation-cyberspies-use-unrivaled-nsastyle-techniques-to-hit-iran-russia.html 
+
+
+
+---?image=/assets/images/slides/Slide23_1.JPG
+@title[Unfettered Access to Hardware – Etc. ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Unfettered Access to Hardware – Etc.</b>)</span></p>
+@snap[north-east span-75]
 <br>
 <br>
-<br>
-![HBFA_FW](/assets/images/HostBasedFW_test.png)
+<p style="line-height:75%" align="left"><span style="font-size:0.8em" ><br>
+NIC, WiFi, baseband modem firmware <br>rootkits have direct access to network <br>communications<br><br><br>
+EC or BMC firmware rootkit has access <br>to platform management functions <br>(power, thermal, NIC, keystrokes)<br><br><br><br><br>
+Etcetera 
+</span></p>
 @snapend
 
-@snap[south span-90 fragment]
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:85%"><span style="font-size:0.8em">Implementing  testing UEFI Firmware under OS environment <br>&nbsp;</span></p>)
+@snap[east span-40]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" ><br><br><br><br><br><br>
+EC –    embedded controllers <br>
+BMC – Baseboard Management Component
+</span></p>
 @snapend
 
 Note:
 
+- Wifi image source:  https://commons.wikimedia.org/wiki/File%3AWIFI_icon.svg - By Canopus49 (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
 
----?image=/assets/images/slides/Slide110_1.JPG
-@title[Host-based Firmware Analyzer]
-<p align="right"><span class="gold" >@size[1.1](<b>Host-based Firmware Analyzer</b>)</span></p>
+- NIC – Network interface controller
 
-<p style="line-height:80%"><span style="font-size:0.9em" >
-<font color="cyan"><i>OS based environment utilizing best-in-class test tools</i></font>
-</span></p>
+- EC –    embedded controllers 
+- BMC – Baseboard Management Component
 
-@snap[north-west span-55]
+
+
+---?image=/assets/images/slides/Slide24_1.JPG
+@title[Making System Unbootable (Bricking) ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Making System Unbootable &lpar;Bricking&rpar;</b>)</span></p>
+@snap[north-east span-55]
 <br>
 <br>
 <br>
-<br>
-
-<ul style="list-style-type:none; line-height:0.7;">
-  <li><span style="font-size:0.65em" >GUI and command-line interfaces	 <br> &nbsp;</span> </li>
-  <li><span style="font-size:0.65em" >Fuzzing testing (AFL, libFuzzer, Peach)		<br>&nbsp;  </span> </li>
-  <li><span style="font-size:0.65em" >Symbolic execution (KLEE/STP)		<br>&nbsp;  </span> </li>
-  <li><span style="font-size:0.65em" >Address Sanitizer & Code Coverage		 <br>&nbsp; </span> </li>
-  <li><span style="font-size:0.65em" >Automated unit test execution	 <br>&nbsp; </span> </li>
-  <li><span style="font-size:0.65em" >Instrumentation methods for fault injection and trace	 <br>&nbsp; </span> </li>
-  <li><span style="font-size:0.65em" >FDatabase of unit test cases		<br>&nbsp;  </span> </li>
-</ul>
-@snapend
-
----
-@title[Host-based Firmware Analyzer summary]
-<p align="right"><span class="gold" >@size[1.1](<b>HBFA - Summary</b>)</span></p>
-<p style="line-height:80%"><span style="font-size:0.9em" ><br>
-<font color="cyan">Host Based Firmware Analyzer (HBFA)</font>
-</span></p>
 <ul style="list-style-type:disc; line-height:0.8;">
-  <li><span style="font-size:0.7em" >Isolate test environment – run test under OS (like OS application)		  </span> </li>
-  <li><span style="font-size:0.7em" >Integrate with OS based fuzz/Symbolic tool, such as AFL, KLEE, Peach.		  </span> </li>
-  <li><span style="font-size:0.7em" >Provide an infrastructure to build Pure Software Logic function of BIOS.		  </span> </li>
+  <li><span style="font-size:0.8em" >Corrupt firmware or </span></li>
+  <li><span style="font-size:0.8em" >Corrupt cirtical configuration</span></li>
+  <li><span style="font-size:0.8em" >Stored in Flash "ROM" memeory</span></li>
+  <li><span style="font-size:0.8em" >Of a device which is critical for system boot to operate</span></li>
 </ul>
+<br>
+@snapend
 
-<p style="line-height:80%"><span style="font-size:0.9em" >
-<font color="cyan">Benefit</font> - Make it Easy for
-</span></p>
-<ul style="list-style-type:disc; line-height:0.8;">
-  <li><span style="font-size:0.7em" >Secure Fuzzy Test.		  </span> </li>
-  <li><span style="font-size:0.7em" >Test automation and case reuse.		  </span> </li>
-  <li><span style="font-size:0.7em" >Code Coverage , debugging with OS Debugger tool		  </span> </li>
-</ul>
+@snap[south-east span-40]
+<p style="line-height:40%" align="right"><span style="font-size:0.5em" ><a href="http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx">Source</a> : CIH virus, was first discovered<br> in 1998</span></p>
+<BR>
+@snapend
+
+
+Note:
+
+- Source http://www.sophos.com/en-us/press-office/press-releases/1998/06/pr_uk_19980630cih.aspx
+- The CIH virus, also known as Chernobyl, was first discovered in 1998, and quickly became one of the most commonly encountered viruses in the wild.
+
+- CIH virus has the capacity to overwrite system start-up routines, as well as wiping data on hard disks. The virus attacks the BIOS, needed to boot up the computer, something which no previous virus has managed to do.
+
+
+- The Real Chernobyl Nuclear melt down
+- Before April 26th 1986, Chernobyl was a word hardly anybody ever heard. But within days it became the only word on peoples minds. In what was first passed off as "nothing" quickly escalated as reports from outside the Soviet Union filtered in what was to become the worst Nuclear Power Plant disaster in history.
+
+- Chernobyl image sign source: https://farm6.staticflickr.com/5186/5661310269_0e42fa50ea_o_d.jpg
+- Chernobyl areal view: http://crooksandliars.com/gordonskene/other-plans-gone-wrong-chernobyl-april
+
+
+
+
 
 
 ---
-@title[Host-based Firmware Analyzer Expectation]
-<p align="right"><span class="gold" >@size[1.1](<b>Expectation</b>)</span></p>
-<p style="line-height:80%"><span style="font-size:0.9em" ><br>
-<b>Developer:</b>
-</span></p>
-<ul style="list-style-type:disc; line-height:0.7;">
-  <li><span style="font-size:0.7em" >Easily enable fuzz test in unit test Phase.  </span> </li>
-</ul>
-
-<p style="line-height:80%"><span style="font-size:0.9em" >
-<b>Benefit</b>
-</span></p>
-<ul style="list-style-type:disc; line-height:0.8;">
-  <li><span style="font-size:0.7em" >Reduce the total cost of a project. </span> </li>
-  <li><span style="font-size:0.7em" >Help to detect and fix security issue quickly  </span> </li>
-  <li><span style="font-size:0.7em" >QA can focus on other security test. (eg, system level or cost much time to set up env)  </span> </li>
-</ul>
-
-<p style="line-height:70%"><span style="font-size:0.7em" >
-Release on <a href="https://www.tianocore.org">tianocore.org</a> wiki page for <a href="https://github.com/tianocore/tianocore.github.io/wiki/Host-Based-Firmware-Analyzer"> Host Based Firmware Analyzer(HBFA)</a>
-</span></p>
-
----?image=/assets/images/slides/Slide104_1.JPG
-@title[EDK II Security White Paper list ]
-<p align="right"><span class="gold" >@size[1.1](<b>EDK II Security White Paper list </b>)</span></p>
-
-
-@snap[north-west span-45]
+@title[Pre-Boot Threats ]
+<p align="right"><span class="gold" >@size[1.1em](<b>Pre-Boot Threats </b>)</span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.9em"><br><b>Summary Why Attack Firmware</b></span></p>
+@snap[north-east span-90 ]
 <br>
 <br>
 <br>
-<p style="line-height:95%"><span style="font-size:0.9em" >
-List of helpful links and white papers based on Security with EDK II on wiki page: <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Security-White-Papers">Edk II Security White Papers</a>
+<br>
+<table id="recTable">
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Firmware Malware</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>UEFI Rootkits</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Bootkits</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>SMM Rootkits</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Device FW Malware</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>ACPI Rootkits</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Option ROM Malware</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Evil Maid</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>HVM<sup>1</sup> Rootkits &lpar;Blue Pill&rpar;</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>HW Trojans</b></span></p></td>
+	</tr>
+</table>
+
+@snap[south-east span-30]
+<p style="line-height:30%" align="left"><span style="font-size:0.4em" >
+<sup>1</sup>Hypervisor Virtual Machine (HVM)
 </span></p>
 @snapend
 
+Note:
+
+
+
 ---
-@title[Summary - Platform Firmware Security – Why is it important? - boot flow]
+@title[Summary - Platform Firmware Security – Why is it important? ]
 <p align="right"><span class="gold" >@size[1.1em](<b>Summary <br></b>)<b>Platform Firmware Security – Why is it important?</b></span></p>
 @snap[north-west span-45]
 <br>
 <br>
 <br>
-@box[bg-purple-pp text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Why is platform firmware Security important<br>&nbsp;</span></p>)
-@box[bg-purple-pp text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">UEFI Boot flow with the threat model<br><br>&nbsp;</span></p>)
-@box[bg-purple-pp text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Security technologies overview<br><br><br>&nbsp;</span></p>)
+<br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.7em">Why is platform firmware Security important<br>&nbsp;</span></p>)
 @snapend
 
 @snap[north span-20 ]
 <br>
 <br>
 <br>
-<p style="line-height:60%"><span style="font-size:01.25em">@fa[arrow-right gp-bullet-ltgreen]<br><br><br>
-@fa[arrow-right gp-bullet-ltgreen]<br><br><br>
-@fa[arrow-right gp-bullet-ltgreen]<br><br><br>
-&nbsp;</span></p>
+<br>
+<p style="line-height:60%"><span style="font-size:01.9em">@fa[arrow-right gp-bullet-ltgreen]<br>&nbsp;</span></p>
 @snapend
 
-@snap[north-east span-45 ]
-<br>
-<br>
-<br>
-@box[bg-royal text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
-@box[bg-royal text-gray rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Identify where UEFI FW is vulnerable &amp; define Threat Model<br>&nbsp;</span></p>)
-@box[bg-royal text-gray rounded my-box-pad2 ](<p style="line-height:40%"><span style="font-size:0.6em">Boot Guard, Secure Boot and NIST Secure Updates provide mitigations to some hacking methods <br>&nbsp;</span></p>)
-
-@snapend
-
-@snap[north-west span-45 fragment]
-<br>
-<br>
-<br>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:40%"><span style="font-size:0.6em">Tools and resources on how to test firmware for security<br><br>&nbsp;</span></p>)
-@snapend
-
-@snap[north span-20  fragment]
+@snap[north-east span-45 fragment]
 <br>
 <br>
 <br>
 <br>
-<p style="line-height:60%"><span style="font-size:01.25em">&nbsp;<br><br><br>
-&nbsp;<br><br><br>
-&nbsp;<br><br><br><br>
-@fa[arrow-right gp-bullet-ltgreen]<br>
-&nbsp;</span></p>
-@snapend
-
-@snap[north-east span-45  fragment]
-<br>
-<br>
-<br>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em"><br><br><br>&nbsp;</span></p>
-@box[bg-royal text-white rounded my-box-pad2 ](<p style="line-height:40%"><span style="font-size:0.6em">Ongoing tools to validate security mechanism<br> <br>&nbsp;</span></p>)
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%"><span style="font-size:0.7em">Prevent low level attacks that could "brick" the system<br>&nbsp;</span></p>)
 @snapend
 
 
 
 Note:
-- Tools and resources on how to test firmware for security
-- Ongoing tools to validate security mechanism 
+There are several Firmware attack methods – and cyber hackers will be continually finding more. We need to be able to recognize where Firmware is vulnerable to help prevent attacks on firmware.<br>In Summary: This section is the “WHY WE ARE HERE”
+
+
 
 
