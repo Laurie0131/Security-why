@@ -1,4 +1,4 @@
-
+@audio[Greeting](assets/audio/Media1.m4a)
 @title[Why Platform FW Security is important Section]
 <br><br><br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why?</span>
@@ -37,6 +37,7 @@ Note:
 
 
 ---?image=/assets/images/slides/Slide4.JPG
+@audio[why](assets/audio/Media3.m4a)
 <!-- .slide: data-transition="none" -->
 @title[Why is Platform Firmware Security Important ?]
 <p align="right"><span class="gold" ><b>Why is Platform Firmware  <br>Security Important ?</b></span></p>

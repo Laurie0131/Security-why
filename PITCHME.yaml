@@ -17,3 +17,4 @@ published : yes
 footnote: "<a style='text-decoration:none; color: #e49436;' href='http://www.tianocore.org'>www.tianocore.org</a>"
 vertical-center : false
 eager-loading : true
+audio-deck : true
